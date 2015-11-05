@@ -3,10 +3,10 @@
   <channel>
     <title>Jonathan D. Fitzgerald</title>
     <description>Digital Human(ist)</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Nov 2015 13:45:02 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2015 13:45:02 -0500</lastBuildDate>
+    <link>http://jonathandfitzgerald.github.io/</link>
+    <atom:link href="http://jonathandfitzgerald.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Nov 2015 13:51:19 -0500</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2015 13:51:19 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -66,8 +66,8 @@
 &lt;p&gt;It is clear, at the end of this initial foray into working with R, that a combination of unsupervised analysis, like what I have detailed here, and more supervised analysis in which I comb through the results in an effort to determine the computer’s accuracy, is necessary. Additionally, I intend to streamline the process for scraping new posts from Instagram. Finally, a means of adding to my data frame without creating duplicates will be developed. At the start of this project, the problems I set out to solve included a method for more efficiently collecting InstaEssays, a means to find additional InstaEssays for inclusion from the vast sea of media that is Instagram, and assembling a set of tools for meaningful analysis of the data. While there is, of course, more to do, so far this has been a successful experiment.&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 May 2015 13:55:29 -0400</pubDate>
-        <link>http://yourdomain.com/blog/2015/05/19/the-instaessay-archive-past-present-and-future.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2015/05/19/the-instaessay-archive-past-present-and-future.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2015/05/19/the-instaessay-archive-past-present-and-future.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2015/05/19/the-instaessay-archive-past-present-and-future.html</guid>
         
         
         <category>Blog</category>
@@ -79,8 +79,8 @@
         <description>&lt;p&gt;GradHacker | InsideHigherEd.com&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 May 2015 23:57:59 -0400</pubDate>
-        <link>http://yourdomain.com/writing/2015/05/05/parenting-in-public.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/writing/2015/05/05/parenting-in-public.html</guid>
+        <link>http://jonathandfitzgerald.github.io/writing/2015/05/05/parenting-in-public.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/writing/2015/05/05/parenting-in-public.html</guid>
         
         
         <category>Writing</category>
@@ -154,8 +154,8 @@
 &lt;p&gt;Wood, Chauncey. “Paradox and Imping in Herbert’s ’Easter-Wings.’” George Herbert Journal 32.1-2 (2008): 98+. Print.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 May 2015 14:34:41 -0400</pubDate>
-        <link>http://yourdomain.com/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html</guid>
         
         
         <category>Blog</category>
@@ -181,8 +181,8 @@
 &lt;p&gt;At the end of Chapter One, Fitzpatrick returns us to a sense of what peer-review is supposed to have been, “part of an ongoing conversation among scholars.” It is clear that, even if at one time the traditional peer-review system functioned in just that way, it no longer does. Change is needed, but lasting change won’t come from jumping on the latest internet trend. Rather we should employ the long game, recognizing with Liu that we are in a contact zone in our journey to a new media, and as our perspective changes from within that zone, so, too, can our practices — including peer-review.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Nov 2014 14:39:55 -0500</pubDate>
-        <link>http://yourdomain.com/blog/2014/11/21/the-internet-will-not-save-us-but-maybe-it-can-help-us-fix-peer-review.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/11/21/the-internet-will-not-save-us-but-maybe-it-can-help-us-fix-peer-review.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/11/21/the-internet-will-not-save-us-but-maybe-it-can-help-us-fix-peer-review.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/21/the-internet-will-not-save-us-but-maybe-it-can-help-us-fix-peer-review.html</guid>
         
         
         <category>Blog</category>
@@ -242,8 +242,8 @@
 &lt;p&gt;I’ll conclude with Jeff Sharlet’s conclusion from that essay. He writes, “It’s not the news. It’s not journalism in any conventional sense. It’s, Look at this! It’s, I saw these people, and I wanted you to see them, too.”&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Nov 2014 22:06:22 -0500</pubDate>
-        <link>http://yourdomain.com/blog/2014/11/06/instagram-essay-presentation.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/11/06/instagram-essay-presentation.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/11/06/instagram-essay-presentation.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/06/instagram-essay-presentation.html</guid>
         
         
         <category>Blog</category>
@@ -263,8 +263,8 @@
 &lt;p&gt;[gview file=&quot;http://www.jonathandfitzgerald.com/wp-content/uploads/2014/11/Litjo.pdf&quot;]&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Nov 2014 09:44:16 -0500</pubDate>
-        <link>http://yourdomain.com/blog/2014/11/06/graphing-with-gephi.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/11/06/graphing-with-gephi.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/11/06/graphing-with-gephi.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/06/graphing-with-gephi.html</guid>
         
         
         <category>Blog</category>
@@ -298,8 +298,8 @@
 &lt;p&gt;Unless we aspire to be purveyors of Stephen Colbert’s “truthiness,” doing our work based simply on a feeling in our guts, we should strive to always integrate theory into our practice. Working this way is not particularly cavalier, but at least we can be sure we won’t lead anyone into war based simply on a feeling in our guts.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Nov 2014 07:29:41 -0500</pubDate>
-        <link>http://yourdomain.com/blog/2014/11/04/pragmatic-tinkering-or-against-truthiness.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/11/04/pragmatic-tinkering-or-against-truthiness.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/11/04/pragmatic-tinkering-or-against-truthiness.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/04/pragmatic-tinkering-or-against-truthiness.html</guid>
         
         
         <category>Blog</category>
@@ -322,8 +322,8 @@
 &lt;p&gt;If we force others to accept the myth of the map, it seems, eventually they will reject the myth violently. This is by no means an affirmation of the actions of ISIS, so much as a guess at what led to their violent revolt. But if we mythify the map, perhaps we can preempt this violence. I don’t know exactly what this looks like, but I know that we better figure it out — sooner, rather than later.&lt;/p&gt;
 </description>
         <pubDate>Thu, 23 Oct 2014 23:47:03 -0400</pubDate>
-        <link>http://yourdomain.com/blog/2014/10/23/the-myth-of-maps.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/10/23/the-myth-of-maps.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/10/23/the-myth-of-maps.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/23/the-myth-of-maps.html</guid>
         
         
         <category>Blog</category>
@@ -343,8 +343,8 @@
 &lt;p&gt;If this Instagram photo/essay thing does become its own genre, I think it is important to catalogue, consider, and write about it as it unfolds. And, it seems that Omeka and Neatline are the right tools for the job.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Oct 2014 14:32:24 -0400</pubDate>
-        <link>http://yourdomain.com/blog/2014/10/22/mapping-the-birth-of-a-new-genre.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/10/22/mapping-the-birth-of-a-new-genre.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/10/22/mapping-the-birth-of-a-new-genre.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/22/mapping-the-birth-of-a-new-genre.html</guid>
         
         
         <category>Blog</category>
@@ -368,8 +368,8 @@
 &lt;p&gt;In closing his initial email to me, Peter Leonard asked — just out of curiosity, he noted — whether I had known about &lt;i&gt;The Paper&lt;/i&gt; prior to discovering his site. I told him that I had not. I get the sense that this is a large part of why he created it.&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Oct 2014 16:29:27 -0400</pubDate>
-        <link>http://yourdomain.com/blog/2014/10/15/key-project-reflection-mining-the-paper.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2014/10/15/key-project-reflection-mining-the-paper.html</guid>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/10/15/key-project-reflection-mining-the-paper.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/15/key-project-reflection-mining-the-paper.html</guid>
         
         
         <category>Blog</category>
