@@ -38,7 +38,12 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+.sidebar h3 {
+	display: block;
+	width: 100%;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+}
 
 /**
  * Images
