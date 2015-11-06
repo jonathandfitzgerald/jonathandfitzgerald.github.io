@@ -10,7 +10,7 @@ title: JONATHAN D. FITZGERALD | digital human(ist)
 email: jonathanfitzgerald@me.com
 description: The online home of Jonathan D. Fitzgerald
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "jonathandfitzgerald.github.io" # the base hostname & protocol for your site
+url: "http://jonathandfitzgerald.github.io" # the base hostname & protocol for your site
 twitter_username: jon_fitzgerald
 github_username:  jonathandfitzgerald
 excerpt_separator: <!--more-->
