@@ -8,16 +8,11 @@ weight: 1
 
 <div class="home">
 
-
-
-	<nav id="controllers" class="clearfix"></nav>
-	</section>
-
-	<h1 class="page-heading">Posts</h1>
+	<h1 class="page-heading">Recent Posts</h1>
 
 	<ul class="post-list">
-		{% for post in site.categories.Blog %}
-		
+		{% for post in site.categories.Blog limit: 10 %}
+
 		<li>
 			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

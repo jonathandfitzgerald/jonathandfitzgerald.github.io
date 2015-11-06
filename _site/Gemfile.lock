@@ -135,6 +135,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-watch
   kramdown
+  pygments.rb
   rouge
   sequel
   unidecode

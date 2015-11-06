@@ -100,7 +100,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        color: $brand-color;
         text-decoration: underline;
     }
 }
@@ -161,6 +161,7 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
+	margin-top: 60px;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
