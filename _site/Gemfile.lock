@@ -132,6 +132,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hpricot
+  jekyll-paginate
   jekyll-watch
   kramdown
   rouge
