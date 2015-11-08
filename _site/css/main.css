@@ -418,7 +418,10 @@ article {
     text-align: center; }
 
   .site-nav {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  #twitter-widget {
+    display: none; } }
 /**
  * Syntax highlighting styles
  */
