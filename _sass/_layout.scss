@@ -358,7 +358,8 @@ article {
 
 @include media-query($on-palm) {
 	.home,
-	#sidebar {
+	#sidebar,
+	article {
 		width: 100%
 	}
 	.bracket {

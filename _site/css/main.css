@@ -396,7 +396,8 @@ article {
 
 @media screen and (max-width: 600px) {
   .home,
-  #sidebar {
+  #sidebar,
+  article {
     width: 100%; }
 
   .bracket {
