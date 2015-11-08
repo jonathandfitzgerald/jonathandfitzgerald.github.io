@@ -6,6 +6,13 @@ type: page
 weight: 4
 ---
 
+<h3>TOC</h3>
+
+* TOC
+{:toc}
+
+<hr />
+
 Teaching Experience
 ---------------------------
 
