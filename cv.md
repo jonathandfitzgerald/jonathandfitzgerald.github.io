@@ -160,7 +160,7 @@ Bondfire Books
 Time Magazine - Online
 
 *November 2012*  
-**Article: “Sincerity, Not Irony, is Our Age’s Ethos”v  
+**Article: “Sincerity, Not Irony, is Our Age’s Ethos”**   
 The Atlantic - Online
 
 *November 2012*  
@@ -172,7 +172,7 @@ vArticle: “Caspian Make a Case for Post-Post Rock”**
 The Metro
 
 *January 2012*  
-**Op-Ed: “Can You Come to Jesus without Church”v  
+**Op-Ed: “Can You Come to Jesus without Church”**  
 The Wall Street Journal
 
 *July 2011*  
