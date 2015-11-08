@@ -14,7 +14,6 @@ url: "http://jonathandfitzgerald.github.io" # the base hostname & protocol for y
 twitter_username: jon_fitzgerald
 github_username:  jonathandfitzgerald
 excerpt_separator: <!--more-->
-#gems: [jekyll-paginate]
 #paginate: 10
 #paginate_path: "page:num"
 

@@ -5,9 +5,9 @@
     <description>Digital Human(ist)</description>
     <link>http://jonathandfitzgerald.github.io/</link>
     <atom:link href="http://jonathandfitzgerald.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Nov 2015 09:46:40 -0500</pubDate>
-    <lastBuildDate>Sun, 08 Nov 2015 09:46:40 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+    <pubDate>Sun, 08 Nov 2015 13:15:11 -0500</pubDate>
+    <lastBuildDate>Sun, 08 Nov 2015 13:15:11 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>The InstaEssay Archive: Past, Present, and Future</title>
@@ -70,7 +70,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2015/05/19/the-instaessay-archive-past-present-and-future.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -145,7 +145,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -172,7 +172,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/21/the-internet-will-not-save-us-but-maybe-it-can-help-us-fix-peer-review.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -233,7 +233,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/06/instagram-essay-presentation.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -253,7 +253,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/06/graphing-with-gephi.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -289,7 +289,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/11/04/pragmatic-tinkering-or-against-truthiness.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -314,7 +314,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/23/the-myth-of-maps.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -336,7 +336,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/22/mapping-the-birth-of-a-new-genre.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -363,7 +363,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/15/key-project-reflection-mining-the-paper.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
@@ -383,7 +383,7 @@
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/08/messing-around-with-tei.html</guid>
         
         
-        <category>Blog</category>
+        <category>blog</category>
         
       </item>
     
