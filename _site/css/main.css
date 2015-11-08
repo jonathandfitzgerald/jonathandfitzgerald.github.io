@@ -328,13 +328,13 @@ pre {
         font-size: 18px; } }
 
 .sidebar {
-  width: 180px;
+  width: 230px;
   padding: 0 10px;
   float: right; }
 
 .home,
 article {
-  width: 700px;
+  width: 650px;
   float: left;
   border-right: solid 1px #e8e8e8;
   padding-right: 20px; }
