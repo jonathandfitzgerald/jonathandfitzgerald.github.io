@@ -168,7 +168,7 @@ The Atlantic - Online
 The Daily Beast
 
 *September 2012*  
-vArticle: “Caspian Make a Case for Post-Post Rock”**  
+**Article: “Caspian Make a Case for Post-Post Rock”**  
 The Metro
 
 *January 2012*  
