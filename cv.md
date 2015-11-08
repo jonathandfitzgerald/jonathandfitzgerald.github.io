@@ -6,7 +6,7 @@ type: page
 weight: 4
 ---
 
-<h3>TOC</h3>
+<h3>Table of Contents</h3>
 
 * TOC
 {:toc}
