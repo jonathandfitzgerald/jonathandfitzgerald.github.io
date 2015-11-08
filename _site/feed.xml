@@ -5,8 +5,8 @@
     <description>The online home of Jonathan D. Fitzgerald</description>
     <link>http://jonathandfitzgerald.github.io/</link>
     <atom:link href="http://jonathandfitzgerald.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Nov 2015 15:37:35 -0500</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2015 15:37:35 -0500</lastBuildDate>
+    <pubDate>Sat, 07 Nov 2015 20:20:46 -0500</pubDate>
+    <lastBuildDate>Sat, 07 Nov 2015 20:20:46 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -71,19 +71,6 @@
         
         
         <category>Blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Parenting in Public</title>
-        <description>&lt;p&gt;GradHacker | InsideHigherEd.com&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 May 2015 23:57:59 -0400</pubDate>
-        <link>http://jonathandfitzgerald.github.iohttps://www.insidehighered.com/blogs/gradhacker/parenting-public</link>
-        <guid isPermaLink="true">http://jonathandfitzgerald.github.iohttps://www.insidehighered.com/blogs/gradhacker/parenting-public</guid>
-        
-        
-        <category>Writing</category>
         
       </item>
     
@@ -375,6 +362,26 @@
         <pubDate>Wed, 15 Oct 2014 16:29:27 -0400</pubDate>
         <link>http://jonathandfitzgerald.github.io/blog/2014/10/15/key-project-reflection-mining-the-paper.html</link>
         <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/15/key-project-reflection-mining-the-paper.html</guid>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>&quot;Messing Around&quot; with TEI</title>
+        <description>&lt;p&gt;If I’m honest, I probably went into the TEI practicum a little over confident. It’s coding. I know coding. When I finished my MA in 2005, I needed a job. My Master’s thesis was in creative writing — I wrote a collection of short stories, but try as I might, I couldn’t land any of them in a literary magazine. So, discouraged as I was, I wanted to find work unrelated to writing and academia. I wanted to do something easier.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;I ended up falling back on a hobby that had developed into a skill: HTML coding. I inflated my skills a bit on my resumé, took a job that started me out as a glorified secretary, and taught myself to really code. To this day, I still freelance a bit.&lt;/p&gt;
+&lt;p&gt;So, TEI. I’ve come across XML in my years as a web developer. I can do this, I thought. Well, not so fast.&lt;/p&gt;
+&lt;p&gt;It’s not that I can’t do it. After a few weeks of “screwing around,” I’m beginning to feel confident, but I had made a crucial error at the start of this process. I was conflating the kind of coding that TEI requires, with that of web development. On first being introduced to TEI my teammates and I wondered about the visual display. Where’s the browser?, I asked. Where can I see what this is going to look like when I’m done?&lt;/p&gt;
+&lt;p&gt;Turns out, what it looked like is what it’s going to look like. TEI is coding and building, but it’s not GUI. (Though I am now aware of TEI Boilerplate, as some of my classmates have used it to post their code for this project.) This required some reorientation on my part, but in the end, it’s a welcome realization. If we use TEI to markup a text for the purpose of displaying it online in a web page, it feels like we’re somehow reducing the text’s import. I know that this comes from a personal bias — the same bias that drove me from academia into web design in 2005. I was burnt out from the hard work of reading, analyzing, and writing. I needed something less taxing: web design.&lt;/p&gt;
+&lt;p&gt;If TEI was just web design, it would be something less. But, as this project has shown me, it really is about visualizing the critical process. Critics analyze texts, make choices, and form interpretations — TEI makes that process (mostly) transparent.&lt;/p&gt;
+&lt;p&gt;But then, I’m just starting out. Already I can see a number of practical applications of TEI in my own proposed area of study. I’m ready to get to work.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Oct 2014 09:30:42 -0400</pubDate>
+        <link>http://jonathandfitzgerald.github.io/blog/2014/10/08/messing-around-with-tei.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.github.io/blog/2014/10/08/messing-around-with-tei.html</guid>
         
         
         <category>Blog</category>
