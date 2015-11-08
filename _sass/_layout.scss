@@ -360,7 +360,9 @@ article {
 	.home,
 	#sidebar,
 	article {
-		width: 100%
+		width: 100%;
+		border-right: none;
+		padding-right: 0;	
 	}
 	.bracket {
 		display: none;
