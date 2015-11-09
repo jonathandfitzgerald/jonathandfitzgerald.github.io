@@ -136,12 +136,16 @@ UMass, Boston
 Education
 ---------------------------
 
-**2003 – 2005**  
-Master of Arts, English  
+*2014 - 2019 (expected)*  
+**PhD, English**  
+Northeastern University
+
+*2003 – 2005*  
+**Master of Arts, English**  
 University of Massachusetts, Boston
 
-**1999 – 2003**  
-Bachelor of Arts, English Language and Literature  
+*1999 – 2003*  
+**Bachelor of Arts, English Language and Literature**  
 Gordon College
 
 Selected Publications
