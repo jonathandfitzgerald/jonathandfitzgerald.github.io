@@ -151,8 +151,8 @@ Selected Publications
 **Feature: “On a Mission to Save Godless Massachusetts”**  
 The Boston Globe
 
-*January 2013* 
-**Book: Not Your Mother’s Morals: How the New Sincerity is Changing Pop Culture for the Better**	
+*January 2013*  
+**Book: Not Your Mother’s Morals: How the New Sincerity is Changing Pop Culture for the Better**  
 Bondfire Books
 			
 *February 2013*  
@@ -185,7 +185,7 @@ Rodopi Press
 The Washington Post On Faith
 
 *January 2011*  
-v**Article: “Whose College?”**  
+**Article: “Whose College?”**  
 Killing the Buddha
 
 *September 2010*  
@@ -262,7 +262,7 @@ Religion Newswriters Association Conference 2012
 ABC News’ “Focus on Faith”		 
 
 *March 2009*  
-**Paper: “Creating Futures for a New Generation of African Writers”**
+**Paper: “Creating Futures for a New Generation of African Writers”**  
 NEMLA Conference, Boston
 
 *September 2006*  
