@@ -418,12 +418,15 @@ article {
     text-align: center;
     width: 100%;
     padding: 0;
-    display: block; }
+    display: block;
+    line-height: normal; }
 
   .site-nav {
     font-size: 14px;
     line-height: normal;
-    float: none; }
+    float: none;
+    width: 98%;
+    margin: 0 auto; }
 
   .site-nav ul {
     margin-left: 0; }
