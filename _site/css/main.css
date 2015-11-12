@@ -414,12 +414,24 @@ article {
 
   .site-title {
     font-size: 20px;
-    margin-bottom: 0;
-    text-align: center; }
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    display: block; }
 
   .site-nav {
     font-size: 14px;
-    line-height: normal; }
+    line-height: normal;
+    float: none; }
+
+  .site-nav ul {
+    margin-left: 0; }
+
+  .site-nav li {
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center; }
 
   #twitter-widget {
     display: none; } }
