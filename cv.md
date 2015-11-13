@@ -153,7 +153,7 @@ Selected Scholarly Publications
 
 *Spring 2015*  
 **Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim’s Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**  
-Literary Journalism Studies
+Literary Journalism Studies, Vol. 7. No. 1
 
 *July 2011*  
 **Chapter: “This Protestant World”**  
