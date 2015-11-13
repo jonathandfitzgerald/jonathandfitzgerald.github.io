@@ -59,19 +59,6 @@ Research Experience
 **Research Assistant, Viral Texts Project**  
 Northeastern University
 
-Fellowships, Grants, and Awards
----------------------------
-
-*Fall 2015 - Present*  
-**Fellow**  
-NULab for Texts, Maps, and Networks  
-Northeastern University
-
-*July 2015*  
-**ACH Bursary**  
-The Association for Computers and the Humanities  
-Keystone DH Conference, University of Pennsylvania
-
 Other Experience
 ---------------------------
 
@@ -90,6 +77,19 @@ The Jersey City Independent
 *2005 – Present*  
 **Freelance Writer**  
 Various Publications
+
+Fellowships, Grants, and Awards
+---------------------------
+
+*Fall 2015 - Present*  
+**Fellow**  
+NULab for Texts, Maps, and Networks  
+Northeastern University
+
+*July 2015*  
+**ACH Bursary**  
+The Association for Computers and the Humanities  
+Keystone DH Conference, University of Pennsylvania
 
 Selected Courses Taught
 ---------------------------
@@ -148,7 +148,23 @@ University of Massachusetts, Boston
 **Bachelor of Arts, English Language and Literature**  
 Gordon College
 
-Selected Publications
+Selected Scholarly Publications
+---------------------------
+
+*Spring 2015*  
+**Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim’s Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**  
+Literary Journalism Studies
+
+*July 2011*  
+**Chapter: “This Protestant World”**  
+Wise Blood: A Reconsideration  
+Rodopi Press
+
+*December 2009*  
+**Article: “New Kenyan Writers: The Narratives of Binyavanga Wainaina and Yvonne Owuor”**  
+Journal of African Literature, No. 6
+
+Selected Popular Publications
 ---------------------------
 
 *August 2013*  
@@ -179,11 +195,6 @@ The Metro
 **Op-Ed: “Can You Come to Jesus without Church”**  
 The Wall Street Journal
 
-*July 2011*  
-**Chapter: “This Protestant World”**  
-Wise Blood: A Reconsideration  
-Rodopi Press
-
 *April 2011*  
 **Op-Ed: “The Young and the Wasted”**  
 The Washington Post On Faith
@@ -208,10 +219,6 @@ Religion Dispatches
 **Op-Ed: “Winning Not Just Hearts, But Minds”**  
 The Wall Street Journal
 
-*December 2009*  
-**Essay: “New Kenyan Writers”**  
-Journal of African Literature
-
 *January 2009*  
 **Article: “Building a Peace Beyond Understanding”**  
 Christianity Today
@@ -219,6 +226,22 @@ Christianity Today
 *Spring 2007*  
 **Review: What is the What by Dave Eggars**  
 Books and Culture
+
+Digital Initiatives and Projects
+---------------------------
+
+*Fall 2015*  
+**A 'Stunning' Love Letter to Viral Texts**  
+Viral Texts Project  
+Link: [loveletter.viraltexts.org](http://loveletter.viraltexts.org "A Stunning Love Letter")
+
+*Spring 2015*  
+**3D Printed Pattern Poems**  
+Link: [Re-Presenting Early Modern Pattern Poems as Material Objects](/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html)
+
+*Spring 2015 - Present*  
+**The InstaEssay Archive**  
+Link: [The InstaEssay Archive](http://instaessayarchive.org)
 
 Editing 
 -----------------------
@@ -232,7 +255,7 @@ Selected Presentations
 ---------------------------
 
 *July 2015*  
-**Project Showcase: "The InstaEssay Archive**  
+**Project Showcase: "The InstaEssay Archive"**  
 Keystone DH Conference  
 Univeristy of Pennsylvania
 
