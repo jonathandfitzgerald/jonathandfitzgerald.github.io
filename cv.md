@@ -153,16 +153,16 @@ Selected Scholarly Publications
 
 *Spring 2015*  
 **Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim’s Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**  
-Literary Journalism Studies, Vol. 7. No. 1
+_Literary Journalism Studies_, Vol. 7. No. 1
 
 *July 2011*  
 **Chapter: “This Protestant World”**  
-Wise Blood: A Reconsideration  
+_Wise Blood: A Reconsideration_  
 Rodopi Press
 
 *December 2009*  
 **Article: “New Kenyan Writers: The Narratives of Binyavanga Wainaina and Yvonne Owuor”**  
-Journal of African Literature, No. 6
+_Journal of African Literature_, No. 6
 
 Selected Popular Publications
 ---------------------------
@@ -172,7 +172,7 @@ Selected Popular Publications
 The Boston Globe
 
 *January 2013*  
-**Book: Not Your Mother’s Morals: How the New Sincerity is Changing Pop Culture for the Better**  
+**Book: _Not Your Mother’s Morals: How the New Sincerity is Changing Pop Culture for the Better_**  
 Bondfire Books
 			
 *February 2013*  
