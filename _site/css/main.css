@@ -394,6 +394,9 @@ article {
 .home-feature {
   margin-bottom: 50px; }
 
+.twitter_plug {
+  font-style: italic; }
+
 @media screen and (max-width: 600px) {
   .home,
   #sidebar,
