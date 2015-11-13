@@ -178,6 +178,9 @@ pre {
   text-transform: uppercase; }
   .site-title, .site-title:visited {
     color: #424242; }
+    .site-title:hover, .site-title:visited:hover {
+      color: #ab2567;
+      text-decoration: none; }
 
 .site-nav {
   float: right;
