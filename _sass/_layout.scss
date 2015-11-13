@@ -356,6 +356,10 @@ article {
 	margin-bottom: 50px;
 }
 
+.twitter_plug {
+	font-style: italic;
+}
+
 
 @include media-query($on-palm) {
 	.home,
