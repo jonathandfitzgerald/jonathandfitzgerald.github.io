@@ -100,7 +100,7 @@ Selected Courses Taught
 Eastern Nazarene College
 
 **Intro to Media Studies**  
-Eastern Nazarene College 
+Eastern Nazarene College
 
 **Feature Writing & Beat Reporting**  
 Eastern Nazarene College
@@ -176,7 +176,7 @@ The Boston Globe
 *January 2013*  
 **Book: _Not Your Mother’s Morals: How the New Sincerity is Changing Pop Culture for the Better_**  
 Bondfire Books
-			
+
 *February 2013*  
 **Article: “How to Write a Book without Paper”**  
 Time Magazine - Online
@@ -245,7 +245,7 @@ Link: [Re-Presenting Early Modern Pattern Poems as Material Objects](/blog/2015/
 **The InstaEssay Archive**  
 Link: [The InstaEssay Archive](http://instaessayarchive.org)
 
-Editing 
+Editing
 -----------------------
 
 *Spring 2011*  
@@ -297,6 +297,10 @@ NEMLA Conference, Boston
 *September 2006*  
 **Paper: “Radical & Relevant: Searching for a Culturally Significant Christ”**  
 Christ in Cultures Conference, Gordon College
+
+Technical Proficiencies
+---------------------------
+HTML, CSS, XML/TEI, R, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network Analysis
 
 Associations
 ---------------------------
