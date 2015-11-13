@@ -6,12 +6,14 @@ type: page
 weight: 4
 ---
 
-<h3>Table of Contents</h3>
+Table of Contents
+---------------------------
 
 * TOC
 {:toc}
 
-<hr />
+*****
+
 
 Teaching Experience
 ---------------------------
