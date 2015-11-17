@@ -305,5 +305,5 @@ HTML, CSS, XML/TEI, R, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network An
 Associations
 ---------------------------
 
-**International Association for Literary Journalism Studies**
+**International Association for Literary Journalism Studies**  
 **Modern Language Association**
