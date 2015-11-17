@@ -306,3 +306,4 @@ Associations
 ---------------------------
 
 **International Association for Literary Journalism Studies**
+**Modern Language Association**
