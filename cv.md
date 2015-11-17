@@ -307,4 +307,5 @@ Associations
 
 **International Association for Literary Journalism Studies**  
 **Modern Language Association**  
-**Association for Computers and Humanities**
+**Association for Computers and Humanities**  
+**Alliance of Digital Humanities Organizations**
