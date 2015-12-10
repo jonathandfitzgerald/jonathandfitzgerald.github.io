@@ -7,38 +7,37 @@ type: page
 
 ---
 
-	{% if page.title == "JONATHAN D. FITZERALD | Digital Human(ist) - Home" %}
+{% if page.title == "JONATHAN D. FITZERALD | Digital Human(ist) - Home" %}
+<div class="home-feature">
+	<div class="bracket" id="left-bracket">{</div>
+	<div class="bracket" id="right-bracket">}</div>
+	<div id="home-text">
+		<h3><a href="/about/">Hello there...</a></h3>
 
-	<div class="home-feature">
-		<div class="bracket" id="left-bracket">{</div>
-		<div class="bracket" id="right-bracket">}</div>
-		<div id="home-text">
-			<h3><a href="/about/">Hello there...</a></h3>
-
-			<p>I'm Fitz. I'm a doctoral student in English at Northeastern University interested in Literary Journalism, 20th century American literature, and Digital Humanities. I'm also a freelance journalist and web developer. This site is home to a blog, links to some of my publications, and my CV. Thanks for stopping by. <a href="/about/">Read more...</a></p>
-		</div>
-
+		<p>I'm Fitz. I'm a doctoral student in English at Northeastern University interested in Literary Journalism, 20th century American literature, and Digital Humanities. I'm also a freelance journalist and web developer. This site is home to a blog, links to some of my publications, and my CV. Thanks for stopping by. <a href="/about/">Read more...</a></p>
 	</div>
-	{% endif %}
+
+</div>
+{% endif %}
 
 <div class="home">
 
 
-		<ul class="post-list">
+	<ul class="post-list">
 
-			{% for post in site.posts limit: 10 %}
+		{% for post in site.posts limit: 10 %}
 
-			<li>
-				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-				<h2>
+			<h2>
 				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</h2> {{ post.excerpt }}
-			</li>
-			{% endfor %}
-		</ul>
+		</li>
+		{% endfor %}
+	</ul>
 
 
-		<p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+	<p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
 
-	</div>
+</div>
