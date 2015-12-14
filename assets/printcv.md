@@ -1,19 +1,8 @@
----
-layout: page
-title: CV
-permalink: /cv/
-type: page
-weight: 4
----
 
-Table of Contents
----------------------------
-
-* TOC
-{:toc}
-
-*****
-
+JONATHAN D. FITZGERALD
+===========================
+Holmes Hall 468 | Northeastern University | Boston, MA 02115  
+[www.jonathandfitzerald.com](http://www.jonathandfitzgerald.com) | [jonathanfitzgerald@me.com](mailto:jonathanfitzgerald@me.com)
 
 Teaching Experience
 ---------------------------
