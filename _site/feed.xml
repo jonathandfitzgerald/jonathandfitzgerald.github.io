@@ -5,19 +5,46 @@
     <description>Digital Human(ist)</description>
     <link>http://jonathandfitzgerald.com/</link>
     <atom:link href="http://jonathandfitzgerald.com/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <pubDate>Tue, 29 Dec 2015 17:42:49 -0500</pubDate>
-    <lastBuildDate>Tue, 29 Dec 2015 17:42:49 -0500</lastBuildDate>
-=======
-    <pubDate>Tue, 29 Dec 2015 13:56:18 -0500</pubDate>
-    <lastBuildDate>Tue, 29 Dec 2015 13:56:18 -0500</lastBuildDate>
->>>>>>> origin/master
-=======
-    <pubDate>Tue, 29 Dec 2015 13:56:18 -0500</pubDate>
-    <lastBuildDate>Tue, 29 Dec 2015 13:56:18 -0500</lastBuildDate>
->>>>>>> origin/master
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sat, 11 Jun 2016 11:08:18 -0400</pubDate>
+    <lastBuildDate>Sat, 11 Jun 2016 11:08:18 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+
+      <item>
+        <title>Don&#39;t Be a Tool</title>
+        <description>&lt;p&gt;When I began my work with the Viral Texts Project, I was tasked with coming up with a computational way to assign genres to our texts. It seems foolish to admit now, a year into the project, that back then I imagined a kind of “one-click” solution. I believed my own elevator pitch explanation of the work, that I could show a few examples of each genre to the computer, and then send it off on its way to find me the rest. It has not been that easy.&lt;/p&gt;
+
+&lt;p&gt;In a forthcoming paper that I’ll be presenting at the &lt;a href=&quot;http://keystonedh.network/2016/&quot; target=&quot;_blank&quot;&gt;Keystone DH&lt;/a&gt; conference at the University of Pittsburgh later this month I explain my process, and I plan to post that paper here after the conference, so I’ll forego the details of its inner-workings. Suffice it to say that the real innovation (with due credit to &lt;a href=&quot;http://bookworm.benschmidt.org/posts/2015-09-14-Classifying_genre.html&quot; target=&quot;_blank&quot;&gt;Ben Schmidt&lt;/a&gt;) is that rather than use words as the classifiers, I’m using topics derived from topic modelling the corpus.&lt;/p&gt;
+
+&lt;p&gt;Here I want to focus on the assumptions that went into my early conception of the project as a self-contained, auto-magical genre classifier. Reflecting on this recently, it occurred to me that I was operating on assumptions common to those who are new to DH. That is, I was trying to build a tool.&lt;/p&gt;
+
+&lt;p&gt;Through the introduction to DH course I took with Professor Cordell, I was introduced to a number of pre-packaged tools like Omeka, Neatline, and Gephi. Since then, I’ve learned of many others: atlas.ti, Voyant, and the like. These tools are good and all serve a purpose, but even as I was introduced to them, I got the sense that real digital humanists build their own tools. This is what I set out to do.&lt;/p&gt;
+
+&lt;p&gt;But the cracks in this idea began to show early. One of the first indications that a ready-made classification tool would never materialize came while reading Ted Underwood’s report &lt;a href=&quot;https://figshare.com/articles/Understanding_Genre_in_a_Collection_of_a_Million_Volumes_Interim_Report/1281251&quot; target=&quot;_blank&quot;&gt;“Understanding Genre in a Collection of a Million Volumes.”&lt;/a&gt; He writes that though he’s made his code public, “it definitely is not a tool that could simply be pointed at collections from other libraries, languages, or periods to map them. Our methods can be adapted to other problems. But the process of mapping genres involves too many domain-specific aspects to be packaged as a ‘tool.’” This was a bummer because, had he created such a tool, I most definitely would’ve simply pointed it at my data.&lt;/p&gt;
+
+&lt;p&gt;Here, however, Underwood was saying that not only did he not create a tool, such a tool could probably not be created. Starting there, and throughout my own work as my messy, definitely-not-a-tool process began to materialize, I’ve been trying to articulate why this exploratory (and frustrating) method ultimately seemed more meaningful than creating a tool or pointing a pre-made tool at my data. But it wasn’t until I finally got around to reading Kieran Healy’s excellent (and brilliantly titled) essay &lt;a href=&quot;https://kieranhealy.org/files/papers/fuck-nuance.pdf&quot; target=&quot;_blank&quot;&gt;“Fuck Nuance”&lt;/a&gt; that I started to formulate an idea as to what seemed problematic about ready-made tools.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t read Healy’s essay, you should, but by way of summary, the object of Healy’s ire, if somehow it’s not completely obvious, is nuance. Specifically, he takes issue with the way the idea of nuance has been forcefully inserted into sociological theory. He provides a helpful visualization that shows, unmistakably, the rise of nuance in sociological academic journals from the 1980s onward–it’s a steep incline. His thesis is that “demanding more nuance typically obstructs the development of theory that is intellectually interesting, empirically generative, or practically successful.” Any academic from any number of disciplines should recognize, if not the problem, than at least the symptoms of it. We’ve all been to conferences where at least one questioner wishes to push back against the presenter by asking if she’s ever considered this or that theory or author–usually the object of study of the questioner. I had never heard the word “problematize” until I started my PhD program, and now I hear it far more often than I care to.&lt;/p&gt;
+
+&lt;p&gt;So what does this have to do with tools in DH? My sense is that a ready-made tool is like an overly-nuanced theory, imbued with what Healy calls “Actually-Existing Nuance,” which he defines as “the act of making—or the call to make—some bit of theory ‘richer’ or ‘more sophisticated’ by adding complexity to it, usually by way of some additional dimension, level, or aspect, but in the absence of any strong means of disciplining or specifying the relationship between the new elements and the existing ones.”&lt;/p&gt;
+
+&lt;p&gt;This is kind of what I imagined my tool might be, a fully realized genre classifier that takes into account all the complexities, levels, and aspects of whatever genre meant in nineteenth century newspapers. I fell into the trap that many software developers fall into, trying to build something that does everything (open iTunes recently?). But the reality is, a comprehensive tool never materialized, and will never materialize. The concept of genre, it turns out, is mutable over time, space, audience, writer. What actually ended up working is letting the texts define themselves and creating a model tailored to the data. Even the idea to use topics rather than tokens as classifiers is an effort to reduce dimensionality in the model, to do without nuance. It doesn’t work all the time, and requires a lot of paging back and forth across R Script files in R Studio. It doesn’t definitively answer every question about genre that I had when approaching the texts.&lt;/p&gt;
+
+&lt;p&gt;In short, lots of things are left out in order to make my model work well for  other things. At present, it’s really good at seeing top top-level genres, but not so great at digging down into them where the differences between, say, a vignette and an advice piece are trickier to discern. But, as Underwood &lt;a href=&quot;https://tedunderwood.com/2016/05/29/the-real-problem-with-distant-reading/&quot; target=&quot;_blank&quot;&gt;writes&lt;/a&gt; reflecting on the call for nuance in DH, “It’s okay to simplify the world in order to investigate a specific question.” He continues, “Something will always be left out, but I don’t think distant reading needs to be pushed toward even more complexity and completism.” Franco Moretti had something to say about this as well in his book &lt;a href=&quot;https://www.versobooks.com/books/261-graphs-maps-trees&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Graphs, Maps, Trees&lt;/em&gt;&lt;/a&gt;, “Problems without a solution are exactly what we need in a field like ours, where we are used to asking only those questions for which we already have an answer.”&lt;/p&gt;
+
+&lt;p&gt;It’s okay if a theory or, in this case, a model, raises problems without a solution, or ends up asking more questions than it answers; we aren’t in the business of looking for definitive answers. That’s not how the humanities work. Julia Flanders &lt;a href=&quot;http://digitalhumanities.org/dhq/vol/3/3/000055/000055.html&quot; target=&quot;_blank&quot;&gt;reminds&lt;/a&gt; us to value “Methods and tools that combine what has been gained in power and scale with a real measure of scholarly effort and engagement.” She continues, “the intellectual outcomes will not be judged by their power or speed, but by the same criteria used in humanities scholarship all along: does it make us think? does it make us keep thinking?”&lt;/p&gt;
+
+&lt;p&gt;Early in my process I was driven to create a tool with power and speed; eventually, I remembered to stop and think. From my classification efforts, a theory of genre in periodicals of the era is developing. Like the classification experiments that birth it, it won’t be complete, or accountable to all the potential complexities that such a theory might be imagined to contain. It won’t be terribly nuanced. But, with any luck, it will be interesting and generative. It will offer some answers and raise additional questions. It will be complicated, but not over-complicated.&lt;/p&gt;
+
+&lt;p&gt;Though, honestly, at this point in my work, I just hope it won’t be a tool.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://jonathandfitzgerald.com/blog/2016/06/10/genres-and-nuance.html</link>
+        <guid isPermaLink="true">http://jonathandfitzgerald.com/blog/2016/06/10/genres-and-nuance.html</guid>
+
+
+        <category>Blog</category>
+
+      </item>
     
       <item>
         <title>A “Stunning” Love Letter to Viral Texts: A “sublimely splendiferous” foray into nineteenth century newspapers</title>
@@ -373,28 +400,6 @@
         <category>Blog</category>
         
       </item>
-    
-      <item>
-        <title>Mapping the Birth of a New Genre</title>
-        <description>&lt;p&gt;I like maps. Is that too basic a way to start? Maybe, but it’s true. I’ve created my own maps in the past, using Google Maps — favorite restaurants in my neighborhood in Jersey City, the route I took and the stops I made while traveling by air through South Sudan, and a few small projects for freelance jobs. So I was excited to work with Neatline, which I understood to be Google Maps on steroids, or whatever performance enhancing drugs academics take.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;&lt;a href=&quot;http://omeka.jonathandfitzgerald.com/neatline/show/instagram-photoessays&quot;&gt;&lt;img class=&quot;size-full wp-image-289&quot; src=&quot;/assets/Screen-Shot-2014-10-22-at-2.34.21-PM.png&quot; alt=&quot;Click the map to view the project.&quot; width=&quot;692&quot; height=&quot;672&quot; /&gt;&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;I immediately knew that I wanted to do something with the Instagram photo/essays that I’ve been all but obsessing over, but, initially, I ran into a problem. I was primarily following the work of Jeff Sharlet on Instagram, and his project began very local. The first few photos in his series take place in the same Dunkin Donuts in a small New Hampshire/Vermont border town. Not a terribly interesting map.&lt;/p&gt;
-&lt;p&gt;But then, a couple of exciting things happened, which broadened the scope of the project as well as landed a few more points on the map. That is, other writers started trying out the genre that Sharlet seemed to have pioneered. A few pieces popped up by writers in Brooklyn, NY, and a few more in Norway. Then, perhaps upon seeing the appeal of posting from exotic locales, Sharlet himself posted photos from a recent trip to Russia, where he was reporting for GQ. And, finally, in an email conversation with Sharlet, he pointed me to the work of Neil Shea, National Geographic photographer who, Sharlet told me, had been posting photo/essays to Instagram for weeks ahead of Sharlet.&lt;/p&gt;
-&lt;p&gt;Suddenly, it seemed like I was looking at an international movement, which seemed tailor-made for Neatline. I would have data points to add to both the map and the timeline, and in this way, I could visualize the birth of a new genre.&lt;/p&gt;
-&lt;p&gt;This was the impetus that got me started, but then some problems set in — namely, how to preserve the all-important medium while archiving these pieces. Clearly, embedding won’t work because embedded content is still tied to its original medium. If the photographer/writer takes the post down or quits Instagram, or if Instagram goes out of business, the content goes too.&lt;/p&gt;
-&lt;p&gt;Ultimately, I decided to download the photos and copy the text from Instagram and add them to Omeka as new text records. In each record, I link to the original content, but if that content goes away, the worst that will happen is that my links will be broken. But then there is the question of copyright. It appears that Instagram allows users to retain the rights to their photos and they ask that anyone who embeds a public photo from Instagram include a link back to the original. I took this to mean that if the content creator does not want me to post their photos/text, they can ask me to take them down. To date, I have secured permission from only Jeff Sharlet.&lt;/p&gt;
-&lt;p&gt;One other issue that came up: though Instagram allows users to geolocate their photos, many do not. In these cases, the location on the map was an approximation based on context from the photographer/writer’s Instagram page or information inside the caption. If I decide to continue this project, it seems that collaboration with the photographer/writer will be necessary. For example, I mentioned to Sharlet in one of our early conversations that it would be helpful if he geotagged his photos, and was delighted to note in recent postings that he has done just that.&lt;/p&gt;
-&lt;p&gt;If this Instagram photo/essay thing does become its own genre, I think it is important to catalogue, consider, and write about it as it unfolds. And, it seems that Omeka and Neatline are the right tools for the job.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 22 Oct 2014 14:32:24 -0400</pubDate>
-        <link>http://jonathandfitzgerald.com/blog/2014/10/22/mapping-the-birth-of-a-new-genre.html</link>
-        <guid isPermaLink="true">http://jonathandfitzgerald.com/blog/2014/10/22/mapping-the-birth-of-a-new-genre.html</guid>
-        
-        
-        <category>Blog</category>
-        
-      </item>
-    
+
   </channel>
 </rss>
