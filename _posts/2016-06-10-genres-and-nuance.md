@@ -12,7 +12,7 @@ comments: True
 
 ---
 
-When I began my work with the Viral Texts Project, I was tasked with coming up with a computational way to assign genres to our texts. It seems foolish to admit now, a year into the project, that back then I imagined a kind of "one-click" solution. I believed my own elevator pitch explanation of the work, that I could show a few examples of each genre to the computer, and then send it off on its way to find me the rest. It has not been that easy.
+When I began my work with the Viral Texts Project, I was tasked with coming up with a computational way to assign genres to our texts. It seems foolish to admit now, a year into the project, that back then I imagined a kind of "one-click" solution. I believed my own elevator pitch explanation of the work, that I could show a few examples of each genre to the computer, and then send it off on its way to find me the rest. It has not been that easy.<!--more-->
 
 In a forthcoming paper that I'll be presenting at the [Keystone DH](http://keystonedh.network/2016/){:target="_blank"} conference at the University of Pittsburgh later this month I explain my process, and I plan to post that paper here after the conference, so I'll forego the details of its inner-workings. Suffice it to say that the real innovation (with due credit to [Ben Schmidt](http://bookworm.benschmidt.org/posts/2015-09-14-Classifying_genre.html){:target="_blank"}) is that rather than use words as the classifiers, I'm using topics derived from topic modelling the corpus. 
 
