@@ -304,6 +304,13 @@ NEMLA Conference, Boston
 **Paper: “Radical & Relevant: Searching for a Culturally Significant Christ”**  
 Christ in Cultures Conference, Gordon College
 
+Institutional Service
+---------------------------
+*Spring 2016*  
+**Panel Planning Committee Member**  
+English Graduate Student Association Conference "The Imaginary"  
+Northeastern University  
+
 Technical Proficiencies
 ---------------------------
 HTML, CSS, XML/TEI, R, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network Analysis
