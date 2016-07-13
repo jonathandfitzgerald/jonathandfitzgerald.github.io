@@ -108,6 +108,11 @@ Paige Morgan, the Digital Humanities Librarian at the University of Miami, recen
 
 Returning to Matthew Jockers once more; in a paper he co-authored with David Mimno, they write, “The models we present here cannot represent the full meaning of individual books any more than satellite photos can show the details of individual trees. Like the satellite view, however, these macro-, or ‘distant-,’ scale perspectives on literature offer scholars a necessary context for and complement to closer readings” (768). Reading from afar and reading closely—these methods are not at odds, but complimentary and, I’d argue, necessary for this kind of work.
 
+**Works Cited**
 
-
-
+Cordell, Ryan. “Reprinting, Circulation, and the Network Author in Antebellum Newspapers.” *American Literary History* 27, no. 3 (September 1, 2015): 417–45. doi:10.1093/alh/ajv028.
+Jockers, Matthew Lee. *Macroanalysis: Digital Methods and Literary History*, 2013.
+Jockers, Matthew L., and David Mimno. “Significant Themes in 19th-Century Literature.” *Poetics*, Topic Models and the Cultural Sciences, 41, no. 6 (2013): 750–69. doi:10.1016/j.poetic.2013.08.005.
+Schöch, Christoph. “Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama.” *Digital Humanities Quarterly*, forthcoming.
+Underwood, Ted. “Distant Reading and the Blurry Edges of Genre.” The Stone and the Shell, October 22, 2014. http://tedunderwood.com/2014/10/22/distant-reading-and-the-blurry-edges-of-genre/.
+———. “Understanding Genre in a Collection of a Million Volumes.” University of Illinois, Urbana-Champaign, December 29, 2014.
