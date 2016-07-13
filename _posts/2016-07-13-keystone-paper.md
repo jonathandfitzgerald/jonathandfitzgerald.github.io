@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  What Made the Front Page in the 19th Century?: Computationally Classifying Genre in “Viral Texts”
+title:  "What Made the Front Page in the 19th Century?: Computationally Classifying Genre in “Viral Texts”"
 date:   2016-07-13
 type: post
 published: true
