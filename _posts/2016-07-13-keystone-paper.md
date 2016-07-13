@@ -111,8 +111,16 @@ Returning to Matthew Jockers once more; in a paper he co-authored with David Mim
 **Works Cited**
 
 Cordell, Ryan. “Reprinting, Circulation, and the Network Author in Antebellum Newspapers.” *American Literary History* 27, no. 3 (September 1, 2015): 417–45. doi:10.1093/alh/ajv028.
-Jockers, Matthew Lee. *Macroanalysis: Digital Methods and Literary History*, 2013.
-Jockers, Matthew L., and David Mimno. “Significant Themes in 19th-Century Literature.” *Poetics*, Topic Models and the Cultural Sciences, 41, no. 6 (2013): 750–69. doi:10.1016/j.poetic.2013.08.005.
-Schöch, Christoph. “Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama.” *Digital Humanities Quarterly*, forthcoming.
-Underwood, Ted. “Distant Reading and the Blurry Edges of Genre.” The Stone and the Shell, October 22, 2014. http://tedunderwood.com/2014/10/22/distant-reading-and-the-blurry-edges-of-genre/.
-———. “Understanding Genre in a Collection of a Million Volumes.” University of Illinois, Urbana-Champaign, December 29, 2014.
+
+Jockers, Matthew Lee. *Macroanalysis: Digital Methods and Literary History*, 2013.
+
+Jockers, Matthew L., and David Mimno. “Significant Themes in 19th-Century Literature.” *Poetics*, Topic Models and the Cultural Sciences, 41, no. 6 (2013): 750–69. doi:10.1016/j.poetic.2013.08.005.
+
+Schöch, Christoph. “Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama.” *Digital Humanities Quarterly*, forthcoming.
+
+Smith, David A., Ryan Cordell, Elizabeth Maddock Dillon, Nick Stramp, and John Wilkerson. “Detecting and Modeling Local Text Reuse.” In *Proceedings of the 14th ACM/IEEE-CS Joint Conference on Digital Libraries*, 183–92. IEEE Press, 2014. http://dl.acm.org/citation.cfm?id=2740800.
+
+
+Underwood, Ted. “Distant Reading and the Blurry Edges of Genre.” The Stone and the Shell, October 22, 2014. http://tedunderwood.com/2014/10/22/distant-reading-and-the-blurry-edges-of-genre/.
+
+———. “Understanding Genre in a Collection of a Million Volumes.” University of Illinois, Urbana-Champaign, December 29, 2014.
