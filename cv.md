@@ -265,7 +265,7 @@ Selected Presentations
 *July 2015*  
 **Project Showcase: "The InstaEssay Archive"**  
 Keystone DH Conference  
-Univeristy of Pennsylvania
+University of Pennsylvania
 
 *February 2015*  
 **Paper: "Re-Presenting Early Modern Pattern Poems as Material Objects"**  
