@@ -314,18 +314,22 @@ Boston College
 *January 2013*  
 **Lecturer/Panelist**  
 The Future of Christianity Conference
+Quincy, MA
 
 *January 2013*  
 **Organizer**  
 The Northern Shores Writers Retreat
+Rockport, MA
 
 *December 2012*  
 **Featured Guest**  
 On Point with Tom Ashbrook	 
+NPR/WBUR 
 
 *October 2012*  
 **Panelist**  
 Religion Newswriters Association Conference 2012
+Washington, DC
 
 *February 2011*  
 **Featured Panelist**  
