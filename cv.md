@@ -98,10 +98,17 @@ Gordon College
 Fields of Study
 ---------------------------
 
-Literary Journalism, Digital Humanities, media studies, American non-fiction, American religion
+Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth century American non-fiction, American religion
 
 Fellowships, Grants, and Awards
 ---------------------------
+
+*March 2016* 
+**Keystone DH Student Bursary ** 
+University of Pittsburgh
+Temple University
+The Chemical Heritage Foundation
+Penn State University
 
 *Fall 2015 - Present*  
 **Fellow**  
@@ -174,6 +181,10 @@ _Journal of African Literature_, No. 6
 
 Selected Public Writing
 ---------------------------
+
+*April 2016* 
+**Feature: "Boston career changers can find plenty of helping hands"** 
+The Boston Globe
 
 *August 2013*  
 **Feature: “On a Mission to Save Godless Massachusetts”**  
@@ -303,6 +314,17 @@ NEMLA Conference, Boston
 *September 2006*  
 **Paper: “Radical & Relevant: Searching for a Culturally Significant Christ”**  
 Christ in Cultures Conference, Gordon College
+
+Invited Talks
+---------------------------
+
+*September 2016* 
+**Know the News** 
+Panel, Eastern Nazeren College
+
+*September 2016* 
+**Viral Texts: An Informal Talk & Discussion** 
+Boston College
 
 Institutional Service
 ---------------------------
