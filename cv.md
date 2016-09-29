@@ -318,12 +318,12 @@ Christ in Cultures Conference, Gordon College
 Invited Talks
 ---------------------------
 
-*September 2016* 
-**Know the News** 
+*September 2016*  
+**Know the News**  
 Panel, Eastern Nazeren College
 
-*September 2016* 
-**Viral Texts: An Informal Talk & Discussion** 
+*September 2016*  
+**Viral Texts: An Informal Talk & Discussion**   
 Boston College
 
 Institutional Service
