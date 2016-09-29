@@ -273,6 +273,11 @@ Stevens Institute of Technology
 Selected Presentations
 ---------------------------
 
+*June 2016*  
+**Paper: "What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'"**  
+Keystone DH Conference  
+University of Pittsburgh
+
 *July 2015*  
 **Project Showcase: "The InstaEssay Archive"**  
 Keystone DH Conference  
