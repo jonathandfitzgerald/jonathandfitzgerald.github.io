@@ -103,11 +103,11 @@ Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth
 Fellowships, Grants, and Awards
 ---------------------------
 
-*March 2016* 
-**Keystone DH Student Bursary ** 
-University of Pittsburgh
-Temple University
-The Chemical Heritage Foundation
+*March 2016*  
+**Keystone DH Student Bursary**  
+University of Pittsburgh  
+Temple University  
+The Chemical Heritage Foundation  
 Penn State University
 
 *Fall 2015 - Present*  
@@ -182,8 +182,8 @@ _Journal of African Literature_, No. 6
 Selected Public Writing
 ---------------------------
 
-*April 2016* 
-**Feature: "Boston career changers can find plenty of helping hands"** 
+*April 2016*  
+**Feature: "Boston career changers can find plenty of helping hands"**  
 The Boston Globe
 
 *August 2013*  
@@ -320,7 +320,7 @@ Invited Talks
 
 *September 2016*  
 **Know the News**  
-Panel, Eastern Nazeren College
+Panel, Eastern Nazerene College
 
 *September 2016*  
 **Viral Texts: An Informal Talk & Discussion**   
