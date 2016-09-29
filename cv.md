@@ -288,6 +288,25 @@ University of Pennsylvania
 Making, Unmaking, and Remaking the Early Modern Era: 1500-1800  
 University of California, Santa Barbara
 
+*March 2009*  
+**Paper: “Creating Futures for a New Generation of African Writers”**  
+NEMLA Conference, Boston
+
+*September 2006*  
+**Paper: “Radical & Relevant: Searching for a Culturally Significant Christ”**  
+Christ in Cultures Conference, Gordon College
+
+Invited Talks
+---------------------------
+
+*September 2016*  
+**Know the News**  
+Panel, Eastern Nazerene College
+
+*September 2016*  
+**Viral Texts: An Informal Talk & Discussion**   
+Boston College
+
 *January 2013*  
 **Featured Guest**  
 “Millennial Irony”, Huff Post Live											
@@ -311,25 +330,6 @@ Religion Newswriters Association Conference 2012
 *February 2011*  
 **Featured Panelist**  
 ABC News’ “Focus on Faith”		 
-
-*March 2009*  
-**Paper: “Creating Futures for a New Generation of African Writers”**  
-NEMLA Conference, Boston
-
-*September 2006*  
-**Paper: “Radical & Relevant: Searching for a Culturally Significant Christ”**  
-Christ in Cultures Conference, Gordon College
-
-Invited Talks
----------------------------
-
-*September 2016*  
-**Know the News**  
-Panel, Eastern Nazerene College
-
-*September 2016*  
-**Viral Texts: An Informal Talk & Discussion**   
-Boston College
 
 Institutional Service
 ---------------------------
