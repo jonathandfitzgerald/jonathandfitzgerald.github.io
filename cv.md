@@ -283,6 +283,11 @@ University of Pittsburgh
 2015 Keystone DH Conference  
 University of Pennsylvania
 
+*April 2015*  
+**Poster: "In Search of Marvin Gardens"**  
+Green City Spaces: Design + History + Literature  
+Northeastern University
+
 *February 2015*  
 **Paper: "Re-Presenting Early Modern Pattern Poems as Material Objects"**  
 Making, Unmaking, and Remaking the Early Modern Era: 1500-1800  
