@@ -295,11 +295,13 @@ University of California, Santa Barbara
 
 *March 2009*  
 **Paper: “Creating Futures for a New Generation of African Writers”**  
-NEMLA Conference, Boston
+NEMLA 40th Convention  
+Boston  
 
 *September 2006*  
 **Paper: “Radical & Relevant: Searching for a Culturally Significant Christ”**  
-Christ in Cultures Conference, Gordon College
+Christ in Cultures Conference  
+Gordon College
 
 Invited Talks
 ---------------------------
