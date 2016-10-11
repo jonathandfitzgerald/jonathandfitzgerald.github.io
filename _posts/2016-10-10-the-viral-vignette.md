@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Locating the Vignette Between Fiction and News"
+title:  "Computationally Classifying the Vignette Between Fiction and News"
 date:   2016-10-10
 type: post
 published: true
