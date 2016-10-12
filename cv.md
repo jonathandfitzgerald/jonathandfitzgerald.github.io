@@ -18,6 +18,10 @@ Table of Contents
 Teaching Experience
 ---------------------------
 
+*Summer 2016*  
+**Instructor, English Department**  
+Northeastern University  
+
 *Fall 2013 - Spring 2014*  
 **Writing Consultant, The Writing Center**  
 Northeastern University
@@ -122,6 +126,9 @@ Keystone DH Conference, University of Pennsylvania
 
 Selected Courses Taught
 ---------------------------
+
+**Advanced Writing in the Disciplines**  
+Northeastern University  
 
 **Writing Across Mass Media**  
 Eastern Nazarene College
