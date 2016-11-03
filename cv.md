@@ -358,8 +358,8 @@ Northeastern University
 
 *January 2013*  
 **Organizer**  
-The Northern Shores Writers Retreat
-Rockport, MA  
+The Northern Shores Writers Retreat  
+Eastern Nazarene College    
 
 Technical Proficiencies
 ---------------------------
