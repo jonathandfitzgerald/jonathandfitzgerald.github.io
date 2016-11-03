@@ -6,8 +6,6 @@ type: page
 weight: 4
 ---
 
-# Table of Contents
-
 * TOC
 {:toc}
 
