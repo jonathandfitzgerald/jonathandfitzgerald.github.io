@@ -333,12 +333,7 @@ Boston College
 *January 2013*  
 **Lecturer/Panelist**  
 The Future of Christianity Conference
-Quincy, MA
-
-*January 2013*  
-**Organizer**  
-The Northern Shores Writers Retreat
-Rockport, MA
+Quincy, MA  
 
 *December 2012*  
 **Featured Guest**  
@@ -360,6 +355,11 @@ Institutional Service
 **Panel Planning Committee Member**  
 English Graduate Student Association Conference "The Imaginary"  
 Northeastern University  
+
+*January 2013*  
+**Organizer**  
+The Northern Shores Writers Retreat
+Rockport, MA  
 
 Technical Proficiencies
 ---------------------------
