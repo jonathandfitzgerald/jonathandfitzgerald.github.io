@@ -315,7 +315,7 @@ Boston
 Christ in Cultures Conference  
 Gordon College
 
-Invited Talks
+Invited Talks & Media Appearances
 ---------------------------
 
 *September 2016*  
