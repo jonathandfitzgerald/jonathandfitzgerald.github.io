@@ -6,129 +6,119 @@ type: page
 weight: 4
 ---
 
-Table of Contents
----------------------------
+# Table of Contents
 
-* TOC
-{:toc}
+- TOC {:toc}
 
-*****
+--------------------------------------------------------------------------------
 
+# Teaching Experience
 
-Teaching Experience
----------------------------
-
-*Summer 2016*  
+_Summer 2016_  
 **Instructor, English Department**  
-Northeastern University  
+Northeastern University
 
-*Fall 2013 - Spring 2014*  
+_Fall 2013 - Spring 2014_  
 **Writing Consultant, The Writing Center**  
 Northeastern University
 
-*Fall 2010 - Spring 2013*  
+_2010 - 2013_  
 **Visiting Professor, Language, Theater and Communication Arts**  
 Eastern Nazarene College
 
-*Fall 2010 - Present*  
+_2010 - 2013_  
 **Advisor, The Veritas News student newspaper**  
 Eastern Nazarene College
 
-*Spring 2011*  
+_Spring 2011_  
 **Adjunct Professor, Business Writing**  
 New England Coll. of Business
 
-*Spring 2009 – Spring 2010*  
+_2009 – 2010_  
 **Coordinator, Writing and Communications Center**  
 Stevens Institute of Technology
 
-*2009 – 2010*  
+_2009 – 2010_  
 **Adjunct Professor, English Department**  
 New Jersey City University
 
-*2007 – 2008*  
+_2007 – 2008_  
 **Adjunct Professor, English & Comm Departments**  
 Gordon College
 
-*2006*  
+_2006_  
 **Adjunct Professor, English Department**  
 Endicott College
 
-*Fall 2004 - Spring 2005*  
+_2004 - 2005_  
 **Graduate Assistant, English Department**  
 University of Massachusetts
 
-Research Experience
----------------------------
+# Research Experience
 
-*Fall 2015 - Present*  
+_Fall 2015 - Present_  
 **Research Assistant, Viral Texts Project**  
 Northeastern University
 
-Other Experience
----------------------------
+# Other Experience
 
-*Summer 2015 - Present*  
+_Summer 2015 - Present_  
 **Managing Editor**  
 Digital Humanities Quarterly
 
-*2009 – Present*  
+_2009 – Present_  
 **Editor**  
 PatrolMag.com
 
-*2009 – 2012*  
+_2009 – 2012_  
 **Staff Writer**  
 The Jersey City Independent
 
-*2005 – Present*  
+_2005 – Present_  
 **Freelance Writer**  
 Various Publications
 
-Education
----------------------------
+# Education
 
-*2014 - 2019 (expected)*  
+_2014 - 2019 (expected)_  
 **PhD, English**  
 Northeastern University
 
-*2003 – 2005*  
+_2003 – 2005_  
 **Master of Arts, English**  
 University of Massachusetts, Boston
 
-*1999 – 2003*  
+_1999 – 2003_  
 **Bachelor of Arts, English Language and Literature**  
 Gordon College
 
-Fields of Study
----------------------------
+# Fields of Study
 
 Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth century American non-fiction, American religion
 
-Fellowships, Grants, and Awards
----------------------------
+# Fellowships, Grants, and Awards
 
-*March 2016*  
+_March 2016_  
 **Keystone DH Student Bursary**  
 University of Pittsburgh  
 Temple University  
 The Chemical Heritage Foundation  
 Penn State University
 
-*Fall 2015 - Present*  
+_Fall 2015 - Present_  
 **Fellow**  
 NULab for Texts, Maps, and Networks  
 Northeastern University
 
-*July 2015*  
+_July 2015_  
 **ACH Bursary**  
 The Association for Computers and the Humanities  
 Keystone DH Conference, University of Pennsylvania
 
-Selected Courses Taught
----------------------------
+# Selected Courses Taught
 
 **Advanced Writing in the Disciplines**  
-Northeastern University  
+Northeastern University
 
 **Writing Across Mass Media**  
 Eastern Nazarene College
@@ -169,204 +159,194 @@ Endicott College
 **Introduction to Western Literature**  
 UMass, Boston
 
+# Selected Scholarly Writing
 
-Selected Scholarly Writing
----------------------------
+_Spring 2015_  
+**Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim's Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**  
+_Literary Journalism Studies_, Vol. 7\. No. 1
 
-*Spring 2015*  
-**Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim’s Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**  
-_Literary Journalism Studies_, Vol. 7. No. 1
-
-*July 2011*  
-**Chapter: “This Protestant World”**  
+_July 2011_  
+**Chapter: "This Protestant World"**  
 _Wise Blood: A Reconsideration_  
 Rodopi Press
 
-*December 2009*  
-**Article: “New Kenyan Writers: The Narratives of Binyavanga Wainaina and Yvonne Owuor”**  
+_December 2009_  
+**Article: "New Kenyan Writers: The Narratives of Binyavanga Wainaina and Yvonne Owuor"**  
 _Journal of African Literature_, No. 6
 
-Selected Public Writing
----------------------------
+# Selected Public Writing
 
-*April 2016*  
+_April 2016_  
 **Feature: "Boston career changers can find plenty of helping hands"**  
 The Boston Globe
 
-*August 2013*  
-**Feature: “On a Mission to Save Godless Massachusetts”**  
+_August 2013_  
+**Feature: "On a Mission to Save Godless Massachusetts"**  
 The Boston Globe
 
-*January 2013*  
-**Book: _Not Your Mother’s Morals: How the New Sincerity is Changing Pop Culture for the Better_**  
+_January 2013_  
+**Book: _Not Your Mother's Morals: How the New Sincerity is Changing Pop Culture for the Better_**  
 Bondfire Books
 
-*February 2013*  
-**Article: “How to Write a Book without Paper”**  
+_February 2013_  
+**Article: "How to Write a Book without Paper"**  
 Time Magazine - Online
 
-*November 2012*  
-**Article: “Sincerity, Not Irony, is Our Age’s Ethos”**   
+_November 2012_  
+**Article: "Sincerity, Not Irony, is Our Age's Ethos"**  
 The Atlantic - Online
 
-*November 2012*  
-**Article: “How TV Killed the Republican Party’s Family Values”**  
+_November 2012_  
+**Article: "How TV Killed the Republican Party's Family Values"**  
 The Daily Beast
 
-*September 2012*  
-**Article: “Caspian Make a Case for Post-Post Rock”**  
+_September 2012_  
+**Article: "Caspian Make a Case for Post-Post Rock"**  
 The Metro
 
-*January 2012*  
-**Op-Ed: “Can You Come to Jesus without Church”**  
+_January 2012_  
+**Op-Ed: "Can You Come to Jesus without Church"**  
 The Wall Street Journal
 
-*April 2011*  
-**Op-Ed: “The Young and the Wasted”**  
+_April 2011_  
+**Op-Ed: "The Young and the Wasted"**  
 The Washington Post On Faith
 
-*January 2011*  
-**Article: “Whose College?”**  
+_January 2011_  
+**Article: "Whose College?"**  
 Killing the Buddha
 
-*September 2010*  
-**Review: “Books from Brian McLaren and others”**  
+_September 2010_  
+**Review: "Books from Brian McLaren and others"**  
 The Star-Ledger
 
-*August 2010*  
-**Article: “Chinese Christians: Leading the Way”**  
+_August 2010_  
+**Article: "Chinese Christians: Leading the Way"**  
 Huffington Post
 
-*July 2010*  
-**Article: “Evangelicals ‘Crossing the Tiber’ to Catholicism”**  
+_July 2010_  
+**Article: "Evangelicals 'Crossing the Tiber' to Catholicism"**  
 Religion Dispatches
 
-*December 2009*  
-**Op-Ed: “Winning Not Just Hearts, But Minds”**  
+_December 2009_  
+**Op-Ed: "Winning Not Just Hearts, But Minds"**  
 The Wall Street Journal
 
-*January 2009*  
-**Article: “Building a Peace Beyond Understanding”**  
+_January 2009_  
+**Article: "Building a Peace Beyond Understanding"**  
 Christianity Today
 
-*Spring 2007*  
+_Spring 2007_  
 **Review: What is the What by Dave Eggars**  
 Books and Culture
 
-Digital Initiatives and Projects
----------------------------
+# Digital Initiatives and Projects
 
-*Fall 2015*  
+_Fall 2015_  
 **A 'Stunning' Love Letter to Viral Texts**  
 Viral Texts Project  
 Link: [loveletter.viraltexts.org](http://loveletter.viraltexts.org "A Stunning Love Letter")
 
-*Spring 2015*  
+_Spring 2015_  
 **3D Printed Pattern Poems**  
 Link: [Re-Presenting Early Modern Pattern Poems as Material Objects](/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html)
 
-*Spring 2015 - Present*  
+_Spring 2015 - Present_  
 **The InstaEssay Archive**  
 Link: [The InstaEssay Archive](http://instaessayarchive.org)
 
-Editing
------------------------
+# Editing
 
-*Spring 2011*  
+_Spring 2011_  
 **Knowledge, Nature, Culture: An Introduction to the Humanities and Social Sciences**  
 Contributing Editor  
-Stevens Institute of Technology								
+Stevens Institute of Technology
 
-Selected Presentations
----------------------------
+# Selected Presentations
 
-*October 2016*  
+_October 2016_  
 **Paper: "Vignettes: Micro-Fictions in the Nineteenth Century Newspaper" w/Ryan Cordell**  
 2016 ALA Symposium: The American Short Story: An Expansion of the Genre  
-Savannah, GA  
+Savannah, GA
 
-*June 2016*  
+_June 2016_  
 **Paper: "What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'"**  
 2016 Keystone DH Conference  
 University of Pittsburgh
 
-*July 2015*  
+_July 2015_  
 **Project Showcase: "The InstaEssay Archive"**  
 2015 Keystone DH Conference  
 University of Pennsylvania
 
-*April 2015*  
+_April 2015_  
 **Poster: "In Search of Marvin Gardens"**  
 Green City Spaces: Design + History + Literature  
 Northeastern University
 
-*February 2015*  
+_February 2015_  
 **Paper: "Re-Presenting Early Modern Pattern Poems as Material Objects"**  
 Making, Unmaking, and Remaking the Early Modern Era: 1500-1800  
 University of California, Santa Barbara
 
-*March 2009*  
-**Paper: “Creating Futures for a New Generation of African Writers”**  
+_March 2009_  
+**Paper: "Creating Futures for a New Generation of African Writers"**  
 NEMLA 40th Convention  
-Boston  
+Boston
 
-*September 2006*  
-**Paper: “Radical & Relevant: Searching for a Culturally Significant Christ”**  
+_September 2006_  
+**Paper: "Radical & Relevant: Searching for a Culturally Significant Christ"**  
 Christ in Cultures Conference  
 Gordon College
 
-Invited Talks & Media Appearances
----------------------------
+# Invited Talks & Media Appearances
 
-*September 2016*  
+_September 2016_  
 **Know the News**  
 Panel, Eastern Nazerene College
 
-*September 2016*  
-**Viral Texts: An Informal Talk & Discussion**   
+_September 2016_  
+**Viral Texts: An Informal Talk & Discussion**  
 Boston College
 
-*January 2013*  
+_January 2013_  
 **Featured Guest**  
-“Millennial Irony”, Huff Post Live											
+"Millennial Irony", Huff Post Live
 
-*January 2013*  
+_January 2013_  
 **Lecturer/Panelist**  
-The Future of Christianity Conference
-Quincy, MA  
+The Future of Christianity Conference Quincy, MA
 
-*December 2012*  
+_December 2012_  
 **Featured Guest**  
-On Point with Tom Ashbrook	 
-NPR/WBUR 
+On Point with Tom Ashbrook  
+NPR/WBUR
 
-*October 2012*  
+_October 2012_  
 **Panelist**  
-Religion Newswriters Association Conference 2012
-Washington, DC
+Religion Newswriters Association Conference 2012 Washington, DC
 
-*February 2011*  
+_February 2011_  
 **Featured Panelist**  
-ABC News’ “Focus on Faith”		 
+ABC News' "Focus on Faith"
 
-Institutional Service
----------------------------
-*Spring 2016*  
+# Institutional Service
+
+_Spring 2016_  
 **Panel Planning Committee Member**  
 English Graduate Student Association Conference "The Imaginary"  
-Northeastern University  
+Northeastern University
 
-*January 2013*  
+_January 2013_  
 **Organizer**  
 The Northern Shores Writers Retreat  
-Eastern Nazarene College    
+Eastern Nazarene College
 
-Technical Proficiencies
----------------------------
+# Technical Proficiencies
+
 HTML, CSS, XML/TEI, R, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network Analysis
 
-Associations
----------------------------
+# Associations
 
 **International Association for Literary Journalism Studies**  
 **Modern Language Association**  
