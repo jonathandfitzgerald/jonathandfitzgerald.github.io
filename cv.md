@@ -280,6 +280,11 @@ Stevens Institute of Technology
 Selected Presentations
 ---------------------------
 
+*October 2016*  
+**Paper: "Vignettes: Micro-Fictions in the Nineteenth Century Newspaper" w/Ryan Cordell**  
+2016 ALA Symposium: The American Short Story: An Expansion of the Genre  
+Savannah, GA  
+
 *June 2016*  
 **Paper: "What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'"**  
 2016 Keystone DH Conference  
