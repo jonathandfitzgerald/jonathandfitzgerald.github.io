@@ -9,9 +9,9 @@
   <title>Don't Be a Tool</title>
   <meta name="description" content="When I began my work with the Viral Texts Project, I was tasked with coming up with a computational way to assign genres to our texts. It seems foolish to ad...">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://jonathandfitzgerald.com/blog/2016/06/10/genres-and-nuance.html">
-  <link rel="alternate" type="application/rss+xml" title="Jonathan D. Fitzgerald" href="http://jonathandfitzgerald.com/feed.xml">
+  <link rel="stylesheet" href="/jonathandfitzgerald.github.io//css/main.css">
+  <link rel="canonical" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//blog/2016/06/10/genres-and-nuance.html">
+  <link rel="alternate" type="application/rss+xml" title="Jonathan D. Fitzgerald" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//feed.xml">
 </head>
 
 
@@ -21,12 +21,13 @@
 
 
 
-	<a class="site-title" href="/">Jonathan D. Fitzgerald</a>
+	<a class="site-title" href="/jonathandfitzgerald.github.io//">Jonathan D. Fitzgerald</a>
 
 	<nav class="site-nav">
 
 
-		<ul><li class=""><a href="/about/">About</a><ul></ul></li><li class=""><a href="/writing/">Selected Publications</a><ul><li class=""><a href="/writing/nymm/">Not Your Mother's Morals</a><ul></ul></li></ul></li><li class=""><a href="/cv/">CV</a><ul></ul></li><li class="active"><a href="/blog/">Blog</a><ul></ul></li><li class=""><a href="/contact/">Contact</a><ul></ul></li></ul>
+		<ul><li class=""><a href="/jonathandfitzgerald.github.io//about/">About</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//writing/">Selected Publications</a><ul><li class=""><a href="/jonathandfitzgerald.github.io//writing/nymm/">Not Your Mother's Morals</a><ul></ul></li></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//cv/">CV</a><ul></ul></li><li class="active"><a href="/jonathandfitzgerald.github.io//blog/">Blog</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//contact/">Contact</a><ul></ul></li></ul>
+
 
 
 	</nav>
@@ -48,13 +49,11 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>When I began my work with the Viral Texts Project, I was tasked with coming up with a computational way to assign genres to our texts. It seems foolish to admit now, a year into the project, that back then I imagined a kind of “one-click” solution. I believed my own elevator pitch explanation of the work, that I could show a few examples of each genre to the computer, and then send it off on its way to find me the rest. It has not been that easy.</p>
+    <p>When I began my work with the Viral Texts Project, I was tasked with coming up with a computational way to assign genres to our texts. It seems foolish to admit now, a year into the project, that back then I imagined a kind of “one-click” solution. I believed my own elevator pitch explanation of the work, that I could show a few examples of each genre to the computer, and then send it off on its way to find me the rest. It has not been that easy.<!--more--></p>
 
-<p>In a forthcoming paper that I’ll be presenting at the <a href="http://keystonedh.network/2016/" target="_blank">Keystone DH</a> conference at the University of Pittsburgh later this month I explain my process, and I plan to post that paper here after the conference, so I’ll forego the details of its inner-workings. Suffice it to say that the real innovation (with due credit to <a href="http://bookworm.benschmidt.org/posts/2015-09-14-Classifying_genre.html" target="_blank">Ben Schmidt</a>) is that rather than use words as the classifiers, I’m using topics derived from topic modelling the corpus.</p>
+<p>In a forthcoming paper that I’ll be presenting at the <a href="http://keystonedh.network/2016/" target="_blank">Keystone DH</a> conference at the University of Pittsburgh later this month I explain my process, and I plan to post that paper here after the conference, so I’ll forego the details of its inner-workings. Suffice it to say that the real innovation (with due credit to <a href="http://bookworm.benschmidt.org/posts/2015-09-14-Classifying_genre.html" target="_blank">Ben Schmidt</a>) is that rather than use words as the classifiers, I’m using topics derived from topic modelling the corpus. </p>
 
-<p>Here I want to focus on the assumptions that went into my early conception of the project as a self-contained, auto-magical genre classifier. Reflecting on this recently, it occurred to me that I was operating on assumptions common to those who are new to DH. That is, I was trying to build a tool.</p>
-
-<p>Through the introduction to DH course I took with Professor Cordell, I was introduced to a number of pre-packaged tools like Omeka, Neatline, and Gephi. Since then, I’ve learned of many others: atlas.ti, Voyant, and the like. These tools are good and all serve a purpose, but even as I was introduced to them, I got the sense that real digital humanists build their own tools. This is what I set out to do.</p>
+<p>Here I want to focus on the assumptions that went into my early conception of the project as a self-contained, auto-magical genre classifier. Reflecting on this recently, it occurred to me that I was operating on assumptions common to those who are new to DH. That is, I was trying to build a tool. </p>
 
 <p>But the cracks in this idea began to show early. One of the first indications that a ready-made classification tool would never materialize came while reading Ted Underwood’s report <a href="https://figshare.com/articles/Understanding_Genre_in_a_Collection_of_a_Million_Volumes_Interim_Report/1281251" target="_blank">“Understanding Genre in a Collection of a Million Volumes.”</a> He writes that though he’s made his code public, “it definitely is not a tool that could simply be pointed at collections from other libraries, languages, or periods to map them. Our methods can be adapted to other problems. But the process of mapping genres involves too many domain-specific aspects to be packaged as a ‘tool.’” This was a bummer because, had he created such a tool, I most definitely would’ve simply pointed it at my data.</p>
 
@@ -62,11 +61,11 @@
 
 <p>If you haven’t read Healy’s essay, you should, but by way of summary, the object of Healy’s ire, if somehow it’s not completely obvious, is nuance. Specifically, he takes issue with the way the idea of nuance has been forcefully inserted into sociological theory. He provides a helpful visualization that shows, unmistakably, the rise of nuance in sociological academic journals from the 1980s onward–it’s a steep incline. His thesis is that “demanding more nuance typically obstructs the development of theory that is intellectually interesting, empirically generative, or practically successful.” Any academic from any number of disciplines should recognize, if not the problem, than at least the symptoms of it. We’ve all been to conferences where at least one questioner wishes to push back against the presenter by asking if she’s ever considered this or that theory or author–usually the object of study of the questioner. I had never heard the word “problematize” until I started my PhD program, and now I hear it far more often than I care to.</p>
 
-<p>So what does this have to do with tools in DH? My sense is that a ready-made tool is like an overly-nuanced theory, imbued with what Healy calls “Actually-Existing Nuance,” which he defines as “the act of making—or the call to make—some bit of theory ‘richer’ or ‘more sophisticated’ by adding complexity to it, usually by way of some additional dimension, level, or aspect, but in the absence of any strong means of disciplining or specifying the relationship between the new elements and the existing ones.”</p>
+<p>So what does this have to do with tools in DH? My sense is that a ready-made tool is like an overly-nuanced theory, imbued with what Healy calls “Actually-Existing Nuance,” which he defines as “the act of making—or the call to make—some bit of theory ‘richer’ or ‘more sophisticated’ by adding complexity to it, usually by way of some additional dimension, level, or aspect, but in the absence of any strong means of disciplining or specifying the relationship between the new elements and the existing ones.” </p>
 
-<p>This is kind of what I imagined my tool might be, a fully realized genre classifier that takes into account all the complexities, levels, and aspects of whatever genre meant in nineteenth century newspapers. I fell into the trap that many software developers fall into, trying to build something that does everything (open iTunes recently?). But the reality is, a comprehensive tool never materialized, and will never materialize. The concept of genre, it turns out, is mutable over time, space, audience, writer. What actually ended up working is letting the texts define themselves and creating a model tailored to the data. Even the idea to use topics rather than tokens as classifiers is an effort to reduce dimensionality in the model, to do without nuance. It doesn’t work all the time, and requires a lot of paging back and forth across R Script files in R Studio. It doesn’t definitively answer every question about genre that I had when approaching the texts.</p>
+<p>This is kind of what I imagined my tool might be, a fully realized genre classifier that takes into account all the complexities, levels, and aspects of whatever genre meant in nineteenth century newspapers. I fell into the trap that many software developers fall into, trying to build something that does everything (open iTunes recently?). But the reality is, a comprehensive tool never materialized, and will never materialize. The concept of genre, it turns out, is mutable over time, space, audience, writer. What actually ended up working is letting the texts define themselves and creating a model tailored to the data. Even the idea to use topics rather than tokens as classifiers is an effort to reduce dimensionality in the model, to do without nuance. It doesn’t work all the time, and requires a lot of paging back and forth across R Script files in R Studio. It doesn’t definitively answer every question about genre that I had when approaching the texts. </p>
 
-<p>In short, lots of things are left out in order to make my model work well for  other things. At present, it’s really good at seeing top top-level genres, but not so great at digging down into them where the differences between, say, a vignette and an advice piece are trickier to discern. But, as Underwood <a href="https://tedunderwood.com/2016/05/29/the-real-problem-with-distant-reading/" target="_blank">writes</a> reflecting on the call for nuance in DH, “It’s okay to simplify the world in order to investigate a specific question.” He continues, “Something will always be left out, but I don’t think distant reading needs to be pushed toward even more complexity and completism.” Franco Moretti had something to say about this as well in his book <a href="https://www.versobooks.com/books/261-graphs-maps-trees" target="_blank"><em>Graphs, Maps, Trees</em></a>, “Problems without a solution are exactly what we need in a field like ours, where we are used to asking only those questions for which we already have an answer.”</p>
+<p>In short, lots of things are left out in order to make my model work well for  other things. At present, it’s really good at seeing top-level genres, but not so great at digging down into them where the differences between, say, a vignette and an advice piece are trickier to discern. But, as Underwood <a href="https://tedunderwood.com/2016/05/29/the-real-problem-with-distant-reading/" target="_blank">writes</a> reflecting on the call for nuance in DH, “It’s okay to simplify the world in order to investigate a specific question.” He continues, “Something will always be left out, but I don’t think distant reading needs to be pushed toward even more complexity and completism.” Franco Moretti had something to say about this as well in his book <a href="https://www.versobooks.com/books/261-graphs-maps-trees" target="_blank"><em>Graphs, Maps, Trees</em></a>, “Problems without a solution are exactly what we need in a field like ours, where we are used to asking only those questions for which we already have an answer.”</p>
 
 <p>It’s okay if a theory or, in this case, a model, raises problems without a solution, or ends up asking more questions than it answers; we aren’t in the business of looking for definitive answers. That’s not how the humanities work. Julia Flanders <a href="http://digitalhumanities.org/dhq/vol/3/3/000055/000055.html" target="_blank">reminds</a> us to value “Methods and tools that combine what has been gained in power and scale with a real measure of scholarly effort and engagement.” She continues, “the intellectual outcomes will not be judged by their power or speed, but by the same criteria used in humanities scholarship all along: does it make us think? does it make us keep thinking?”</p>
 
@@ -75,13 +74,13 @@
 <p>Though, honestly, at this point in my work, I just hope it won’t be a tool.</p>
 
 	<p class="twitter_plug">If you liked this post, consider
-<a href="https://twitter.com/intent/tweet?url=http://jonathandfitzgerald.com/blog/2016/06/10/genres-and-nuance.html&text=Don't Be a Tool&via=jon_fitzgerald"
+<a href="https://twitter.com/intent/tweet?url=http://jonathandfitzgerald.com/blog/2016/06/10/genres-and-nuance.html&text=Don't Be a Tool&via=jon_fitzgerald" 
    target="_blank">
   sharing it</a>
-or
+or 
 <a href="https://twitter.com/jon_fitzgerald" target="_blank">
   follow me on Twitter</a>.
-	</p>
+	</p>	  
   </div>
 
  <div class="post-comments">
@@ -130,7 +129,23 @@ s.setAttribute('data-timestamp', +new Date());
 	</div>
 	<h3>Recent Posts</h3>
 	<ul class="post-list">
+		
 
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/10/10/the-viral-vignette.html">Computationally Classifying the Vignette Between Fiction and News</a>
+			<br /><span class="post-meta">Oct 10, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/07/13/keystone-paper.html">What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'</a>
+			<br /><span class="post-meta">Jul 13, 2016</span>
+
+		</li>
+		
 
 		<li>
 
@@ -138,7 +153,7 @@ s.setAttribute('data-timestamp', +new Date());
 			<br /><span class="post-meta">Jun 10, 2016</span>
 
 		</li>
-
+		
 
 		<li>
 
@@ -146,7 +161,7 @@ s.setAttribute('data-timestamp', +new Date());
 			<br /><span class="post-meta">Nov 4, 2015</span>
 
 		</li>
-
+		
 
 		<li>
 
@@ -154,31 +169,15 @@ s.setAttribute('data-timestamp', +new Date());
 			<br /><span class="post-meta">Oct 21, 2015</span>
 
 		</li>
-
-
-		<li>
-
-			<a class="sidebar-link" href="/blog/2015/05/19/the-instaessay-archive-past-present-and-future.html">The InstaEssay Archive: Past, Present, and Future</a>
-			<br /><span class="post-meta">May 19, 2015</span>
-
-		</li>
-
-
-		<li>
-
-			<a class="sidebar-link" href="/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html">Re-Presenting Early Modern Pattern Poems as Material Objects</a>
-			<br /><span class="post-meta">May 5, 2015</span>
-
-		</li>
-
+		
 	</ul>
 
 </div>
       </div>
-
-
+				  
+		  
     </div>
-
+	
     <div class="clearfix"></div>
 <footer class="site-footer">
 
@@ -194,21 +193,21 @@ s.setAttribute('data-timestamp', +new Date());
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-
+          
           <li>
             <a href="https://github.com/jonathandfitzgerald"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
 </span><span class="username">jonathandfitzgerald</span></a>
 
           </li>
+          
 
-
-
+          
           <li>
             <a href="https://twitter.com/jon_fitzgerald"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
 </span><span class="username">jon_fitzgerald</span></a>
 
           </li>
-
+          
         </ul>
       </div>
 

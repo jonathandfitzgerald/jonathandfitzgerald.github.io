@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Computationally Classifying the Vignette Between Fiction and News</title>
+  <meta name="description" content="The following is a companion to a paper that Ryan Cordell and I will be presenting at the upcoming ALA 2016 Symposium, The American Short Story: An Expansion...">
+
+  <link rel="stylesheet" href="/jonathandfitzgerald.github.io//css/main.css">
+  <link rel="canonical" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//blog/2016/10/10/the-viral-vignette.html">
+  <link rel="alternate" type="application/rss+xml" title="Jonathan D. Fitzgerald" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+
+
+	<a class="site-title" href="/jonathandfitzgerald.github.io//">Jonathan D. Fitzgerald</a>
+
+	<nav class="site-nav">
+
+
+		<ul><li class=""><a href="/jonathandfitzgerald.github.io//about/">About</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//writing/">Selected Publications</a><ul><li class=""><a href="/jonathandfitzgerald.github.io//writing/nymm/">Not Your Mother's Morals</a><ul></ul></li></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//cv/">CV</a><ul></ul></li><li class="active"><a href="/jonathandfitzgerald.github.io//blog/">Blog</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//contact/">Contact</a><ul></ul></li></ul>
+
+
+
+	</nav>
+
+	</div>
+
+</header>
+
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Computationally Classifying the Vignette Between Fiction and News</h1>
+    <p class="post-meta"><time datetime="2016-10-10T00:00:00-04:00" itemprop="datePublished">Oct 10, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jonathan D. Fitzgerald</span></span></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><em>The following is a companion to a paper that Ryan Cordell and I will be presenting at the upcoming ALA 2016 Symposium, The American Short Story: An Expansion of the Genre. Our paper is titled “Vignettes: Micro-Fictions in the Nineteenth Century Newspaper” and in it we discuss the vignette as an essential genre in antebellum American letters, both influential in the development of sentimental fiction and a precursor to the prose writing later styled “literary journalism.” In preparation for the presentation, I’ve been computationally classifying vignettes in an effort to affirm their hybrid status.</em></p>
+
+<p>We entered into this project with the notion of vignette as hybrid genre and much of my effort to classify genre within our corpus has been an attempt to bring to the surface some of these harder to classify genres. In an effort, then, to consider the hybrid nature of the vignette, I’ve been attempting to use computational classification methods to place it on a spectrum between news and fiction.</p>
+
+<!--more-->
+
+<p>I began with three sets of texts—news items culled from our corpus of reprinted nineteenth century newspapers and identified via my classification model, vignettes also derived from that corpus but identified by manually reading a subset of the larger data set, and fictional short stories, which were derived from the <a href="http://webapp1.dlib.indiana.edu/TEIgeneral/projectinfo.do?brand=wright" target="_blank">Wright American Fiction</a> project out of Indiana University. It was important for us to identify shorter works of fiction from the Wright corpus as we had the sense that vignettes bear a closer resemblance to nineteenth century short stories rather than novels. Thus, from the full set of fiction in the Wright corpus, I manually selected the 200 shortest pieces as indicated by file size. But, even then, the short stories are substantially longer than most news pieces from the Viral Texts corpus, which, in turn are longer than the typical vignette.</p>
+
+<p>In an effort to ensure that the length of the text wasn’t skewing the results unnecessarily, I needed to do some preprocessing on the Wright texts. I started by removing the metadata about the texts that is included in each file derived from the Wright corpus. This includes information like title, author, publisher, etc. Then, I removed all line breaks so that the text would read as a continuous string. from there I sampled down each text to a random selection of 2000 consecutive characters. The logic behind this was that 200 texts of 2000 characters each would create a corpus that is about equal in size to the corpus of news items from the Viral Texts data. Then, I sampled 200 news items from a larger corpus of over 800 texts. Finally, I combined the fiction and news corpora with the 198 vignettes that I had manually identified.</p>
+
+<p>The classification method that I’ve been working with uses topics derived from topic modeling a corpus as tokens, as opposed to words, which are more commonly used. The reasons for this are many (I discuss this at greater length in <a href="http://jonathandfitzgerald.com/blog/2016/07/13/keystone-paper.html" target="_blank">this</a> post), but particularly we’ve found that decreasing the dimensionality in this way leads to a more accurate classifier and, importantly, makes it easier for a human research to understand the computer’s logic. I experimented with different numbers of topics to find a number that would be best suited for classifying texts in my corpus of roughly 600 texts and 50 topics seemed to be the magic number.</p>
+
+<p>I then use these 50 topics to train the model on what constitutes fiction and what constitutes news. Here are some of the topics:</p>
+
+<ol>
+  <li>states united sthe government state</li>
+  <li>people public made power great </li>
+  <li>york ohio texas ram rammy </li>
+  <li>year total 18 amount fiscal </li>
+  <li>war secretary letter general command </li>
+  <li>lord prayer ou thanksgiving brudder </li>
+  <li>man time good young long </li>
+  <li>life heart room night side </li>
+  <li>father wife home mother poor </li>
+  <li>thy thee lay body thou </li>
+  <li>frank circumstances determined harrington henry </li>
+  <li>farmer pay bill aud merchant</li>
+</ol>
+
+<p>If you’re not familiar with topic modeling, the first thing you’ll notice is that these topics are not actually topics in the way you might conceive of that word. That is, it’s not as if these topics tell us what the texts are about. Rather, in topic modeling, topics are groupings of words that are commonly found in close proximity to each other. In fact, the topics you see here are not the full topics, rather they represent the first five words of each topic. </p>
+
+<p>In my corpus, I identify the genres of news and fiction, but label the vignettes as “unknown” since we ultimately want the classifier to identify these as either fiction or news. That is, we’re not telling the computer that we know that the vignettes are vignettes and asking it to tell us what it thinks they might be. So, when the unknown (vignettes) are removed and a model is created, we find that the classifier is very accurate. It can accurately identify news items and fictional pieces around 90% of the time. This is a check to be sure that the classifier is working the way it is supposed to, and once we see that it is, we can introduce the vignettes as unknowns and let the computer classify these. While the numbers can vary, the classifier most often splits the vignettes between news and fiction within a range of 35/65 and 50/50. That is vignettes are most often misclassified as news, but only just barely. In the majority of my experiments, the split is close to even.</p>
+
+<p>What we see then, is that a computational classifier that is highly accurate at determining the difference between news and fiction based on topics derived from topic modeling, finds that vignettes are indeed a hybrid of news and fiction. We have run this experiment using a classifier that is seeded with words instead of topics, and found similar results, though the classifier based on words is not as accurate at determining the difference between news and fiction. And, interestingly, the classifier trained with words most often mistakes the vignette for fiction, as opposed to news. This is kind of cool, and I have to look into it more.</p>
+
+<p>In an effort to ensure that what we are seeing is not just a random sorting of an unknown genre into two known genres, I repeated the experiment using advertisements and poetry derived from the Viral Texts corpus instead of vignettes. Indeed, in these cases the classifier was also effective at guessing what each genre—poetry and ads—was most similar to. That is, poetry is classified as fiction around 80% of the time, and advertisements are classified as news items around 60% to 70% of the time. This last finding might be surprising if you’ve never encountered an advertisement in a nineteenth century newspaper; they are quite prosaic. In fact, they often read similarly to vignettes, which explains why the classifier aligns them more closely with news items.</p>
+
+<p>We are firm believers in the value of combining the skills of distant reading, which I’ve been describing here, with our more traditional and disciplinary practice of close reading, and so the next step in our process was to read the data created by the classifier to determine if we could discern what exactly makes the computer identify some vignettes as news and others fiction. We can do this first by skimming what you might call our appendix—that is, the topics and their alignments as either fiction or news. When we do this, we find, unsurprisingly, that those topics that include more domestic words like young, good, heart, room, home, mother, and farmer align more closely with fiction. On the other hand, topics that include words like united, states, government, public, fiscal, and war align more closely with news. Vignettes, we’ve found, cover a range of topics and thus can be (mis)classified as either fiction or news.</p>
+
+<p>From there, however, we need to dive into the texts themselves and read them more closely in an effort to understand what might make the computer classify them as news or fiction. This process is ongoing and we’ll say more about it in the actual paper, which I’m sure will be posted online by either Ryan or me (or both!) shortly after the conference.</p>
+
+<p>My main goal in posting this here though, in addition to providing supplemental information that won’t be included in the paper we are presenting, is to hopefully get some feedback on the methodology described. Does it seem sound? Any ideas about how I might tweak or refine it? Asking questions at the end of a blog posts always feels a bit like shouting into a black hole, but there you have it.</p>
+
+	<p class="twitter_plug">If you liked this post, consider
+<a href="https://twitter.com/intent/tweet?url=http://jonathandfitzgerald.com/blog/2016/10/10/the-viral-vignette.html&text=Computationally Classifying the Vignette Between Fiction and News&via=jon_fitzgerald" 
+   target="_blank">
+  sharing it</a>
+or 
+<a href="https://twitter.com/jon_fitzgerald" target="_blank">
+  follow me on Twitter</a>.
+	</p>	  
+  </div>
+
+ <div class="post-comments">
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = /blog/2016/10/10/the-viral-vignette.html; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = /blog/2016/10/10/the-viral-vignette; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//jonathandfitzgerald.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+</article>
+
+		  <div id="sidebar">
+
+	<div id="twitter-widget">
+		<h3>Twitter</h3>
+		<a class="twitter-timeline" href="https://twitter.com/jon_fitzgerald" data-widget-id="663212251470503936">Tweets by @jon_fitzgerald</a>
+		<script>
+			! function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0],
+					p = /^http:/.test(d.location) ? 'http' : 'https';
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = p + "://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script>
+	</div>
+	<h3>Recent Posts</h3>
+	<ul class="post-list">
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/10/10/the-viral-vignette.html">Computationally Classifying the Vignette Between Fiction and News</a>
+			<br /><span class="post-meta">Oct 10, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/07/13/keystone-paper.html">What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'</a>
+			<br /><span class="post-meta">Jul 13, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/06/10/genres-and-nuance.html">Don't Be a Tool</a>
+			<br /><span class="post-meta">Jun 10, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2015/11/04/a-stunning-love-letter.html">A “Stunning” Love Letter to Viral Texts: A “sublimely splendiferous” foray into nineteenth century newspapers</a>
+			<br /><span class="post-meta">Nov 4, 2015</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2015/10/21/acting-on-space-and-place.html">Acting In and On Space and Place: A Reflection on Dr. Angel David Nieves’ Recent NULab Lecture</a>
+			<br /><span class="post-meta">Oct 21, 2015</span>
+
+		</li>
+		
+	</ul>
+
+</div>
+      </div>
+				  
+		  
+    </div>
+	
+    <div class="clearfix"></div>
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jonathan D. Fitzgerald</li>
+          <li><a href="mailto:jonathanfitzgerald@me.com">jonathanfitzgerald@me.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jonathandfitzgerald"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jonathandfitzgerald</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jon_fitzgerald"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">jon_fitzgerald</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Digital Human(ist)</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57605617-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

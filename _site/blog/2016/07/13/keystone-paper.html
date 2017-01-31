@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'</title>
+  <meta name="description" content="The following is a lightly revised version of the text of a talk I gave at the 2016 Keystone Digital Humanities Conference, held at the University of Pittsbu...">
+
+  <link rel="stylesheet" href="/jonathandfitzgerald.github.io//css/main.css">
+  <link rel="canonical" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//blog/2016/07/13/keystone-paper.html">
+  <link rel="alternate" type="application/rss+xml" title="Jonathan D. Fitzgerald" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+
+
+	<a class="site-title" href="/jonathandfitzgerald.github.io//">Jonathan D. Fitzgerald</a>
+
+	<nav class="site-nav">
+
+
+		<ul><li class=""><a href="/jonathandfitzgerald.github.io//about/">About</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//writing/">Selected Publications</a><ul><li class=""><a href="/jonathandfitzgerald.github.io//writing/nymm/">Not Your Mother's Morals</a><ul></ul></li></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//cv/">CV</a><ul></ul></li><li class="active"><a href="/jonathandfitzgerald.github.io//blog/">Blog</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//contact/">Contact</a><ul></ul></li></ul>
+
+
+
+	</nav>
+
+	</div>
+
+</header>
+
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'</h1>
+    <p class="post-meta"><time datetime="2016-07-13T00:00:00-04:00" itemprop="datePublished">Jul 13, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jonathan D. Fitzgerald</span></span></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><em>The following is a lightly revised version of the text of a talk I gave at the 2016 Keystone Digital Humanities Conference, held at the University of Pittsburgh. I’m grateful to have had the opportunity to present and for the helpful feedback I received there.</em></p>
+
+<p>I’m happy to be with you today on behalf of the <a href="http://www.viraltexts.org" target="_blank">Viral Texts Project</a>, a project of the <a href="http://nulab.northeastern.edu" target="_blank">NULab for Texts, Maps, and Networks</a> at Northeastern University. The Viral Texts Project was initiated by Professors Ryan Cordell and David Smith as a way to computationally discover reprinted texts in nineteenth century newspapers.<!--more-->In the nineteenth century, due to lax or non-existent copyright laws, it was very common for newspaper editors to reprint content from other papers, sometimes with slight attribution, but often with no acknowledgment at all. In an effort to identify these viral texts, the team created “algorithms for detecting clusters of reused passages embedded within longer documents in large collections” (Smith et al.). This work is described in previous articles, available from the project’s <a href="http://www.viraltexts.org" target="_blank">website</a>, and is not my focus here, but the data that I work with is the direct output of these efforts to identify reprints. </p>
+
+<p>The project was quite successful at identifying reprints—millions of them, in fact—but this led to a new challenge: sorting through those millions of reprints in a meaningful way. A significant goal early on in the genesis of the Viral Texts Project was an effort to create a searchable online archive of reprinted texts that would provide an entry point to the dense corpora of nineteenth century newspapers and allow other scholars to conduct research.</p>
+
+<p>In a recent article in American Literary History, Cordell identifies the challenge: “When every nineteenth-century newspaper brims with original and reprinted content of all kinds, it is difficult to know where to even begin studying that content” (Cordell). Clustering the texts into groups of reprints is one way to begin, another is to group those texts by genre. </p>
+
+<p>Easier said than done. I’m not sure if you’ve ever seen a nineteenth century newspaper, so I wanted to show you one. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.005.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.005.png" alt="image" /></a></p>
+
+<p>As a way to make our texts apparent and to visualize our findings on virality, my colleagues and I created a Neatline <a href="http://loveletter.viraltexts.org" target="_blank">exhibit</a>, which we called “A Stunning Love Letter to Viral Texts.” We annotated a page of The Raftsman’s Journal, a regional paper out of Clearfield, Pennsylvania. We chose this particular paper and this particular issue because it is representative of many nineteenth century newspapers, and also because it contains one of our favorite reprinted texts, here titled “A Stunning Love Letter.” This is online at <a href="http://loveletter.viraltexts.org" target="_blank">loveletter.viraltexts.org</a> and I’ll invite you to explore it, and if nothing else, to read “Love Letter,” because it’s incredible. But I want to show you this to give you a sense both of what a typical nineteenth century newspaper looks like, and also to illustrate just how viral many of these texts could go. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.009.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.009.png" alt="image" /></a></p>
+
+<p>Just about every item you see on this page is a reprint. And take a look at the genres represented—we have poetry, news, fiction, vignettes, lists, jokes, among others. Likewise, the topics represented here are broad; there are pieces about scientific discoveries, etiquette, parenting, religion, and medicine. And, there’s an advertisement.</p>
+
+<p>Suffice it to say that any researcher interested in determining just what made the front page in the nineteenth century, as my talk is titled, would have a difficult time knowing where to start. This broad array of genre and topics, however, also illustrates the challenges related to classifying these texts in a meaningful way. On the page of a newspaper and to a human reader, those genres seem obvious, but how can we map those human understandings of textual difference across millions of clusters? What happens when machine models can’t match human models? These questions and associated challenges, the ways I attempted to overcome them, and how I learned that overcoming the challenges might not be the point at all, will make up the bulk of my talk today.</p>
+
+<p>As you’re undoubtedly aware, genre is an incredibly fluid concept. As Christof Schöch notes, “The concept of literary genre is a highly complex one: not only are different genres frequently defined on several, but not necessarily the same levels of description, but consideration of genres as cognitive, social, or scholarly constructs with a rich history further complicate the matter” (1). </p>
+
+<p>Or, more concisely, according to Ted Underwood, “Centuries of literary scholarship have failed to produce human consensus about genre” (“Understanding Genre” 7). Both Schöch and Underwood are referring to literary genres, and if the ambiguity of genres is a challenge when it comes to differentiating between poetry, prose, and drama and their attendant sub-genres, it is all the more difficult when looking at the broad array represented in nineteenth century newspapers.</p>
+
+<p>As Underwood points out, computers trained by humans to identify genre will be confounded in the same way that human readers are: Underwood writes of his own project to identify genres in texts from the HathiTrust, “The model was trained, after all, on examples tagged by human beings; the whole point of doing that was to reproduce as much as possible the contours of the boundary that separates genres for us” (“Distant Reading”). </p>
+
+<p>My methodology draws on the efforts of several other researchers who, in recent years particularly, have taken up the challenge of using computational methods to identify literary genres. Among these are Jonathan Hope and Michael Witmore who worked with genre in Shakespeare’s plays, Lena Hettinger and colleagues, who tested a variety of computational methods to identify genres in German novels, and most significantly, Ted Underwood who, as I noted, has been working with texts from the HathiTrust. </p>
+
+<p>In my own attempts, I have certainly learned from their efforts, and also very self-consciously tried to infuse my work with the exploratory emphasis that is baked into the work of the Viral Texts Project. That is, as the project developed, my objectives have grown to include not just the creation of an effective classifying method, but also to come to a better understanding of how genres operated in nineteenth century newspapers. I quickly came to understand that I had at my disposal a unique corpus and a means to read that corpus both from a distance and up close. To realize both of these goals, I have been working with Professor Benjamin Schmidt from Northeastern’s history department to develop a classification method that is suitable to the Viral Texts corpus. The method we’re working on uses topics derived from topic modeling a corpus to train a classifier. </p>
+
+<p>In a blog <a href="http://bookworm.benschmidt.org/posts/2015-09-14-Classifying_genre.html" target="_blank">post</a> in which he details his experiments with this method on a corpus of 44,000 television episodes, Schmidt acknowledges Underwood’s work and explains his reason for using topics as opposed to words as features. Schmidt writes, “To reduce dimensionality into the model, we have been thinking of using a topic model as the classifiers instead of the tokens. The idea is that classifiers with more than several dozen variables tend to get finicky and hard to interpret, and with more than a few hundred become completely unmanageable.” So there are practical reasons for seeding a classifier with topics as opposed to words or other features, but, again, I chose to work with this method for the ways in which it could serve my exploratory purposes as well. Combining topic modeling and classifying opens up the corpus in a variety of promising ways.</p>
+
+<p>The first step in creating a classifier to identify genres is to manually assign genres to a selection of texts. That is, I randomly selected 500 clusters from the Viral Texts data, read them, and made decisions regarding their genres. For my first attempt at this, I collaborated with and was guided by Ryan Cordell. Then, after a tremendous update to our database with the inclusion of newspapers from Gale (UK and US), Trove, and APS, in addition to Chronicling America, which is what we started with, I created a new set of hand-tagged genres. After reading over 1,000 clusters, it became clear that the task of assigning genres to the wide array of reprinted material would prove challenging. Poetry, Advertisements, and News were natural choices, but I was left with the question of the various other prose genres that are represented in our corpus. Ideally, I could separate these out into smaller constituents like vignette, sketch, opinion, and advice, but it turns out that the subtle differences between these genres proved confounding for my classifier, as they often do for human readers as well.  Ultimately, I settled on four top-level genres: poetry, news, advertisements, and prose. For each of the clusters tagged prose, I also assigned secondary genres relating both to content and form. I intend to revisit these secondary genres later in an effort to train a classifier to identify distinct genres from among the prose corpus.</p>
+
+<p>While I hand-tagged 500 clusters, in order to get a more accurate training set, I selected 50 clusters of each genre and reintegrated them into a larger corpus of around 4,000 clusters. This is a small fraction of our entire corpus, which at this point reaches to over a million clusters, but enough to test the classifier without overwhelming my computer. Using the “Mallet” package in R, I topic modeled the clusters, removing stop words. I experimented with the number of topics to generate, ranging from 5 to 500, but ultimately found that a relatively low number—around 10 or 20, and recently 12 seems to be a magic number—worked best. </p>
+
+<p>Here is the output of one topic model. You can almost guess the genre by looking at the topic names, but you’ll also notice some bad OCR was picked up as well.</p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.018.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.018.png" alt="image" /></a></p>
+
+<p>I created a matrix of the topics and the probabilities and selected a training set randomly from the matrix. Next, I trained a model using logistic regression and applied the model to each of the four genres. As noted above, one of the benefits of using computational methods for classifying genres is that the results are rendered in terms of probabilities. That is, the output of the classifier indicates the probability that a text belongs to a genre. We can select the genre with the highest probability as a kind of best guess, but it is also useful to see the other probabilities. For now, however, by selecting the best guess I can visualize how the model performed for each genre in the test set. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.020.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.020.png" alt="image" /></a></p>
+
+<p>Here is a histogram where the actual genre appears on the Y-axis and the number of clusters assigned to each genre is on the X-axis. The bar is colored to indicate the genre each cluster was assigned by the classifier. You can see that the prose genre, colored purple here, is slightly problematic; it has the lowest accuracy at around 63% and shows up as miscategorized in each of the other genres. Ads and news items are both mistaken for prose. In this case, some poems were misclassified as ads and prose, and the prose genre itself was mistaken for poetry and advertisements. While this was a particularly good result, with an accuracy of 86%, the results differ each time the classifier is run, therefore, to get a sense of the overall accuracy, I run the classifier a number of times and average the results. Typically, after running the classifier 20 times consecutively, I arrive at somewhere between 75-85% overall accuracy. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.021.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.021.png" alt="image" /></a></p>
+
+<p>As this table illustrates, advertisements, poetry, and news are much more accurately classified than prose, but this is owing to the fact that, again, as a combined genre, prose is, at this point, really a kind of “everything else” category.</p>
+
+<p>I can then apply the model to unknown clusters. I label all clusters without hand-tagged genres as “unknown” and create a data frame that includes just those clusters. I then run the model on that data. The result is every unknown cluster is assigned a genre. I create an additional output that shows me not just the best guess for each cluster, but all of the other guesses as well, arranged in order of probability. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.023.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.023.png" alt="image" /></a></p>
+
+<p>Here’s a visualization showing 25 formerly unknown clusters, the genres they were assigned, and the probability that they belong to each genre. In most cases, the decision is split between two genres, and in a couple cases only one genre is shown meaning that the probability that the cluster belonged to any other genre is too low to be relevant. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.024.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.024.png" alt="image" /></a></p>
+
+<p>Let’s look at cluster 1010332, which you can see is split just about evenly between prose and news. It turns out this is a historical piece about wages in the 1800s, which appeared in 1885. It notes that “on the Pennsylvania canals, the diggers ate the coarsest diet, were housed in the rudest sheds, and paid $6 month from May to November and $5 a month from November to May.”</p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.026.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.026.png" alt="image" /></a></p>
+
+<p>Or check out 1009939, which is classified almost completely as an advertisement. Sure enough. It reads, “If you have coughed and coughed until the lining membrane of your throat and lungs is inflamed, Scott’s Emulsion of Cod-liver Oil will soothe, strengthen and probably cure.” Not very reassuring.</p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.028.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.028.png" alt="image" /></a></p>
+
+<p>Finally, let’s look at 1012062, which is mostly identified as news, but also poetry. This is part of a longer article about the Knights Templar. The piece is occasioned by the triennial conclave in Washington and occupies a full page in the September 19, 1889 issue of the <em>Jamestown Weekly Alert</em>. After a brief history of the knighthood, this List of officers elected in 1886 to the Grand Encampment is offered. Is it news? Poetry? You decide. But joking aside, you can see why it might be misclassified as poetry.</p>
+
+<p>While I’m pleased with these results in the sense that they indicate that the classifier is working well, if I want this data to be useful to other researchers, I want to create a method for verifying the results. To that end, I’ve begun work on a Shiny app that will allow users to check my work. Here’s a screenshot of the work in progress. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.031.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.031.png" alt="image" /></a></p>
+
+<p>As you can see, it serves up the text and asks the viewer if it indeed belongs to the genre it was classified as. If the user selects “No,” a list other possible genres, listed in order of probability, are presented. I hope to have this online soon.</p>
+
+<p>One of the promises of a project like this is, according to Matthew Jockers, to “lead us not only to a deeper understanding of the genres…but also to clearer definitions of genre itself” (77). The more I worked with these texts and attempted to design the most accurate classifier as I could, this quote kept coming back to me. </p>
+
+<p>Of course I want a classifier that performs well, as part of the purpose of this project is to make the texts more accessible to researchers who might be interested in one or another particular genre. As a researcher who studies literary journalism, however, the genres I’m most interested in—vignettes and sketches—fall under that broad category of prose that I have not been terribly successful at identifying. On the one hand, this is frustrating. I’d like to be able to click a button and bring forth every text that I might actually be interested in reading. On the other hand, it occurred to me that not only has this work has been revelatory about genres in nineteenth century newspapers, but also about the definitions of genre itself. </p>
+
+<p>One of my first realizations along these lines came when it occurred to me that I was trying to squeeze newspaper writing from the nineteenth century into the mold of contemporary genres. Aside from poetry, none of the genres look like you’d expect them to look today. Early in my project, before we acquired more data from the latter half of the nineteenth century, it was difficult to even find news in these newspapers. As, I’ve discussed, the wide array of prose genres have little correlation with the kind of writing we expect to find in contemporary newspapers. Even advertisements, written often as narratives or testimonials in the nineteenth century, are unfamiliar. I came to this material with a preset notion of what I would find and until I began to let the data show me what was actually there, I was banging my head against the wall. </p>
+
+<p>In light of this, my project became to better understand the kinds of writing that were popular in the era on their own terms. And then, if there is any way to carry this forward into my research on literary journalism, it is to begin to theorize how and what these genres became as the nineteenth century came to a close and the twentieth century ushered in a dramatic reshaping of the newspaper landscape in the United States. Clearly, we don’t often find poetry or vignettes or even many sketches in contemporary papers. There just wasn’t any room for this kind of writing in the new so-called objective newspaper at the turn of the century. But prose genres still exist in opinion sections, longer, more narrative reportage, and in advice columns. Further, even by the end of the nineteenth century the kind of writing that would become literary journalism moved into magazines and books where the presence of an author showcasing her subjectivity was more welcome. </p>
+
+<p>The most interesting and perhaps most generative aspects of this project are not the genres that are easy to classify, but those that are hard. That prose texts are so often misclassified, and that the ambiguity between them is so great, raises a lot of interesting questions. </p>
+
+<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.038.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.038.png" alt="image" /></a></p>
+
+<p>Those pieces that are clearly prose, but misclassified as poetry, for example, are fascinating because what you’re seeing is poetic language employed for expository or narrative purposes. Like the item in the lop left corner of the above image. Or poems that are more narrative in nature sometimes get misclassified as prose. The piece in the lower left-hand corner is a fun example of that. Scripture passages are often classified as poetry, which, depending on the verse, is actually quite accurate. The passage in the top right corner is an example of this. And by looking at not just the primary genre that the classifier assigned to a piece, but also its secondary genre, some really interesting pieces come forward. I’m particularly interested in those that are classified first as prose and second as poetry. Like the one in the bottom right corner, titled “Sadness.” I have so many more examples, too many to share here, but this gives you a sense of the kind of material we’re working with.</p>
+
+<p>None of this generative interchange between genres was immediately clear to me when I came to the Viral Texts Project with the lofty goal of creating an accurate classifier, but the time spent reading texts and hand-tagging their genres, topic modeling them and studying the output, fine tuning a classifier, and going back and reading the results has, as all good research in the humanities should do, conjured up a new set of questions. </p>
+
+<p>Paige Morgan, the Digital Humanities Librarian at the University of Miami, recently <a href="https://twitter.com/paigecmorgan/status/739222187945525248" target="_blank">tweeted</a>, “So much of working with data is just looking at the data,” to which I added, “and reading it.” Computational methods will continue to be helpful in considering these questions, of course, but so too will be delving into the texts and reading. </p>
+
+<p><a href="https://twitter.com/paigecmorgan/status/739222187945525248" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.040.png" alt="image" /></a></p>
+
+<p>Returning to Matthew Jockers once more; in a paper he co-authored with David Mimno, they write, “The models we present here cannot represent the full meaning of individual books any more than satellite photos can show the details of individual trees. Like the satellite view, however, these macro-, or ‘distant-,’ scale perspectives on literature offer scholars a necessary context for and complement to closer readings” (768). Reading from afar and reading closely—these methods are not at odds, but complimentary and, I’d argue, necessary for this kind of work.</p>
+
+<p><strong>Works Cited</strong></p>
+
+<p>Cordell, Ryan. “Reprinting, Circulation, and the Network Author in Antebellum Newspapers.” <em>American Literary History</em> 27, no. 3 (September 1, 2015): 417–45. doi:10.1093/alh/ajv028.</p>
+
+<p>Jockers, Matthew Lee. <em>Macroanalysis: Digital Methods and Literary History</em>, 2013.</p>
+
+<p>Jockers, Matthew L., and David Mimno. “Significant Themes in 19th-Century Literature.” <em>Poetics</em>, Topic Models and the Cultural Sciences, 41, no. 6 (2013): 750–69. doi:10.1016/j.poetic.2013.08.005.</p>
+
+<p>Schöch, Christoph. “Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama.” <em>Digital Humanities Quarterly</em>, forthcoming.</p>
+
+<p>Smith, David A., Ryan Cordell, Elizabeth Maddock Dillon, Nick Stramp, and John Wilkerson. “Detecting and Modeling Local Text Reuse.” In <em>Proceedings of the 14th ACM/IEEE-CS Joint Conference on Digital Libraries</em>, 183–92. IEEE Press, 2014. http://dl.acm.org/citation.cfm?id=2740800.</p>
+
+<p>Underwood, Ted. “Distant Reading and the Blurry Edges of Genre.” The Stone and the Shell, October 22, 2014. http://tedunderwood.com/2014/10/22/distant-reading-and-the-blurry-edges-of-genre/.</p>
+
+<p>———. “Understanding Genre in a Collection of a Million Volumes.” University of Illinois, Urbana-Champaign, December 29, 2014.</p>
+
+	<p class="twitter_plug">If you liked this post, consider
+<a href="https://twitter.com/intent/tweet?url=http://jonathandfitzgerald.com/blog/2016/07/13/keystone-paper.html&text=What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'&via=jon_fitzgerald" 
+   target="_blank">
+  sharing it</a>
+or 
+<a href="https://twitter.com/jon_fitzgerald" target="_blank">
+  follow me on Twitter</a>.
+	</p>	  
+  </div>
+
+ <div class="post-comments">
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = /blog/2016/07/13/keystone-paper.html; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = /blog/2016/07/13/keystone-paper; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//jonathandfitzgerald.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+</article>
+
+		  <div id="sidebar">
+
+	<div id="twitter-widget">
+		<h3>Twitter</h3>
+		<a class="twitter-timeline" href="https://twitter.com/jon_fitzgerald" data-widget-id="663212251470503936">Tweets by @jon_fitzgerald</a>
+		<script>
+			! function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0],
+					p = /^http:/.test(d.location) ? 'http' : 'https';
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = p + "://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script>
+	</div>
+	<h3>Recent Posts</h3>
+	<ul class="post-list">
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/10/10/the-viral-vignette.html">Computationally Classifying the Vignette Between Fiction and News</a>
+			<br /><span class="post-meta">Oct 10, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/07/13/keystone-paper.html">What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'</a>
+			<br /><span class="post-meta">Jul 13, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/06/10/genres-and-nuance.html">Don't Be a Tool</a>
+			<br /><span class="post-meta">Jun 10, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2015/11/04/a-stunning-love-letter.html">A “Stunning” Love Letter to Viral Texts: A “sublimely splendiferous” foray into nineteenth century newspapers</a>
+			<br /><span class="post-meta">Nov 4, 2015</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2015/10/21/acting-on-space-and-place.html">Acting In and On Space and Place: A Reflection on Dr. Angel David Nieves’ Recent NULab Lecture</a>
+			<br /><span class="post-meta">Oct 21, 2015</span>
+
+		</li>
+		
+	</ul>
+
+</div>
+      </div>
+				  
+		  
+    </div>
+	
+    <div class="clearfix"></div>
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jonathan D. Fitzgerald</li>
+          <li><a href="mailto:jonathanfitzgerald@me.com">jonathanfitzgerald@me.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jonathandfitzgerald"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jonathandfitzgerald</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jon_fitzgerald"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">jon_fitzgerald</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Digital Human(ist)</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57605617-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

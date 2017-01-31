@@ -17,7 +17,7 @@ hr {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 Cheltenham, Times, "Times New Roman", serif;
+  font: 400 18px/1.5 Cheltenham, Times, "Times New Roman", serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -55,7 +55,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 15.75px; }
 
 /**
  * Lists
@@ -153,6 +153,9 @@ pre {
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
+
+.post-list h2 {
+  margin-bottom: 0; }
 
 /**
  * Site header
@@ -288,7 +291,7 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 15.75px;
   color: #828282; }
 
 .post-link {
@@ -444,8 +447,9 @@ article {
     font-size: 14px;
     line-height: normal;
     float: none;
-    width: 98%;
-    margin: 0 auto; }
+    width: 300px;
+    margin: 5px auto;
+    display: block; }
 
   .site-nav ul {
     margin-left: 0; }
@@ -453,10 +457,17 @@ article {
   .site-nav li {
     margin-right: 5px;
     margin-left: 5px;
-    text-align: center; }
+    text-align: center;
+    font-size: 14px; }
 
   #twitter-widget {
     display: none; } }
+.post-list h2 {
+  margin-bottom: 0; }
+
+.publist {
+  font-style: italic; }
+
 /**
  * Syntax highlighting styles
  */
