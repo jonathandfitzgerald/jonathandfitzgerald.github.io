@@ -11,7 +11,7 @@ weight: 4
 
 --------------------------------------------------------------------------------
 
-# Teaching Experience
+## Teaching Experience
 
 **Teaching Assistant, HIST 7219: Humanities Data Analysis**, Northeastern University, _Spring 2017_
 
