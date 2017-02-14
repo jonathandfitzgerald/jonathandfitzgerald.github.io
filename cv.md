@@ -216,8 +216,8 @@ HTML, CSS, XML/TEI, R, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network An
 
 # Memberships
 
-**International Association for Literary Journalism Studies**
-**Modern Language Association**
-**Association for Computers and Humanities**
-**Alliance of Digital Humanities Organizations**
-**American Studies Association**
+**International Association for Literary Journalism Studies**  
+**Modern Language Association**  
+**Association for Computers and Humanities**  
+**Alliance of Digital Humanities Organizations**  
+**American Studies Association**  
