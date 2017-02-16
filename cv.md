@@ -35,11 +35,11 @@ weight: 4
 
 **Graduate Assistant, English Department**, University of Massachusetts, _2004 - 2005_
 
-# Research Experience
+## Research Experience
 
 **Research Assistant, Viral Texts Project**, Northeastern University, _Fall 2015 - Present_
 
-# Other Experience
+## Other Experience
 
 **Managing Editor**, Digital Humanities Quarterly, _Summer 2015 - Present_
 
@@ -49,8 +49,7 @@ weight: 4
 
 **Freelance Writer**, Various Publications, _2005 – Present_
 
-# Education
-
+## Education
 
 **PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2019_
 
@@ -58,11 +57,11 @@ weight: 4
 
 **Bachelor of Arts, English Language and Literature**, Gordon College, _2003_
 
-# Fields of Study
+## Fields of Study
 
 Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth century American non-fiction, American religion
 
-# Fellowships, Grants, and Awards
+## Fellowships, Grants, and Awards
 
 **NULab Travel Grant**, NULab for Texts, Maps, and Networks, Northeastern University, _Fall 2016_
 
@@ -74,7 +73,7 @@ Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth
 
 **ACH Bursary**, The Association for Computers and the Humanities, Keystone DH Conference, University of Pennsylvania, _July 2015_
 
-# Selected Courses Taught
+## Selected Courses Taught
 
 **Humanities Data Analysis (TA)**, Northeastern University
 
@@ -106,7 +105,7 @@ Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth
 
 **Introduction to Western Literature (TA)**, UMass, Boston
 
-# Selected Scholarly Writing
+## Selected Scholarly Writing
 
 
 **Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim's Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**, _Literary Journalism Studies_, Vol. 7\. No. 1, _Spring 2015_
@@ -116,7 +115,7 @@ Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth
 **Article: "New Kenyan Writers: The Narratives of Binyavanga Wainaina and Yvonne Owuor"**, _December 2009_
 _Journal of African Literature_, No. 6, _December 2009_
 
-# Selected Public Writing
+## Selected Public Writing
 
 
 **Feature: "Boston career changers can find plenty of helping hands"**, The Boston Globe, _April 2016_
@@ -152,7 +151,7 @@ _Journal of African Literature_, No. 6, _December 2009_
 
 **Book Review: What is the What by Dave Eggars**, Books and Culture, _Spring 2007_
 
-# Digital Initiatives and Projects
+## Digital Initiatives and Projects
 
 
 **A 'Stunning' Love Letter to Viral Texts**, Viral Texts Project, _Fall 2015_  
@@ -165,12 +164,12 @@ Link: [Re-Presenting Early Modern Pattern Poems as Material Objects](/blog/2015/
 **The InstaEssay Archive**, _Spring 2015 - Present_  
 Link: [The InstaEssay Archive](http://instaessayarchive.org)
 
-# Scholarly Editing
+## Scholarly Editing
 
 **Knowledge, Nature, Culture: An Introduction to the Humanities and Social Sciences**, Contributing Editor,
 Stevens Institute of Technology, _Spring 2011_
 
-# Selected Presentations
+## Selected Presentations
 
 **Paper: "Vignettes: Micro-Fictions in the Nineteenth Century Newspaper" w/Ryan Cordell**, 2016 ALA Symposium: The American Short Story: An Expansion of the Genre, Savannah, GA, _October 2016_
 
@@ -187,7 +186,7 @@ Stevens Institute of Technology, _Spring 2011_
 
 **Paper: "Radical & Relevant: Searching for a Culturally Significant Christ"**, Christ in Cultures Conference, Gordon College, _September 2006_
 
-# Invited Talks & Media Appearances
+## Invited Talks & Media Appearances
 
 **Know the News**, Panel, Eastern Nazerene College, _September 2016_
 
@@ -203,18 +202,18 @@ Stevens Institute of Technology, _Spring 2011_
 
 **Featured Panelist**, ABC News' "Focus on Faith", _February 2011_
 
-# Institutional Service
+## Institutional Service
 
 **Panel Planning Committee Member**, English Graduate Student Association Conference "The Imaginary", Northeastern University, _Spring 2016_
 
 **Organizer**
 The Northern Shores Writers Retreat, Eastern Nazarene College, _January 2013_
 
-# Technical Proficiencies
+## Technical Proficiencies
 
 HTML, CSS, XML/TEI, R, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network Analysis
 
-# Memberships
+## Memberships
 
 **International Association for Literary Journalism Studies**  
 **Modern Language Association**  
