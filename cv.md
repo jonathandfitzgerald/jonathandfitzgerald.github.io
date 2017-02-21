@@ -188,7 +188,7 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Invited Talks & Media Appearances
 
-**Know the News**, Panel, Eastern Nazerene College, _September 2016_
+**Know the News**, Panel, Eastern Nazarene College, _September 2016_
 
 **Viral Texts: An Informal Talk & Discussion**, Boston College, _September 2016_
 
