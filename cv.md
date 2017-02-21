@@ -205,7 +205,9 @@ Stevens Institute of Technology, _Spring 2011_
 
 **Know the News**, Panel, Eastern Nazarene College, _September 2016_
 
-**Viral Texts: An Informal Talk & Discussion**, Boston College, _September 2016_
+**Viral Texts: An Informal Talk & Discussion**, Boston College, _September 2016_  
+
+**On-air Commentary**, "Dear Gordon College, You Do Not Speak For Me", WBUR, _July 2014_  
 
 **Featured Guest**, "Millennial Irony", HuffPo Live, _January 2013_
 
