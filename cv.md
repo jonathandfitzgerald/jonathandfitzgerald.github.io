@@ -118,8 +118,23 @@ _Journal of African Literature_, No. 6, _December 2009_
 ## Selected Public Writing
 
 
-**Feature: "Boston career changers can find plenty of helping hands"**, The Boston Globe, _April 2016_
+**Feature: "Boston career changers can find plenty of helping hands"**, The Boston Globe, _April 2016_  
 
+**Blog Post: "Coming Out from the Cloister"**, GradHacker - InsideHigherEd.com, _June 2015_  
+
+**Blog Post: "Parenting in Public"**, GradHacker - InsideHigherEd.com, _April 2015_  
+
+**Op-Ed: "Dear Gordon College, You Do Not Speak For Me"**, Cognoscenti - WBUR, _July 2014_  
+
+**Book Review: Jeff Sharlet’s ‘Radiant Truths’: How Religion Shaped American Literary Journalism"**, The Daily Beast, _May 2014_  
+
+**Article: "Boston Marathon Bombings: Making Sense of the Social Media Blitz"**, Time.com, _April 2014_  
+
+**Article: "From Modesty to Maxim"**, On Faith, _February 2014_  
+
+**Op-Ed: "Lena Dunham is the New John Updike -- But Not in a Good Way"**, Cognoscenti - WBUR, _January 2014_  
+
+**Op-Ed: "The Tolerance Paradox"**, Cognoscenti - WBUR, _September 2013_  
 
 **Feature: "On a Mission to Save Godless Massachusetts"**, The Boston Globe, _August 2013_
 
