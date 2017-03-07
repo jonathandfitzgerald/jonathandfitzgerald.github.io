@@ -9,9 +9,9 @@
   <title>What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'</title>
   <meta name="description" content="The following is a lightly revised version of the text of a talk I gave at the 2016 Keystone Digital Humanities Conference, held at the University of Pittsbu...">
 
-  <link rel="stylesheet" href="/jonathandfitzgerald.github.io//css/main.css">
-  <link rel="canonical" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//blog/2016/07/13/keystone-paper.html">
-  <link rel="alternate" type="application/rss+xml" title="Jonathan D. Fitzgerald" href="http://jonathandfitzgerald.com/jonathandfitzgerald.github.io//feed.xml">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jonathandfitzgerald.com/blog/2016/07/13/keystone-paper.html">
+  <link rel="alternate" type="application/rss+xml" title="Jonathan D. Fitzgerald" href="http://jonathandfitzgerald.com/feed.xml">
 </head>
 
 
@@ -21,12 +21,12 @@
 
 
 
-	<a class="site-title" href="/jonathandfitzgerald.github.io//">Jonathan D. Fitzgerald</a>
+	<a class="site-title" href="/">Jonathan D. Fitzgerald</a>
 
 	<nav class="site-nav">
 
 
-		<ul><li class=""><a href="/jonathandfitzgerald.github.io//about/">About</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//writing/">Selected Publications</a><ul><li class=""><a href="/jonathandfitzgerald.github.io//writing/nymm/">Not Your Mother's Morals</a><ul></ul></li></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//cv/">CV</a><ul></ul></li><li class="active"><a href="/jonathandfitzgerald.github.io//blog/">Blog</a><ul></ul></li><li class=""><a href="/jonathandfitzgerald.github.io//contact/">Contact</a><ul></ul></li></ul>
+		<ul><li class=""><a href="/about/">About</a><ul></ul></li><li class=""><a href="/writing/">Selected Publications</a><ul><li class=""><a href="/writing/nymm/">Not Your Mother's Morals</a><ul></ul></li></ul></li><li class=""><a href="/cv/">CV</a><ul></ul></li><li class="active"><a href="/blog/">Blog</a><ul></ul></li><li class=""><a href="/contact/">Contact</a><ul></ul></li></ul>
 
 
 
@@ -59,11 +59,11 @@
 
 <p>Easier said than done. I’m not sure if you’ve ever seen a nineteenth century newspaper, so I wanted to show you one. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.005.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.005.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.005.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.005.png" alt="image" /></a></p>
 
 <p>As a way to make our texts apparent and to visualize our findings on virality, my colleagues and I created a Neatline <a href="http://loveletter.viraltexts.org" target="_blank">exhibit</a>, which we called “A Stunning Love Letter to Viral Texts.” We annotated a page of The Raftsman’s Journal, a regional paper out of Clearfield, Pennsylvania. We chose this particular paper and this particular issue because it is representative of many nineteenth century newspapers, and also because it contains one of our favorite reprinted texts, here titled “A Stunning Love Letter.” This is online at <a href="http://loveletter.viraltexts.org" target="_blank">loveletter.viraltexts.org</a> and I’ll invite you to explore it, and if nothing else, to read “Love Letter,” because it’s incredible. But I want to show you this to give you a sense both of what a typical nineteenth century newspaper looks like, and also to illustrate just how viral many of these texts could go. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.009.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.009.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.009.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.009.png" alt="image" /></a></p>
 
 <p>Just about every item you see on this page is a reprint. And take a look at the genres represented—we have poetry, news, fiction, vignettes, lists, jokes, among others. Likewise, the topics represented here are broad; there are pieces about scientific discoveries, etiquette, parenting, religion, and medicine. And, there’s an advertisement.</p>
 
@@ -87,39 +87,39 @@
 
 <p>Here is the output of one topic model. You can almost guess the genre by looking at the topic names, but you’ll also notice some bad OCR was picked up as well.</p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.018.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.018.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.018.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.018.png" alt="image" /></a></p>
 
 <p>I created a matrix of the topics and the probabilities and selected a training set randomly from the matrix. Next, I trained a model using logistic regression and applied the model to each of the four genres. As noted above, one of the benefits of using computational methods for classifying genres is that the results are rendered in terms of probabilities. That is, the output of the classifier indicates the probability that a text belongs to a genre. We can select the genre with the highest probability as a kind of best guess, but it is also useful to see the other probabilities. For now, however, by selecting the best guess I can visualize how the model performed for each genre in the test set. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.020.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.020.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.020.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.020.png" alt="image" /></a></p>
 
 <p>Here is a histogram where the actual genre appears on the Y-axis and the number of clusters assigned to each genre is on the X-axis. The bar is colored to indicate the genre each cluster was assigned by the classifier. You can see that the prose genre, colored purple here, is slightly problematic; it has the lowest accuracy at around 63% and shows up as miscategorized in each of the other genres. Ads and news items are both mistaken for prose. In this case, some poems were misclassified as ads and prose, and the prose genre itself was mistaken for poetry and advertisements. While this was a particularly good result, with an accuracy of 86%, the results differ each time the classifier is run, therefore, to get a sense of the overall accuracy, I run the classifier a number of times and average the results. Typically, after running the classifier 20 times consecutively, I arrive at somewhere between 75-85% overall accuracy. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.021.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.021.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.021.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.021.png" alt="image" /></a></p>
 
 <p>As this table illustrates, advertisements, poetry, and news are much more accurately classified than prose, but this is owing to the fact that, again, as a combined genre, prose is, at this point, really a kind of “everything else” category.</p>
 
 <p>I can then apply the model to unknown clusters. I label all clusters without hand-tagged genres as “unknown” and create a data frame that includes just those clusters. I then run the model on that data. The result is every unknown cluster is assigned a genre. I create an additional output that shows me not just the best guess for each cluster, but all of the other guesses as well, arranged in order of probability. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.023.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.023.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.023.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.023.png" alt="image" /></a></p>
 
 <p>Here’s a visualization showing 25 formerly unknown clusters, the genres they were assigned, and the probability that they belong to each genre. In most cases, the decision is split between two genres, and in a couple cases only one genre is shown meaning that the probability that the cluster belonged to any other genre is too low to be relevant. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.024.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.024.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.024.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.024.png" alt="image" /></a></p>
 
 <p>Let’s look at cluster 1010332, which you can see is split just about evenly between prose and news. It turns out this is a historical piece about wages in the 1800s, which appeared in 1885. It notes that “on the Pennsylvania canals, the diggers ate the coarsest diet, were housed in the rudest sheds, and paid $6 month from May to November and $5 a month from November to May.”</p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.026.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.026.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.026.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.026.png" alt="image" /></a></p>
 
 <p>Or check out 1009939, which is classified almost completely as an advertisement. Sure enough. It reads, “If you have coughed and coughed until the lining membrane of your throat and lungs is inflamed, Scott’s Emulsion of Cod-liver Oil will soothe, strengthen and probably cure.” Not very reassuring.</p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.028.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.028.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.028.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.028.png" alt="image" /></a></p>
 
 <p>Finally, let’s look at 1012062, which is mostly identified as news, but also poetry. This is part of a longer article about the Knights Templar. The piece is occasioned by the triennial conclave in Washington and occupies a full page in the September 19, 1889 issue of the <em>Jamestown Weekly Alert</em>. After a brief history of the knighthood, this List of officers elected in 1886 to the Grand Encampment is offered. Is it news? Poetry? You decide. But joking aside, you can see why it might be misclassified as poetry.</p>
 
 <p>While I’m pleased with these results in the sense that they indicate that the classifier is working well, if I want this data to be useful to other researchers, I want to create a method for verifying the results. To that end, I’ve begun work on a Shiny app that will allow users to check my work. Here’s a screenshot of the work in progress. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.031.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.031.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.031.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.031.png" alt="image" /></a></p>
 
 <p>As you can see, it serves up the text and asks the viewer if it indeed belongs to the genre it was classified as. If the user selects “No,” a list other possible genres, listed in order of probability, are presented. I hope to have this online soon.</p>
 
@@ -133,7 +133,7 @@
 
 <p>The most interesting and perhaps most generative aspects of this project are not the genres that are easy to classify, but those that are hard. That prose texts are so often misclassified, and that the ambiguity between them is so great, raises a lot of interesting questions. </p>
 
-<p><a href="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.038.png" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.038.png" alt="image" /></a></p>
+<p><a href="/assets/KeystoneDH - Presentation.038.png" target="_blank"><img src="/assets/KeystoneDH - Presentation.038.png" alt="image" /></a></p>
 
 <p>Those pieces that are clearly prose, but misclassified as poetry, for example, are fascinating because what you’re seeing is poetic language employed for expository or narrative purposes. Like the item in the lop left corner of the above image. Or poems that are more narrative in nature sometimes get misclassified as prose. The piece in the lower left-hand corner is a fun example of that. Scripture passages are often classified as poetry, which, depending on the verse, is actually quite accurate. The passage in the top right corner is an example of this. And by looking at not just the primary genre that the classifier assigned to a piece, but also its secondary genre, some really interesting pieces come forward. I’m particularly interested in those that are classified first as prose and second as poetry. Like the one in the bottom right corner, titled “Sadness.” I have so many more examples, too many to share here, but this gives you a sense of the kind of material we’re working with.</p>
 
@@ -141,7 +141,7 @@
 
 <p>Paige Morgan, the Digital Humanities Librarian at the University of Miami, recently <a href="https://twitter.com/paigecmorgan/status/739222187945525248" target="_blank">tweeted</a>, “So much of working with data is just looking at the data,” to which I added, “and reading it.” Computational methods will continue to be helpful in considering these questions, of course, but so too will be delving into the texts and reading. </p>
 
-<p><a href="https://twitter.com/paigecmorgan/status/739222187945525248" target="_blank"><img src="/jonathandfitzgerald.github.io//assets/KeystoneDH - Presentation.040.png" alt="image" /></a></p>
+<p><a href="https://twitter.com/paigecmorgan/status/739222187945525248" target="_blank"><img src="/assets/KeystoneDH - Presentation.040.png" alt="image" /></a></p>
 
 <p>Returning to Matthew Jockers once more; in a paper he co-authored with David Mimno, they write, “The models we present here cannot represent the full meaning of individual books any more than satellite photos can show the details of individual trees. Like the satellite view, however, these macro-, or ‘distant-,’ scale perspectives on literature offer scholars a necessary context for and complement to closer readings” (768). Reading from afar and reading closely—these methods are not at odds, but complimentary and, I’d argue, necessary for this kind of work.</p>
 
