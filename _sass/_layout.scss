@@ -22,13 +22,13 @@
     margin-bottom: 0;
 	letter-spacing: 1px;
     float: left;
-	text-transform: uppercase;
+	text-transform: none;
 
 
     &,
     &:visited {
         color: $grey-color-dark;
-		
+
 		&:hover {
 			color: $brand-color;
 			text-decoration: none;
@@ -52,13 +52,13 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
-		
+
     }
 
 
-	
+
     @include media-query($on-palm) {
-       
+
 
         .menu-icon {
             display: block;
@@ -381,7 +381,7 @@ article {
 	article {
 		width: 100%;
 		border-right: none;
-		padding-right: 0;	
+		padding-right: 0;
 	}
 	.bracket {
 		display: none;
@@ -392,7 +392,7 @@ article {
 	.site-title,
 	.site-nav {
 		float: none;
-		
+
 	}
 	.site-title {
 		font-size: 20px;
@@ -403,7 +403,7 @@ article {
 		display: block;
 		line-height: normal;
 	}
-	
+
 	.site-nav {
 		font-size: 14px;
 		line-height: normal;
@@ -412,11 +412,11 @@ article {
 		margin: 5px auto;
 		display: block;
 	}
-	
+
 	.site-nav ul {
 		margin-left: 0;
 	}
-	
+
 	.site-nav li {
 		margin-right: 5px;
 		margin-left: 5px;
