@@ -178,7 +178,7 @@ pre {
   margin-bottom: 0;
   letter-spacing: 1px;
   float: left;
-  text-transform: uppercase; }
+  text-transform: none; }
   .site-title, .site-title:visited {
     color: #424242; }
     .site-title:hover, .site-title:visited:hover {
