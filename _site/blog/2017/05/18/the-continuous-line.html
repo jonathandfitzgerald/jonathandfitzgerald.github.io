@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Continuous Line: Visualizing the History of American Literary Journalism</title>
+  <meta name="description" content="The following is an adapted version of a work-in-progress talk at The Twelfth International Conference for Literary Journalism Studies in Halifax, Nova Scoti...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jonathandfitzgerald.com/blog/2017/05/18/the-continuous-line.html">
+  <link rel="alternate" type="application/rss+xml" title="Jonathan D. Fitzgerald" href="http://jonathandfitzgerald.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+
+
+	<a class="site-title" href="/">Jonathan D. Fitzgerald</a>
+
+	<nav class="site-nav">
+
+
+		<ul><li class=""><a href="/about/">About</a><ul></ul></li><li class=""><a href="/writing/">Selected Publications</a><ul><li class=""><a href="/writing/nymm/">Not Your Mother's Morals</a><ul></ul></li></ul></li><li class=""><a href="/cv/">CV</a><ul></ul></li><li class="active"><a href="/blog/">Blog</a><ul></ul></li><li class=""><a href="/contact/">Contact</a><ul></ul></li></ul>
+
+
+
+	</nav>
+
+	</div>
+
+</header>
+
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">The Continuous Line: Visualizing the History of American Literary Journalism</h1>
+    <p class="post-meta"><time datetime="2017-05-18T00:00:00-04:00" itemprop="datePublished">May 18, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jonathan D. Fitzgerald</span></span></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><em>The following is an adapted version of a work-in-progress talk at The Twelfth International Conference for Literary Journalism Studies in Halifax, Nova Scotia on May 11, 2017.</em></p>
+
+<p><em>TL;DR: I built an online database of works of and about literary journalism, available at <a href="http://ljbib.jonathandfitzgerald.com">ljbib.jonathandfitzgerald.com</a>.</em></p>
+
+<p>In thinking about how to frame this particular work in progress that I’m presenting here today, as well as the larger work that it is a part of (namely, my dissertation), I realized that they are both responses to particular challenges. Let me explain. When I began my study of literary journalism, I arrived first, as I’m sure many others did as well, at Norman Sims’ seminal book <em>True Stories</em>. In lieu of a master class on literary journalism, this book serves the purpose for many of us.</p>
+
+<!--more-->
+
+<p>And I’ll never forget when I read the opening words of chapter two, in which Sims writes, “Tracing the history of literary journalism backward from the twentieth century into the 1800s, I find that it vanishes into a maze of local publications” (43). And, on the next page, he continues, “Looking for literary journalism in the nineteenth century seems daunting” (44). In the margin of my copy of the book, next to the opening lines of chapter two, I wrote “this is a challenge.” And it was a challenge I intended to take up.</p>
+
+<p>I had recently begun work on the <a href="http://www.viraltexts.org">Viral Texts Project</a>, a digital research initiative led by my advisor at Northeastern University, Ryan Cordell. Using machine learning techniques, we comb through nineteenth century newspapers in search of frequently reprinted texts; texts that, in the modern parlance, went viral. So, when I read Sims’ observation that the roots of literary journalism vanish into “a maze of local publications,” I thought, I have access to those publications, and I wanted to find those roots. This has formed the basis of my dissertation project, which I’ll discuss in more depth in a moment.</p>
+
+<p>The second challenge came in the form of an observation by another pillar of literary journalism studies, Thomas Connery.</p>
+
+<p>In the preface to <em>A Sourcebook of American Literary Journalism</em>, Connery conceptualizes the history of literary journalism through a series of distinct periods, and he insists, “the line from the nineteenth through the twentieth century is continuous” (xiii). As I began to consider the history of literary journalism, I wondered if this continuous line truly exists, and further, whether I could visualize it. And that impulse is what ignited the spark that led to the particular project I’m presenting today.</p>
+
+<p>In part as a way to procrastinate writing my comprehensive exam paper about the history of literary journalism, I decided to try to see if I could visualize that history using methods derived from the digital humanities. I call this productive procrastination. In order to make the distinct periods of literary journalism as well as the continuous line visible, I created a data visualization based on a comprehensive bibliography of the genre, which I am compiling by mining and combining already extant bibliographies, as well as adding to the available bibliographies.</p>
+
+<p>I have derived my data from five prominent sources:</p>
+
+<ul>
+  <li><em>True Stories: A Century of Literary Journalism</em>, Norman Sims</li>
+  <li><em>Literary Journalism in the Twentieth Century</em>, Norman Sims, ed.</li>
+  <li>“Selected Bibliography of Literary Journalism Scholarship.” <em>Literary Journalism Studies</em>, Miles Maguire and Roberta Maguire, Spring 2011</li>
+  <li>“Selected Bibliography of Scholarship and Criticism Examining Literary Journalism: New Additions.” <em>Literary Journalism Studies</em>, Miles Maguire and Roberta Maguire, Fall 2011</li>
+  <li><em>The Art of Fact: A Historical Anthology of Literary Journalism</em>, Kevin Kerrane and Ben Yagoda</li>
+</ul>
+
+<p>My thought here is that now, still somewhat early in the development of this field of literary journalism studies, we are in the process of canon building, so I tried to pull together prominent sources that would be recognizable and respected by scholars in the field.</p>
+
+<p>I extracted the text from the above sources by finding electronic versions, and copying the OCR’d text. Then, I wrote a script in <code>R</code> that relied on a series of <code>gsub</code> functions and complex regular expressions to extract element such as author name, title of the work, and, most crucially, date of publication. For example, to get the author name from the two LJS bibliographies as well as Sims’ bibliographies, which are all in MLA format, I used the following <code>gsub</code>:</p>
+
+<p><code>r
+gsub("((^[a-zA-Z]+( [a-zA-Z])?[a-zA-Z]*)|(^[a-zA-Z\u00C0-\u017F]*)|(^[a-zA-Z]+(’[a-zA-Z])?[a-zA-Z]*)), ([A-Za-z]{1,20}|[A-Za-z]{1,20}).*","\\1",.)
+</code></p>
+
+<p>There might be more elegant ways to write this, but ultimately it is an effort to account for variations in names, including apostrophes and accent marks.</p>
+
+<p>To extract titles, I wrote the following:</p>
+
+<p><code>r
+gsub("(^.*(“(.*)\\W”.*))|(^.*?\\. ([A-Z].*?)\\. [A-Z]*.*)","\\3\\5",.)
+</code></p>
+
+<p>Getting the years from the bibliograhies is a bit more straightforward:</p>
+
+<p><code>r
+gsub(".*(\\d{4}).*","\\1",.)
+</code></p>
+
+<p>I used slightly different configurations of the above to extract data from <em>The Art of Fact</em> because I was working from the table of contents rather than a bibliography.</p>
+
+<p>I created a dataframe that included columns for the full citation, the source of the entry, whether it is a primary or secondary source, year of publication, author last name, and author first name. I also created a unique id for each entry by combining the author’s last name and year of publication. Finally, using Lincoln Mullen’s <code>gender</code> package, detailed <a href="https://cran.r-project.org/web/packages/gender/vignettes/predicting-gender.html">here</a>, I determined the gender of each author. (I manually assigned gender where it was unclear from the first name or the name was abbreviated.)</p>
+
+<p><a href="/assets/IALJS Slides.010.png"><img src="/assets/IALJS Slides.010.png" alt="Timeline Draft" /></a></p>
+
+<p>From this, I created the above visualization, showing the number of works published by year, and separated by primary or secondary source. In short, I had, in the most literal sense, created Connery’s continuous line. We’ll return to this visualization in more detail in a bit.</p>
+
+<p>But it occurred to me, after I created this initial visualization and got on with the work of writing, first my exam papers and now my dissertation, that even more valuable, perhaps, than the visualization, are the data from which it is composed. That is, it occurs to me that having a database of nearly 600 publications of and about literary journalism could be helpful for me in my scholarship, as well as to other scholars.</p>
+
+<p>With that notion, and in another case of “productive procrastination” I assembled this data into an searchable database, accessible online as a Shiny application at <a href="ljbib.jonathandfitzgerald.com">ljbib.jonathandfitzgerald.com</a>.</p>
+
+<p>There are three sections to the site: the bibliography appears on the first screen. In the second tab is the timeline visualization I previously showed, and in the final tab, I present some experimental work with gender in the corpus.</p>
+
+<p>The bibliography is basically an interactive database. You can click each of the column heads to sort the table in ascending or descending order by the value of that column. You can use the search box above to search the database, and using the drop downs to the left, you can filter the information by source, author last name, and whether it is a primary or secondary source. You can also use the timeline slider to narrow your results down to a particular time period or year that you’re interested in. I find that combining these features is most valuable. You might want to view, for example, all primary works of literary journalism published in the 1930s. If you do so, you’ll get 18 results from George Ade to George Orwell.</p>
+
+<p>The next tab shows the visualization I presented before, that continuous line of literary journalism, but it is interactive. So, for example, you can filter the view to show only primary or secondary sources, and, again, you can narrow by year. Thanks to the <code>plotly</code> package in R, you can also hover your mouse over any of the points on the graph to see year, count, and type information.</p>
+
+<p>From this visualization, you can see, particularly if you filter to view only the primary sources, the distinct periods or waves of literary journalism that Connery and Sims and others talk about. There are peaks around the turn of the century, in the late 1930s and early 40s, again in the 60s and 70s (the new journalism), and finally in the 80s (the new new journalism). I should note that the latest citation from the bibliographies is from 2011, which is why the line appears to drop off after that.</p>
+
+<p>Finally, the third tab is, at present, the most experimental feature, and one that is highly relevant to my larger work in progress, my dissertation. In accepting Norman Sims’ challenge to trace the history of literary journalism back into the nineteenth century, I came across a lot of writing, particularly by women writers and often in a kind of sentimental style popular at the time, that strike me as early examples of the genre we would come to call literary journalism. There’s just a couple of problems, most histories of the genre trace its roots back to the emergence of realism, not its precursor sentimentalism, and most histories and bibliographies, as we can see here, lean heavily toward male authors.</p>
+
+<p>So, I offer a visualization that counts the number of publications per year, but segments them by gender. Again, you can filter by gender or by year, and you can also separate the graphs to see them stacked as opposed to combined. The first thing you’ll notice is that male authors far outnumber the women authors that are listed in extant bibliographies.</p>
+
+<p>For example, in 1992, the year with the most publications, 38 were written by men, while 10 were written by women. And, as the bar graph makes clear, this pattern is seen across the timeline. But, as a person interested in the nineteenth century roots of the genre, what is even more striking is that from all of the source I’ve pulled together, the earliest publication by a woman is in 1936 (it’s Martha Gelhorn’s <em>The Trouble I’ve Seen</em>). Now, certainly, far fewer women than men were writing in the nineteenth and early twentieth centuries, but where is Margaret Fuller, or Nellie Bly, or Fanny Fern, or Nell Nelson, just to name a few?</p>
+
+<p>I know that there has been work in recent years to correct this imbalance, including the spring 2015 special issue of <em>Literary Journalism Studies</em>, but as we continue in this crucial canon-building stage of the field’s development, I hope more of us will turn our attention to rectifying this situation. For my part, my dissertation, which I’ve titled “Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream,” seeks to restore some of these women writers from the nineteenth century to our collective memories, and then to show how their legacy persists throughout the genre’s history. I will certainly be adding my own bibliography to this site.</p>
+
+<p>And, in that spirit, I want to end by asking you not only to feel free to use the site, and, as it is in Beta, to use the email or Twitter link to tell me about any problems you find—technical or scholarly—but also to contribute your own sources as well. Whether you feel like there’s a particular author or source that should be added, or if you have an entire bibliography or database that could be included, email me; I’m eager to add more data here and make this an even more valuable resource to scholars in the field.</p>
+
+<p>To summarize, this work in progress was ignited by the possibility that I might track down the roots of literary journalism from Sims’ “maze of local publications.” It was pushed along by the ability to visualize the breadth of the genre’s history through the lens of Connery’s “continuous line,” and it is now fueled by a desire to overcome the third challenge, the lack of women writers in our canon.</p>
+
+<p>And, as for this particular project, I hope that this proves to be a useful tool, but even more than that, I hope that the visualizations on offer and those I will be adding in the future might help us to see our field in new ways, to identify that gaps where they exist in our growing canon, and to further  and better theorize the 200-year history of literary journalism.</p>
+
+<p>And, just for fun, here’s a word cloud derived from the titles in the combined bibliography:</p>
+
+<p><a href="/assets/IALJS Slides.012.png"><img src="/assets/IALJS Slides.012.png" alt="Wordcloud" /></a></p>
+
+	<p class="twitter_plug">If you liked this post, consider
+<a href="https://twitter.com/intent/tweet?url=http://jonathandfitzgerald.com/blog/2017/05/18/the-continuous-line.html&text=The Continuous Line: Visualizing the History of American Literary Journalism&via=jon_fitzgerald" 
+   target="_blank">
+  sharing it</a>
+or 
+<a href="https://twitter.com/jon_fitzgerald" target="_blank">
+  follow me on Twitter</a>.
+	</p>	  
+  </div>
+
+ <div class="post-comments">
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = /blog/2017/05/18/the-continuous-line.html; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = /blog/2017/05/18/the-continuous-line; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//jonathandfitzgerald.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+</article>
+
+		  <div id="sidebar">
+
+	<div id="twitter-widget">
+		<h3>Twitter</h3>
+		<a class="twitter-timeline" href="https://twitter.com/jon_fitzgerald" data-widget-id="663212251470503936">Tweets by @jon_fitzgerald</a>
+		<script>
+			! function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0],
+					p = /^http:/.test(d.location) ? 'http' : 'https';
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = p + "://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script>
+	</div>
+	<h3>Recent Posts</h3>
+	<ul class="post-list">
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2017/05/18/the-continuous-line.html">The Continuous Line: Visualizing the History of American Literary Journalism</a>
+			<br /><span class="post-meta">May 18, 2017</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/10/10/the-viral-vignette.html">Computationally Classifying the Vignette Between Fiction and News</a>
+			<br /><span class="post-meta">Oct 10, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/07/13/keystone-paper.html">What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'</a>
+			<br /><span class="post-meta">Jul 13, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2016/06/10/genres-and-nuance.html">Don't Be a Tool</a>
+			<br /><span class="post-meta">Jun 10, 2016</span>
+
+		</li>
+		
+
+		<li>
+
+			<a class="sidebar-link" href="/blog/2015/11/04/a-stunning-love-letter.html">A “Stunning” Love Letter to Viral Texts: A “sublimely splendiferous” foray into nineteenth century newspapers</a>
+			<br /><span class="post-meta">Nov 4, 2015</span>
+
+		</li>
+		
+	</ul>
+
+</div>
+      </div>
+
+
+    </div>
+
+    <div class="clearfix"></div>
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jonathan D. Fitzgerald</li>
+          <li><a href="mailto:jonathanfitzgerald@me.com">jonathanfitzgerald@me.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jonathandfitzgerald"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jonathandfitzgerald</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jon_fitzgerald"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">jon_fitzgerald</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Digital Human(ist)</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57605617-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

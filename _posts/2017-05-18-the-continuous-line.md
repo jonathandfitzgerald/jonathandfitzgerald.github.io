@@ -16,11 +16,13 @@ author: Jonathan D. Fitzgerald
 comments: True
 ---
 
- ![The Continuous Line](assets/IALJS Slides.002.png)
+*The following is an adapted version of a work-in-progress talk at The Twelfth International Conference for Literary Journalism Studies in Halifax, Nova Scotia on May 11, 2017.*
 
-*The following is an adapted version of a work-in-progress talk at The Twelfth International Conference for Literary Journalism Studies in Halifax, Nova Scotia on May 11, 2017. TL;DR: I built an online database of works of and about literary journalism, available at [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com).*
+*TL;DR: I built an online database of works of and about literary journalism, available at [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com).*
 
 In thinking about how to frame this particular work in progress that I’m presenting here today, as well as the larger work that it is a part of (namely, my dissertation), I realized that they are both responses to particular challenges. Let me explain. When I began my study of literary journalism, I arrived first, as I’m sure many others did as well, at Norman Sims’ seminal book *True Stories*. In lieu of a master class on literary journalism, this book serves the purpose for many of us.
+
+<!--more-->
 
 And I’ll never forget when I read the opening words of chapter two, in which Sims writes, “Tracing the history of literary journalism backward from the twentieth century into the 1800s, I find that it vanishes into a maze of local publications” (43). And, on the next page, he continues, “Looking for literary journalism in the nineteenth century seems daunting” (44). In the margin of my copy of the book, next to the opening lines of chapter two, I wrote “this is a challenge.” And it was a challenge I intended to take up.
 
@@ -66,7 +68,7 @@ I used slightly different configurations of the above to extract data from *The 
 
 I created a dataframe that included columns for the full citation, the source of the entry, whether it is a primary or secondary source, year of publication, author last name, and author first name. I also created a unique id for each entry by combining the author's last name and year of publication. Finally, using Lincoln Mullen's `gender` package, detailed [here](https://cran.r-project.org/web/packages/gender/vignettes/predicting-gender.html), I determined the gender of each author. (I manually assigned gender where it was unclear from the first name or the name was abbreviated.)
 
- ![Timeline Draft](assets/IALJS Slides.010.png)
+ [![Timeline Draft]({{ site.baseurl }}/assets/IALJS Slides.010.png)]({{ site.baseurl }}/assets/IALJS Slides.010.png)
 
 From this, I created the above visualization, showing the number of works published by year, and separated by primary or secondary source. In short, I had, in the most literal sense, created Connery’s continuous line. We’ll return to this visualization in more detail in a bit.
 
@@ -98,4 +100,4 @@ And, as for this particular project, I hope that this proves to be a useful tool
 
 And, just for fun, here's a word cloud derived from the titles in the combined bibliography:
 
- ![Wordcloud](assets/IALJS Slides.012.png)
+[![Wordcloud]({{ site.baseurl }}/assets/IALJS Slides.012.png)]({{ site.baseurl }}/assets/IALJS Slides.012.png)
