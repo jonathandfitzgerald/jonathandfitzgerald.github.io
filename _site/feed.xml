@@ -5,8 +5,8 @@
     <description>Digital Human(ist)</description>
     <link>http://jonathandfitzgerald.com/</link>
     <atom:link href="http://jonathandfitzgerald.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 May 2017 10:49:34 -0400</pubDate>
-    <lastBuildDate>Thu, 18 May 2017 10:49:34 -0400</lastBuildDate>
+    <pubDate>Thu, 18 May 2017 10:52:53 -0400</pubDate>
+    <lastBuildDate>Thu, 18 May 2017 10:52:53 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -21,11 +21,15 @@
 
 &lt;p&gt;And I’ll never forget when I read the opening words of chapter two, in which Sims writes, “Tracing the history of literary journalism backward from the twentieth century into the 1800s, I find that it vanishes into a maze of local publications” (43). And, on the next page, he continues, “Looking for literary journalism in the nineteenth century seems daunting” (44). In the margin of my copy of the book, next to the opening lines of chapter two, I wrote “this is a challenge.” And it was a challenge I intended to take up.&lt;/p&gt;
 
+&lt;h3 id=&quot;tracing-the-history-of-literary-journalism-backward-from-the-twentieth-century-into-the-1800s-i-find-that-it-vanishes-into-a-maze-of-local-publicationslooking-for-literary-journalism-in-the-nineteenth-century-seems-daunting-sims-43-44&quot;&gt;“Tracing the history of literary journalism backward from the twentieth century into the 1800s, I find that it vanishes into a maze of local publications…Looking for literary journalism in the nineteenth century seems daunting” (Sims 43-44).&lt;/h3&gt;
+
 &lt;p&gt;I had recently begun work on the &lt;a href=&quot;http://www.viraltexts.org&quot;&gt;Viral Texts Project&lt;/a&gt;, a digital research initiative led by my advisor at Northeastern University, Ryan Cordell. Using machine learning techniques, we comb through nineteenth century newspapers in search of frequently reprinted texts; texts that, in the modern parlance, went viral. So, when I read Sims’ observation that the roots of literary journalism vanish into “a maze of local publications,” I thought, I have access to those publications, and I wanted to find those roots. This has formed the basis of my dissertation project, which I’ll discuss in more depth in a moment.&lt;/p&gt;
 
 &lt;p&gt;The second challenge came in the form of an observation by another pillar of literary journalism studies, Thomas Connery.&lt;/p&gt;
 
 &lt;p&gt;In the preface to &lt;em&gt;A Sourcebook of American Literary Journalism&lt;/em&gt;, Connery conceptualizes the history of literary journalism through a series of distinct periods, and he insists, “the line from the nineteenth through the twentieth century is continuous” (xiii). As I began to consider the history of literary journalism, I wondered if this continuous line truly exists, and further, whether I could visualize it. And that impulse is what ignited the spark that led to the particular project I’m presenting today.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-line-from-the-nineteenth-through-the-twentieth-century-is-continuous-connery-xiii&quot;&gt;”…the line from the nineteenth through the twentieth century is continuous” (Connery xiii).&lt;/h3&gt;
 
 &lt;p&gt;In part as a way to procrastinate writing my comprehensive exam paper about the history of literary journalism, I decided to try to see if I could visualize that history using methods derived from the digital humanities. I call this productive procrastination. In order to make the distinct periods of literary journalism as well as the continuous line visible, I created a data visualization based on a comprehensive bibliography of the genre, which I am compiling by mining and combining already extant bibliographies, as well as adding to the available bibliographies.&lt;/p&gt;
 
