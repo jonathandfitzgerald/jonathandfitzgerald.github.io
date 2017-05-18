@@ -17,11 +17,7 @@ comments: True
 
 ---
 
-
-# The Continuous Line
-## Visualizing the History of American Literary Journalism
-
- ![The Continuous Line](IALJS Slides.002.png)
+ ![The Continuous Line](assets/IALJS Slides.002.png)
 
 *The following is an adapted version of a work-in-progress talk at The Twelfth International Conference for Literary Journalism Studies in Halifax, Nova Scotia on May 11, 2017. TL;DR: I built an online database of works of and about literary journalism, available at [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com).*
 
@@ -71,7 +67,7 @@ I used slightly different configurations of the above to extract data from *The 
 
 I created a dataframe that included columns for the full citation, the source of the entry, whether it is a primary or secondary source, year of publication, author last name, and author first name. I also created a unique id for each entry by combining the author's last name and year of publication. Finally, using Lincoln Mullen's `gender` package, detailed [here](https://cran.r-project.org/web/packages/gender/vignettes/predicting-gender.html), I determined the gender of each author. (I manually assigned gender where it was unclear from the first name or the name was abbreviated.)
 
- ![Timeline Draft](IALJS Slides.010.png)
+ ![Timeline Draft](assets/IALJS Slides.010.png)
 
 From this, I created the above visualization, showing the number of works published by year, and separated by primary or secondary source. In short, I had, in the most literal sense, created Connery’s continuous line. We’ll return to this visualization in more detail in a bit.
 
@@ -103,4 +99,4 @@ And, as for this particular project, I hope that this proves to be a useful tool
 
 And, just for fun, here's a word cloud derived from the titles in the combined bibliography:
 
- ![Wordcloud](IALJS Slides.012.png)
+ ![Wordcloud](assets/IALJS Slides.012.png)
