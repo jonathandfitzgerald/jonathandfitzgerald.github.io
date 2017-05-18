@@ -16,7 +16,7 @@ author: Jonathan D. Fitzgerald
 comments: True
 ---
 
-*The following is an adapted version of a work-in-progress talk at The Twelfth International Conference for Literary Journalism Studies in Halifax, Nova Scotia on May 11, 2017.*
+*The following is an adapted version of a work-in-progress talk at The Twelfth International Conference for Literary Journalism Studies in Halifax, Nova Scotia on May 11, 2017. Video [here](https://www.pscp.tv/w/1BdGYvDkdYyJX).*
 
 *TL;DR: I built an online database of works of and about literary journalism, available at [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com).*
 
