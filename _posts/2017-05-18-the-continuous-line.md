@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Continuous Line: Visualizing the History of American Literary Journalism
+title: "The Continuous Line: Visualizing the History of American Literary Journalism"
 date: 2014-05-18
 type: post
 published: true
@@ -14,7 +14,6 @@ tags:
 - bibliography
 author: Jonathan D. Fitzgerald
 comments: True
-
 ---
 
  ![The Continuous Line](assets/IALJS Slides.002.png)
