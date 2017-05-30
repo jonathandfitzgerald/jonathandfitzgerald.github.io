@@ -263,7 +263,8 @@
 }
 
 #sidebar h3 {
-  color: $brand-color;
+  font-weight: bolder;
+  border-bottom: solid 1px $grey-color-light;
 }
 
 .home,
