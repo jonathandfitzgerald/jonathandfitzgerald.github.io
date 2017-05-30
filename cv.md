@@ -51,9 +51,11 @@ weight: 4
 
 ## Education
 
-**PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2019_
+**PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2019_  
+Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"
 
-**Master of Arts, English**, University of Massachusetts, Boston, _2005_
+**Master of Arts, English**, University of Massachusetts, Boston, _2005_  
+Thesis: "Can Anything Good Come From Beverly: Stories"
 
 **Bachelor of Arts, English Language and Literature**, Gordon College, _2003_
 
