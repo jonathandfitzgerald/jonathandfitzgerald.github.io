@@ -232,7 +232,7 @@ The Northern Shores Writers Retreat, Eastern Nazarene College, _January 2013_
 
 ## Technical Proficiencies
 
-HTML, CSS, XML/TEI, R, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network Analysis
+HTML, CSS, XML/TEI, R, Shiny, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network Analysis
 
 ## Memberships
 
