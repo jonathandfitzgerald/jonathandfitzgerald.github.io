@@ -15,7 +15,7 @@ weight: 4
 
 **Teaching Assistant, HIST 7219: Humanities Data Analysis**, Northeastern University, _Spring 2017_
 
-**Instructor, English Department**, Northeastern University, _Summer 2016_
+**Instructor, English Department**, Northeastern University, _Summer 2016_ & _Summer 2017_
 
 **Writing Consultant, The Writing Center**, Northeastern University, _Fall 2014 - Spring 2015_
 
