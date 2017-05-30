@@ -168,9 +168,11 @@ _Journal of African Literature_, No. 6, _December 2009_
 
 ## Digital Initiatives and Projects
 
+**The Continuous Line: Visualizing the History of American Literary Journalism**, _Spring 2017_  
+Link: [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com)
+
 **A 'Stunning' Love Letter to Viral Texts**, Viral Texts Project, _Fall 2015_  
 Link: [loveletter.viraltexts.org](http://loveletter.viraltexts.org "A Stunning Love Letter")
-
 
 **3D Printed Pattern Poems**, _Spring 2015_  
 Link: [Re-Presenting Early Modern Pattern Poems as Material Objects](/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html)
