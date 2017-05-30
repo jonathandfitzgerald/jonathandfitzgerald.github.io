@@ -205,23 +205,25 @@ Stevens Institute of Technology, _Spring 2011_
 
 **Paper: "Radical & Relevant: Searching for a Culturally Significant Christ"**, Christ in Cultures Conference, Gordon College, _September 2006_
 
-## Invited Talks & Media Appearances
+## Invited Talks
 
 **Know the News**, Panel, Eastern Nazarene College, _September 2016_
 
 **Viral Texts: An Informal Talk & Discussion**, Boston College, _September 2016_  
 
+**Lecturer/Panelist**, The Future of Christianity Conference, Quincy, MA, _January 2013_
+
+**Panelist**, Religion Newswriters Association Conference 2012, Washington, DC, _October 2012_
+
+## Media Appearances
+
 **On-air Commentary**, "Dear Gordon College, You Do Not Speak For Me", WBUR, _July 2014_  
 
 **Featured Guest**, "Millennial Irony", HuffPo Live, _January 2013_
 
-**Lecturer/Panelist**, The Future of Christianity Conference Quincy, MA, _January 2013_
-
 **Featured Guest**, On Point with Tom Ashbrook, NPR/WBUR, _December 2012_
 
-**Panelist**, Religion Newswriters Association Conference 2012 Washington, DC, _October 2012_
-
-**Featured Panelist**, ABC News' "Focus on Faith", _February 2011_
+**Featured Panelist**, ABC News' "Focus on Faith", _February 2011_  
 
 ## Institutional Service
 
