@@ -117,7 +117,6 @@ _Journal of African Literature_, No. 6, _December 2009_
 
 ## Selected Public Writing
 
-
 **Feature: "Boston career changers can find plenty of helping hands"**, The Boston Globe, _April 2016_  
 
 **Blog Post: "Coming Out from the Cloister"**, GradHacker - InsideHigherEd.com, _June 2015_  
@@ -168,7 +167,6 @@ _Journal of African Literature_, No. 6, _December 2009_
 
 ## Digital Initiatives and Projects
 
-
 **A 'Stunning' Love Letter to Viral Texts**, Viral Texts Project, _Fall 2015_  
 Link: [loveletter.viraltexts.org](http://loveletter.viraltexts.org "A Stunning Love Letter")
 
@@ -186,8 +184,9 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
 
-**Paper: "Vignettes: Micro-Fictions in the Nineteenth Century Newspaper" w/Ryan Cordell**, 2016 ALA Symposium: The American Short Story: An Expansion of the Genre, Savannah, GA, _October 2016_
+**Work-in-Progress: "The Continuous Line: Visualizing the History of American Literary Journalism"**, The Twelfth International Conference for Literary Journalism Studies, Halifax, Nova Scotia, _May 2017_ 
 
+**Paper: "Vignettes: Micro-Fictions in the Nineteenth Century Newspaper" w/Ryan Cordell**, 2016 ALA Symposium: The American Short Story: An Expansion of the Genre, Savannah, GA, _October 2016_
 
 **Paper: "What Made the Front Page in the 19th Century?: Computationally Classifying Genre in 'Viral Texts'"**, 2016 Keystone DH Conference, University of Pittsburgh, _June 2016_
 
