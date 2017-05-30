@@ -71,7 +71,7 @@ Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth
 
 **Keystone DH Student Bursary**, University of Pittsburgh, Temple University, The Chemical Heritage Foundation, Penn State University, _March 2016_
 
-**Fellow**, NULab for Texts, Maps, and Networks, Northeastern University, _Fall 2015 - Present_
+**NULab Fellow**, NULab for Texts, Maps, and Networks, Northeastern University, _2015 - 2017_
 
 **ACH Bursary**, The Association for Computers and the Humanities, Keystone DH Conference, University of Pennsylvania, _July 2015_
 
