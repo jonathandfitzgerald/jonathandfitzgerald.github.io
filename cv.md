@@ -107,6 +107,7 @@ Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth
 
 ## Selected Scholarly Writing
 
+**Article: "Nineteenth Century Women Writers & the Sentimental Roots of Literary Journalism"**, _Literary Journalism Studies_, _Forthcoming_  
 
 **Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim's Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**, _Literary Journalism Studies_, Vol. 7\. No. 1, _Spring 2015_
 
@@ -184,7 +185,7 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
 
-**Work-in-Progress: "The Continuous Line: Visualizing the History of American Literary Journalism"**, The Twelfth International Conference for Literary Journalism Studies, Halifax, Nova Scotia, _May 2017_ 
+**Work-in-Progress: "The Continuous Line: Visualizing the History of American Literary Journalism"**, The Twelfth International Conference for Literary Journalism Studies, Halifax, Nova Scotia, _May 2017_
 
 **Paper: "Vignettes: Micro-Fictions in the Nineteenth Century Newspaper" w/Ryan Cordell**, 2016 ALA Symposium: The American Short Story: An Expansion of the Genre, Savannah, GA, _October 2016_
 
