@@ -37,6 +37,8 @@ weight: 4
 
 ## Research Experience
 
+**Research Assistant, Women Writers Project**, Northeastern University, _Spring 2017 - Present_
+
 **Research Assistant, Viral Texts Project**, Northeastern University, _Fall 2015 - Present_
 
 ## Other Experience
