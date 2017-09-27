@@ -63,7 +63,7 @@ Thesis: "Can Anything Good Come From Beverly: Stories"
 
 ## Fields of Study
 
-Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth century American non-fiction, American religion
+Literary journalism, digital humanities, media studies, history of journalism, nineteenth and twentieth century American non-fiction, American religion
 
 ## Fellowships, Grants, and Awards
 
@@ -112,6 +112,8 @@ Literary Journalism, Digital Humanities, media studies, nineteenth and twentieth
 **Introduction to Western Literature (TA)**, UMass, Boston
 
 ## Selected Scholarly Writing
+
+**Book: _Going the Rounds: Virality in Nineteenth Century American Newspapers_**, with Ryan Cordell, David A. Smith, Abby Mullen, and Thanasis Kinias. _University of Minnesota Press, Under Contract_  
 
 **Article: "Nineteenth Century Women Writers & the Sentimental Roots of Literary Journalism"**, _Literary Journalism Studies_, _Forthcoming_  
 
@@ -210,6 +212,8 @@ Stevens Institute of Technology, _Spring 2011_
 **Paper: "Radical & Relevant: Searching for a Culturally Significant Christ"**, Christ in Cultures Conference, Gordon College, _September 2006_
 
 ## Invited Talks
+
+**Computationally Classifying Viral Texts**, DSG & NULab Fall Welcome Event, Northeastern University, _September 2017_  
 
 **Know the News**, Panel, Eastern Nazarene College, _September 2016_
 
