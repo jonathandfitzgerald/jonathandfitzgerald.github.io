@@ -3,7 +3,7 @@ layout: page
 title: Curriculum Vitae
 permalink: /cv/
 type: page
-weight: 4
+weight: 5
 ---
 
 * TOC

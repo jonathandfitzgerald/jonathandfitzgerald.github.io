@@ -8,7 +8,13 @@ type: page
 
 ---
 
-**The Continuous Line: Visualizing the History of American Literary Journalism**, _Spring 2017_  
+**Crowd Sourcing Genre Classification for the Viral Texts Project (work-in-progress)**, _Summer 2017_  
+Link: [VT Crowdsource](http://home.jonathandfitzgerald.com:3838/VT-Crowdsource/)  
+
+**Word Vector Analysis for Women Writers Online (work-in-progress)**, _Summer 2017_  
+Link: [Word Vector Analysis](https://fitz.shinyapps.io/w2vonline/)  
+
+**The Continuous Line: Visualizing the History of American Literary Journalism (work-in-progress)**, _Spring 2017_  
 Link: [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com)
 
 **A 'Stunning' Love Letter to Viral Texts**, Viral Texts Project, _Fall 2015_  
