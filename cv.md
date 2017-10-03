@@ -37,13 +37,13 @@ weight: 3
 
 ## Research Experience
 
-**Research Assistant, Women Writers Project**, Northeastern University, _Spring 2017 - Present_
+**Research Assistant, Women Writers Project**, Northeastern University, _2017_
 
-**Research Assistant, Viral Texts Project**, Northeastern University, _Fall 2015 - Present_
+**Research Assistant, Viral Texts Project**, Northeastern University, _Fall 2015 - Summer 2017_
 
 ## Other Experience
 
-**Managing Editor**, Digital Humanities Quarterly, _Summer 2015 - Present_
+**Managing Editor**, Digital Humanities Quarterly, _2015 - 2017_
 
 **Editor**, PatrolMag.com, _2009 – 2014_
 
@@ -53,7 +53,7 @@ weight: 3
 
 ## Education
 
-**PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2019_  
+**PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2018_  
 Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"
 
 **Master of Arts, English**, University of Massachusetts, Boston, _2005_  
@@ -175,6 +175,12 @@ _Journal of African Literature_, No. 6, _December 2009_
 **Book Review: What is the What by Dave Eggars**, Books and Culture, _Spring 2007_
 
 ## Digital Initiatives and Projects
+
+**Crowd Sourcing Genre Classification for the Viral Texts Project (work-in-progress)**, _Summer 2017_  
+Link: [VT Crowdsource](http://home.jonathandfitzgerald.com:3838/VT-Crowdsource/)  
+
+**Word Vector Analysis for Women Writers Online (work-in-progress)**, _Summer 2017_  
+Link: [Word Vector Analysis](https://fitz.shinyapps.io/w2vonline/)  
 
 **The Continuous Line: Visualizing the History of American Literary Journalism**, _Spring 2017_  
 Link: [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com)
