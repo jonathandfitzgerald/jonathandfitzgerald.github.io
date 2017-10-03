@@ -8,7 +8,7 @@
 # Site settings
 title: 	Jonathan D. Fitzgerald
 email: jonathanfitzgerald@me.com
-description: Literary Journalism | Media Studies | Digital Humanities
+description: Literary Journalism | Digital Humanities | Media Studies 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jonathandfitzgerald.com" # the base hostname & protocol for your site
 twitter_username: jon_fitzgerald
