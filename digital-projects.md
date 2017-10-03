@@ -22,7 +22,7 @@ As part of my dissertation, a timeline created by combining major literary journ
 
 **A 'Stunning' Love Letter to Viral Texts**, Viral Texts Project, _Fall 2015_  
 Link: [loveletter.viraltexts.org](http://loveletter.viraltexts.org "A Stunning Love Letter")  
-An online exhibit featuring an annotated page from a nineteenth century newspaper showing reprints and providing context.
+For the Viral Texts Project, an online exhibit featuring an annotated page from a nineteenth century newspaper showing reprints and providing context.
 
 **3D Printed Pattern Poems**, _Spring 2015_  
 Link: [Re-Presenting Early Modern Pattern Poems as Material Objects](/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html)  
