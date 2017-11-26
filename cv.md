@@ -115,7 +115,7 @@ Literary journalism, digital humanities, media studies, history of journalism, n
 
 **Book: _Going the Rounds: Virality in Nineteenth Century American Newspapers_**, with Ryan Cordell, David A. Smith, Abby Mullen, and Thanasis Kinias. _University of Minnesota Press, Under Contract_  
 
-**Article: "Nineteenth Century Women Writers & the Sentimental Roots of Literary Journalism"**, _Literary Journalism Studies_, _Forthcoming_  
+**Article: "Nineteenth Century Women Writers & the Sentimental Roots of Literary Journalism"**, _Literary Journalism Studies_, _Fall 2017_    
 
 **Book Review: "Hillbilly Heaven, Hillbilly Hell: Pilgrim's Wilderness: A True Story of Faith and Madness on the Alaska Frontier"**, _Literary Journalism Studies_, Vol. 7\. No. 1, _Spring 2015_
 
@@ -200,6 +200,8 @@ Link: [The InstaEssay Archive](http://instaessayarchive.org)
 Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
+
+**Paper: “To See & Be Seen: Margaret Fuller and the ‘Pauper Establishments’”**, American Studies Association 2017 Annual Meeting, Chicago, IL, _November 2017_  
 
 **Work-in-Progress: "The Continuous Line: Visualizing the History of American Literary Journalism"**, The Twelfth International Conference for Literary Journalism Studies, Halifax, Nova Scotia, _May 2017_
 
