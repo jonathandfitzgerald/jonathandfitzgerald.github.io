@@ -69,9 +69,7 @@ Literary journalism, digital humanities, media studies, history of journalism, n
 
 **Humanities Center Resident Fellowship**, Northeastern University, _2017-2018_
 
-**NULab Travel Grant**, NULab for Texts, Maps, and Networks, Northeastern University, _Fall 2016_
-
-**NULab Travel Grant**, NULab for Texts, Maps, and Networks, Northeastern University, _Spring 2016_  
+**NULab Travel Grant**, NULab for Texts, Maps, and Networks, Northeastern University, _Spring & Fall 2016_  
 
 **Keystone DH Student Bursary**, University of Pittsburgh, Temple University, The Chemical Heritage Foundation, Penn State University, _March 2016_
 
