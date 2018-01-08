@@ -199,6 +199,8 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
 
+**Paper: "The Materials of Early Modern Poetry: 3-D Pattern Poems" (with Erika Boeckeler)**, The 133rd MLA Annual Convention, New York, NY, _January 2018_  
+
 **Paper: “To See & Be Seen: Margaret Fuller and the ‘Pauper Establishments’”**, American Studies Association 2017 Annual Meeting, Chicago, IL, _November 2017_  
 
 **Work-in-Progress: "The Continuous Line: Visualizing the History of American Literary Journalism"**, The Twelfth International Conference for Literary Journalism Studies, Halifax, Nova Scotia, _May 2017_
