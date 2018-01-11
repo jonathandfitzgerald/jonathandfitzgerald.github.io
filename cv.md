@@ -256,8 +256,9 @@ HTML, CSS, XML/TEI, R, Shiny, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Net
 
 ## Memberships
 
+**Alliance of Digital Humanities Organizations**   
+**American Journalism Historians Association**  
+**American Studies Association**  
+**Association for Computers and Humanities**  
 **International Association for Literary Journalism Studies**  
 **Modern Language Association**  
-**Association for Computers and Humanities**  
-**Alliance of Digital Humanities Organizations**  
-**American Studies Association**  
