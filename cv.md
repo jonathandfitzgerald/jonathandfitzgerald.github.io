@@ -11,6 +11,20 @@ weight: 3
 
 --------------------------------------------------------------------------------
 
+## Education
+
+**PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2018_  
+Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"
+
+**Master of Arts, English**, University of Massachusetts, Boston, _2005_  
+Thesis: "Can Anything Good Come From Beverly: Stories"
+
+**Bachelor of Arts, English Language and Literature**, Gordon College, _2003_
+
+## Fields of Study
+
+Literary journalism, digital humanities, media studies, literary history, nineteenth and twentieth century American non-fiction, American religion  
+
 ## Teaching Experience
 
 **Teaching Assistant, HIST 7219: Humanities Data Analysis**, Northeastern University, _Spring 2017_
@@ -50,20 +64,6 @@ weight: 3
 **Staff Writer**, The Jersey City Independent, _2009 – 2012_
 
 **Freelance Writer**, Various Publications, _2005 – Present_
-
-## Education
-
-**PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2018_  
-Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"
-
-**Master of Arts, English**, University of Massachusetts, Boston, _2005_  
-Thesis: "Can Anything Good Come From Beverly: Stories"
-
-**Bachelor of Arts, English Language and Literature**, Gordon College, _2003_
-
-## Fields of Study
-
-Literary journalism, digital humanities, media studies, history of journalism, nineteenth and twentieth century American non-fiction, American religion
 
 ## Fellowships, Grants, and Awards
 
@@ -126,13 +126,15 @@ _Journal of African Literature_, No. 6, _December 2009_
 
 ## Selected Public Writing
 
+**Commentary: “Stop Yelling At Alexa: In The Age Of #MeToo, Digital Assistants Deserve Our Respect”**, Cognoscenti - WBUR, _March 2018_  
+
 **Feature: "Boston career changers can find plenty of helping hands"**, The Boston Globe, _April 2016_  
 
 **Blog Post: "Coming Out from the Cloister"**, GradHacker - InsideHigherEd.com, _June 2015_  
 
 **Blog Post: "Parenting in Public"**, GradHacker - InsideHigherEd.com, _April 2015_  
 
-**Op-Ed: "Dear Gordon College, You Do Not Speak For Me"**, Cognoscenti - WBUR, _July 2014_  
+**Commentary: "Dear Gordon College, You Do Not Speak For Me"**, Cognoscenti - WBUR, _July 2014_  
 
 **Book Review: Jeff Sharlet’s ‘Radiant Truths’: How Religion Shaped American Literary Journalism"**, The Daily Beast, _May 2014_  
 
@@ -140,9 +142,9 @@ _Journal of African Literature_, No. 6, _December 2009_
 
 **Article: "From Modesty to Maxim"**, On Faith, _February 2014_  
 
-**Op-Ed: "Lena Dunham is the New John Updike -- But Not in a Good Way"**, Cognoscenti - WBUR, _January 2014_  
+**Commentary: "Lena Dunham is the New John Updike -- But Not in a Good Way"**, Cognoscenti - WBUR, _January 2014_  
 
-**Op-Ed: "The Tolerance Paradox"**, Cognoscenti - WBUR, _September 2013_  
+**Commentary: "The Tolerance Paradox"**, Cognoscenti - WBUR, _September 2013_  
 
 **Feature: "On a Mission to Save Godless Massachusetts"**, The Boston Globe, _August 2013_
 
@@ -200,6 +202,8 @@ Link: [The InstaEssay Archive](http://instaessayarchive.org)
 Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
+
+**Paper: “The Other Fake News: Underrepresented Women Writers and the History of Literary Journalism”**, Second Annual NULab Conference: Fake News/Real Knowledge: Histories, Structures, Futures, Northeastern University, Boston, MA, _March 2017_  
 
 **Paper: "The Materials of Early Modern Poetry: 3-D Pattern Poems" (with Erika Boeckeler)**, The 133rd MLA Annual Convention, New York, NY, _January 2018_  
 
