@@ -203,8 +203,6 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
 
-**Paper: “The Other Fake News: Underrepresented Women Writers and the History of Literary Journalism”**, Second Annual NULab Conference: Fake News/Real Knowledge: Histories, Structures, Futures, Northeastern University, Boston, MA, _March 2017_  
-
 **Paper: "The Materials of Early Modern Poetry: 3-D Pattern Poems" (with Erika Boeckeler)**, The 133rd MLA Annual Convention, New York, NY, _January 2018_  
 
 **Paper: “To See & Be Seen: Margaret Fuller and the ‘Pauper Establishments’”**, American Studies Association 2017 Annual Meeting, Chicago, IL, _November 2017_  
@@ -226,6 +224,8 @@ Stevens Institute of Technology, _Spring 2011_
 **Paper: "Radical & Relevant: Searching for a Culturally Significant Christ"**, Christ in Cultures Conference, Gordon College, _September 2006_
 
 ## Invited Talks
+
+**“The Other Fake News: Underrepresented Women Writers and the History of Literary Journalism”**, Second Annual NULab Conference: Fake News/Real Knowledge: Histories, Structures, Futures, Northeastern University, Boston, MA, _March 2017_  
 
 **Computationally Classifying Viral Texts**, DSG & NULab Fall Welcome Event, Northeastern University, _September 2017_  
 
