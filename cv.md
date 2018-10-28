@@ -13,8 +13,9 @@ weight: 3
 
 ## Education
 
-**PhD, English**, Northeastern University, _A.B.D., anticipated Spring 2018_  
-Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"
+**PhD, English**, Northeastern University, _Spring 2018_  
+Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"  
+Committee: Dr. Carla Kaplan (co-chair), Dr. Ryan Cordell (co-chair), Dr. Hillary Chute  
 
 **Master of Arts, English**, University of Massachusetts, Boston, _2005_  
 Thesis: "Can Anything Good Come From Beverly: Stories"
@@ -26,6 +27,8 @@ Thesis: "Can Anything Good Come From Beverly: Stories"
 Literary journalism, digital humanities, media studies, literary history, nineteenth and twentieth century American non-fiction, American religion  
 
 ## Teaching Experience
+
+**Assistant Professor, Humanities**, Regis College, _Fall 2018 - Present_  
 
 **Teaching Assistant, HIST 7219: Humanities Data Analysis**, Northeastern University, _Spring 2017_
 
@@ -248,6 +251,8 @@ Stevens Institute of Technology, _Spring 2011_
 **Featured Panelist**, ABC News' "Focus on Faith", _February 2011_  
 
 ## Institutional Service
+
+**Institutional Review Board**, Regis College, _Fall 2018 - Present_  
 
 **Panel Planning Committee Member**, English Graduate Student Association Conference "The Imaginary", Northeastern University, _Spring 2016_
 
