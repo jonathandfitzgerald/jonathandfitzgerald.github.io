@@ -24,11 +24,11 @@ Thesis: "Can Anything Good Come From Beverly: Stories"
 
 ## Fields of Study
 
-Literary journalism, digital humanities, media studies, literary history, nineteenth and twentieth century American non-fiction, American religion  
+Literary journalism, digital humanities, media studies, literary history, nineteenth and twentieth century American non-fiction, ethics, American Christianity  
 
 ## Teaching Experience
 
-**Assistant Professor, Humanities**, Regis College, _Fall 2018 - Present_  
+**Assistant Professor, Humanities Department**, Regis College, _Fall 2018 - Present_  
 
 **Teaching Assistant, HIST 7219: Humanities Data Analysis**, Northeastern University, _Spring 2017_
 
@@ -82,7 +82,9 @@ Literary journalism, digital humanities, media studies, literary history, ninete
 
 ## Selected Courses Taught
 
-**Humanities Data Analysis (TA)**, Northeastern University
+**Exploring Ethics**, Regis College  
+
+**Jesus: Myth & Reality**, Regis College  
 
 **Advanced Writing in the Disciplines**, Northeastern University
 
