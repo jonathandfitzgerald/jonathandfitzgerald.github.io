@@ -70,6 +70,8 @@ Literary journalism, digital humanities, media studies, literary history, ninete
 
 ## Fellowships, Grants, and Awards
 
+**Faculty Development Grant**, Regis College, _2018 – 2019_    
+
 **Humanities Center Resident Fellowship**, Northeastern University, _2017-2018_
 
 **NULab Travel Grant**, NULab for Texts, Maps, and Networks, Northeastern University, _Spring & Fall 2016_  
