@@ -82,6 +82,12 @@ Literary journalism, digital humanities, media studies, literary history, ninete
 
 ## Selected Courses Taught
 
+**Stories of Belief**, Regis College  
+
+**Rhetoric: The Art of Written Communication**, Regis College  
+
+**Ethnicity in Modern American Culture**, Regis College  
+
 **Exploring Ethics**, Regis College  
 
 **Jesus: Myth & Reality**, Regis College  
@@ -130,6 +136,8 @@ Literary journalism, digital humanities, media studies, literary history, ninete
 _Journal of African Literature_, No. 6, _December 2009_
 
 ## Selected Public Writing
+
+**Perspective: “Everyone knows English majors can’t get jobs. Except the employers who hire them”**, The Boston Globe Magazine, _November 2018_  
 
 **Commentary: “Stop Yelling At Alexa: In The Age Of #MeToo, Digital Assistants Deserve Our Respect”**, Cognoscenti - WBUR, _March 2018_  
 
@@ -183,19 +191,22 @@ _Journal of African Literature_, No. 6, _December 2009_
 
 ## Digital Initiatives and Projects
 
-**Crowd Sourcing Genre Classification for the Viral Texts Project (work-in-progress)**, _Summer 2017_  
+**Women Writers Vector Toolkit**
+Link: [lab.wwp.northeastern.edu/wwvt/](lab.wwp.northeastern.edu/wwvt/)
+
+**Crowd Sourcing Genre Classification for the Viral Texts Project (work-in-progress)**  
 Link: [VT Crowdsource](http://home.jonathandfitzgerald.com:3838/VT-Crowdsource/)  
 
-**Word Vector Analysis for Women Writers Online (work-in-progress)**, _Summer 2017_  
+**Word Vector Analysis for Women Writers Online (work-in-progress)**  
 Link: [Word Vector Analysis](https://fitz.shinyapps.io/w2vonline/)  
 
-**The Continuous Line: Visualizing the History of American Literary Journalism**, _Spring 2017_  
+**The Continuous Line: Visualizing the History of American Literary Journalism**  
 Link: [ljbib.jonathandfitzgerald.com](http://ljbib.jonathandfitzgerald.com)
 
-**A 'Stunning' Love Letter to Viral Texts**, Viral Texts Project, _Fall 2015_  
+**A 'Stunning' Love Letter to Viral Texts**, Viral Texts Project  
 Link: [loveletter.viraltexts.org](http://loveletter.viraltexts.org "A Stunning Love Letter")
 
-**3D Printed Pattern Poems**, _Spring 2015_  
+**3D Printed Pattern Poems**  
 Link: [Re-Presenting Early Modern Pattern Poems as Material Objects](/blog/2015/05/05/re-presenting-early-modern-pattern-poems-as-material-objects.html)
 
 **The InstaEssay Archive**, _Spring 2015 - Present_  
@@ -207,6 +218,12 @@ Link: [The InstaEssay Archive](http://instaessayarchive.org)
 Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
+
+**Paper: “Painting (Inequality) By Numbers: Visualizing Gender Disparity in Literary Bibliographies”**, The 134th MLA Annual Convention, Chicago, IL, _January 2019_  
+
+**Poster: “Stranger Genres: Computationally Classifying Reprinted Nineteenth Century Newspaper Texts” (w/Ryan Cordell)**,  DH 2018, Mexico City, Mexico, _June 2018_  
+
+**Paper: “The Perpetual Next Big Thing: The Rapid Media Change Theory and the History of Literary Journalism”**, The Thirteenth Annual Conference for Literary Journalism Studies, Vienna, Austria, _May 2018_  
 
 **Paper: "The Materials of Early Modern Poetry: 3-D Pattern Poems" (with Erika Boeckeler)**, The 133rd MLA Annual Convention, New York, NY, _January 2018_  
 
