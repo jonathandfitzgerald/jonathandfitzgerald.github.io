@@ -24,7 +24,7 @@ Thesis: "Can Anything Good Come From Beverly: Stories"
 
 ## Fields of Study
 
-Literary journalism, digital humanities, media studies, literary history, nineteenth and twentieth century American non-fiction, ethics, American Christianity  
+Literary Journalism, nineteenth century American literature and culture, digital humanities, media studies, American non-fiction, American religion    
 
 ## Teaching Experience
 
