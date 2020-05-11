@@ -4,58 +4,18 @@
 <dict>
 	<key>EmbeddedEditorHidden:Fitz</key>
 	<false/>
-	<key>ExpandedEditorWidth:Fitz:displays([(0, 0), (1280, 800)])</key>
-	<integer>818</integer>
+	<key>ExpandedEditorWidth:Fitz:displays([(0, 0), (1280, 800)]:[(650, -1080), (1920, 1080)]:[(-1270, -1080), (1920, 1080)])</key>
+	<integer>1077</integer>
 	<key>ExpandedItems:Fitz</key>
-	<array>
-		<string>3935A7C5-BC8D-49AA-988F-B2144A8CB8E1</string>
-	</array>
+	<array/>
 	<key>FileFilterMode:Fitz</key>
 	<integer>0</integer>
 	<key>OpenDocuments:Fitz</key>
-	<array>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
-			Ym9va1gDAAAAAAQQMAAAAAC0t/J/KVjLP1x35g6GwPZZ9txMFd03
-			TSpCa4m/z7y5SAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAEAAAAAQEAAEZpdHoJAAAAAQEAAERvY3VtZW50cwAAAAUAAAAB
-			AQAAU2l0ZXMAAAAdAAAAAQEAAGpvbmF0aGFuZGZpdHpnZXJhbGQu
-			Z2l0aHViLmlvAAAABQAAAAEBAABjdi5tZAAAABgAAAABBgAAEAAA
-			ACAAAAAsAAAAQAAAAFAAAAB4AAAACAAAAAQDAACAEgsAAAAAAAgA
-			AAAEAwAAghILAAAAAAAIAAAABAMAAMcADgAAAAAACAAAAAQDAABa
-			OKEAAAAAAAgAAAAEAwAA7hlgAAIAAAAIAAAABAMAAJCdiAACAAAA
-			GAAAAAEGAACoAAAAuAAAAMgAAADYAAAA6AAAAPgAAAAIAAAAAAQA
-			AEHAAgVoIGa8GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
-			AAAIAAAABAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABm
-			aWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAIIg9
-			OgAAAAgAAAAABAAAQcGl61C6bP4kAAAAAQEAADZCQUE0ODk1LTJC
-			RDUtMzM3Qi05QzY4LUIzNUE2Q0U1OTlFRRgAAAABAgAAgQAAAAEA
-			AADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAa
-			AAAAAQEAAE5TVVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAA
-			AwMAAPneCgDYAAAA/v///wEAAAAAAAAAEQAAAAQQAACIAAAAAAAA
-			AAUQAAAIAQAAAAAAABAQAAA4AQAAAAAAAEAQAAAoAQAAAAAAAAIg
-			AAAEAgAAAAAAAAUgAAB0AQAAAAAAABAgAACEAQAAAAAAABEgAAC4
-			AQAAAAAAABIgAACYAQAAAAAAABMgAACoAQAAAAAAACAgAADkAQAA
-			AAAAADAgAAAQAgAAAAAAAAHAAABYAQAAAAAAABHAAAAgAAAAAAAA
-			ABLAAABoAQAAAAAAABDQAAAEAAAAAAAAABgCAIA8AgAAAAAAAA==
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/Fitz/Documents/Sites/jonathandfitzgerald.github.io/cv.md</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./cv.md</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-	</array>
+	<array/>
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsSplitterProportion</key>
-	<real>0.52777777777777779</real>
+	<real>0.16374999999999995</real>
 	<key>ProjectItemsExpanded</key>
 	<true/>
 	<key>ProjectViewVisible</key>
@@ -64,7 +24,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2019-10-08T01:59:30Z</date>
+			<date>2020-04-14T17:56:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -108,7 +68,51 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-10-08T01:59:30Z</date>
+			<date>2020-04-14T17:56:32Z</date>
+			<key>Location</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va1gDAAAAAAQQMAAAAAC0t/J/KVjLP1x35g6GwPZZ
+				9txMFd03TSpCa4m/z7y5SAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAEAAAAAQEAAEZpdHoJAAAAAQEA
+				AERvY3VtZW50cwAAAAUAAAABAQAAU2l0ZXMAAAAdAAAA
+				AQEAAGpvbmF0aGFuZGZpdHpnZXJhbGQuZ2l0aHViLmlv
+				AAAABQAAAAEBAABjdi5tZAAAABgAAAABBgAAEAAAACAA
+				AAAsAAAAQAAAAFAAAAB4AAAACAAAAAQDAACAEgsAAAAA
+				AAgAAAAEAwAAghILAAAAAAAIAAAABAMAAMcADgAAAAAA
+				CAAAAAQDAABaOKEAAAAAAAgAAAAEAwAA7hlgAAIAAAAI
+				AAAABAMAAJCdiAACAAAAGAAAAAEGAACoAAAAuAAAAMgA
+				AADYAAAA6AAAAPgAAAAIAAAAAAQAAEHAAgVoIGa8GAAA
+				AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAA
+				BAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABm
+				aWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQD
+				AAAAIIg9OgAAAAgAAAAABAAAQcGl61C6bP4kAAAAAQEA
+				ADZCQUE0ODk1LTJCRDUtMzM3Qi05QzY4LUIzNUE2Q0U1
+				OTlFRRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAA
+				AAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
+				VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMA
+				APneCgDYAAAA/v///wEAAAAAAAAAEQAAAAQQAACIAAAA
+				AAAAAAUQAAAIAQAAAAAAABAQAAA4AQAAAAAAAEAQAAAo
+				AQAAAAAAAAIgAAAEAgAAAAAAAAUgAAB0AQAAAAAAABAg
+				AACEAQAAAAAAABEgAAC4AQAAAAAAABIgAACYAQAAAAAA
+				ABMgAACoAQAAAAAAACAgAADkAQAAAAAAADAgAAAQAgAA
+				AAAAAAHAAABYAQAAAAAAABHAAAAgAAAAAAAAABLAAABo
+				AQAAAAAAABDQAAAEAAAAAAAAABgCAIA8AgAAAAAAAA==
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/Fitz/Documents/Sites/jonathandfitzgerald.github.io/cv.md</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Date</key>
+			<date>2020-04-14T17:56:32Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -161,8 +165,8 @@
 	<key>ToolbarVisible:Fitz</key>
 	<false/>
 	<key>ViewSplitterPosition:Fitz</key>
-	<real>0.1988246887922287</real>
-	<key>WindowFrame:Fitz:displays([(0, 0), (1280, 800)])</key>
-	<string>rect(45,0,729,1021)</string>
+	<real>0.15859374403953552</real>
+	<key>WindowFrame:Fitz:displays([(0, 0), (1280, 800)]:[(650, -1080), (1920, 1080)]:[(-1270, -1080), (1920, 1080)])</key>
+	<string>rect(45,0,733,1280)</string>
 </dict>
 </plist>
