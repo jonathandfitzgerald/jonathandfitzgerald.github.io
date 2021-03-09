@@ -4,7 +4,7 @@
 <dict>
 	<key>EmbeddedEditorHidden:Fitz</key>
 	<false/>
-	<key>ExpandedEditorWidth:Fitz:displays([(0, 0), (1280, 800)]:[(650, -1080), (1920, 1080)]:[(-1270, -1080), (1920, 1080)])</key>
+	<key>ExpandedEditorWidth:Fitz:displays([(0, 0), (1280, 800)])</key>
 	<integer>1077</integer>
 	<key>ExpandedItems:Fitz</key>
 	<array/>
@@ -15,7 +15,7 @@
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsSplitterProportion</key>
-	<real>0.16374999999999995</real>
+	<real>0.13249999999999995</real>
 	<key>ProjectItemsExpanded</key>
 	<true/>
 	<key>ProjectViewVisible</key>
@@ -24,7 +24,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2020-04-14T17:56:32Z</date>
+			<date>2020-10-07T02:37:31Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -68,7 +68,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-04-14T17:56:32Z</date>
+			<date>2020-10-07T02:37:31Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -112,7 +112,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-04-14T17:56:32Z</date>
+			<date>2020-10-07T02:37:31Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -166,7 +166,7 @@
 	<false/>
 	<key>ViewSplitterPosition:Fitz</key>
 	<real>0.15859374403953552</real>
-	<key>WindowFrame:Fitz:displays([(0, 0), (1280, 800)]:[(650, -1080), (1920, 1080)]:[(-1270, -1080), (1920, 1080)])</key>
-	<string>rect(45,0,733,1280)</string>
+	<key>WindowFrame:Fitz:displays([(0, 0), (1280, 800)])</key>
+	<string>rect(45,0,800,1280)</string>
 </dict>
 </plist>
