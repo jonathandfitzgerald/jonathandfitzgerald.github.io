@@ -68,7 +68,9 @@ Literary Journalism, nineteenth century American literature and culture, digital
 
 **Freelance Writer**, Various Publications, _2005 – Present_
 
-## Fellowships, Grants, and Awards
+## Fellowships, Grants, and Awards  
+
+**City of Print: New York and the Periodical Press**, "NEH Summer Institute," _Summer 2020_  
 
 **Faculty Development Grant**, Regis College, _2018 – 2019_    
 
@@ -83,6 +85,8 @@ Literary Journalism, nineteenth century American literature and culture, digital
 **ACH Bursary**, The Association for Computers and the Humanities, Keystone DH Conference, University of Pennsylvania, _July 2015_
 
 ## Selected Courses Taught
+
+**Digital Scholarship**, Regis College  
 
 **Stories of Belief**, Regis College  
 
@@ -221,6 +225,8 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
 
+**Paper: "Forming the Whole Person and Teaching Against Oppression: The Centrality of the Humanities to the Catholic Intellectual Tradition"** (with Joseph Draper and Heather Josselyn-Cranson), The Catholic Intellectual Tradition Conference, Sacred Heart University, Fairfield, CT, _October 2020_  
+
 **Paper: “Painting (Inequality) By Numbers: Visualizing Gender Disparity in Literary Bibliographies”**, The 134th MLA Annual Convention, Chicago, IL, _January 2019_  
 
 **Poster: “Stranger Genres: Computationally Classifying Reprinted Nineteenth Century Newspaper Texts” (w/Ryan Cordell)**,  DH 2018, Mexico City, Mexico, _June 2018_  
@@ -249,6 +255,8 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Invited Talks
 
+**"The Pandemic Narrative: We Tell Ourselves Stories in Order to Not Die"**, Pride Faculty Lecture Series, Regis College, _February 2021_  
+
 **“The Other Fake News: Underrepresented Women Writers and the History of Literary Journalism”**, Second Annual NULab Conference: Fake News/Real Knowledge: Histories, Structures, Futures, Northeastern University, Boston, MA, _March 2017_  
 
 **Computationally Classifying Viral Texts**, DSG & NULab Fall Welcome Event, Northeastern University, _September 2017_  
@@ -262,6 +270,8 @@ Stevens Institute of Technology, _Spring 2011_
 **Panelist**, Religion Newswriters Association Conference 2012, Washington, DC, _October 2012_
 
 ## Media Appearances
+
+**Featured Guest**, "Raising Your Inner Voice with Jay Foss", Northshore 104.9, _December 2020_  
 
 **On-air Commentary**, "Dear Gordon College, You Do Not Speak For Me", WBUR, _July 2014_  
 
