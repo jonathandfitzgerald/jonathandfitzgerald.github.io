@@ -11,10 +11,6 @@ weight: 3
 
 --------------------------------------------------------------------------------
 
-## Fields of Study
-
-Literary Journalism, nineteenth century American literature and culture, digital humanities, media studies, American non-fiction, American religion    
-
 ## Academic Positions
 
 **Assistant Professor of Humanities**, Regis College, _Fall 2018 - Present_  
@@ -73,6 +69,10 @@ Committee: Dr. Carla Kaplan (co-chair), Dr. Ryan Cordell (co-chair), Dr. Hillary
 Thesis: "Can Anything Good Come From Beverly: Stories"
 
 **Bachelor of Arts, English Language and Literature**, Gordon College, _2003_
+
+## Fields of Study
+
+Literary Journalism, nineteenth century American literature and culture, digital humanities, media studies, American non-fiction, American religion    
 
 ## Fellowships, Grants, and Awards  
 
