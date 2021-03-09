@@ -11,24 +11,23 @@ weight: 3
 
 --------------------------------------------------------------------------------
 
-## Education
-
-**PhD, English**, Northeastern University, _Spring 2018_  
-Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"  
-Committee: Dr. Carla Kaplan (co-chair), Dr. Ryan Cordell (co-chair), Dr. Hillary Chute  
-
-**Master of Arts, English**, University of Massachusetts, Boston, _2005_  
-Thesis: "Can Anything Good Come From Beverly: Stories"
-
-**Bachelor of Arts, English Language and Literature**, Gordon College, _2003_
-
 ## Fields of Study
 
 Literary Journalism, nineteenth century American literature and culture, digital humanities, media studies, American non-fiction, American religion    
 
-## Teaching Experience
+## Academic Positions
 
-**Assistant Professor, Humanities Department**, Regis College, _Fall 2018 - Present_  
+**Assistant Professor of Humanities**, Regis College, _Fall 2018 - Present_  
+
+## Administrative Positions
+
+**Advisor, _Hemetera Literary Journal_**, Regis College, _2019 - Present_  
+
+**Advisor, The Veritas News student newspaper**, Eastern Nazarene College, _2011 - 2014_  
+
+**Coordinator, Writing and Communications Center**, Stevens Institute of Technology, _2009 – 2011_
+
+## Visiting/Adjunct Positions  
 
 **Teaching Assistant, HIST 7219: Humanities Data Analysis**, Northeastern University, _Spring 2017_
 
@@ -38,11 +37,7 @@ Literary Journalism, nineteenth century American literature and culture, digital
 
 **Visiting Professor, Language, Theater and Communication Arts**, Eastern Nazarene College, _2011 - 2014_
 
-**Advisor, The Veritas News student newspaper**, Eastern Nazarene College, _2011 - 2014_
-
-**Adjunct Professor, Business Writing**, New England Coll. of Business, _Spring 2011_
-
-**Coordinator, Writing and Communications Center**, Stevens Institute of Technology, _2009 – 2011_
+**Adjunct Professor, Business Writing**, New England Coll. of Business, _Spring 2011_  
 
 **Adjunct Professor, English Department**, New Jersey City University, _2009 – 2010_
 
@@ -67,6 +62,17 @@ Literary Journalism, nineteenth century American literature and culture, digital
 **Staff Writer**, The Jersey City Independent, _2009 – 2012_
 
 **Freelance Writer**, Various Publications, _2005 – Present_
+
+## Education
+
+**PhD, English**, Northeastern University, _Spring 2018_  
+Dissertation: "Setting the Record Straight: Women Literary Journalists Writing Against the Mainstream"  
+Committee: Dr. Carla Kaplan (co-chair), Dr. Ryan Cordell (co-chair), Dr. Hillary Chute  
+
+**Master of Arts, English**, University of Massachusetts, Boston, _2005_  
+Thesis: "Can Anything Good Come From Beverly: Stories"
+
+**Bachelor of Arts, English Language and Literature**, Gordon College, _2003_
 
 ## Fellowships, Grants, and Awards  
 
