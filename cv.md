@@ -70,7 +70,7 @@ Literary Journalism, nineteenth century American literature and culture, digital
 
 ## Fellowships, Grants, and Awards  
 
-**City of Print: New York and the Periodical Press**, "NEH Summer Institute," _Summer 2020_  
+**City of Print: New York and the Periodical Press**, NEH Summer Institute, _Summer 2020_  
 
 **Faculty Development Grant**, Regis College, _2018 – 2019_    
 
