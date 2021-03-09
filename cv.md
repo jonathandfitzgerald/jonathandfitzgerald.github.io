@@ -283,7 +283,9 @@ Stevens Institute of Technology, _Spring 2011_
 
 ## Institutional Service
 
-**Institutional Review Board**, Regis College, _Fall 2018 - Present_  
+**Curriculum and Planning Committee**, Regis College, _Fall 2020 - Present_  
+
+**Institutional Review Board**, Regis College, _Fall 2018 - Spring 2020_  
 
 **Panel Planning Committee Member**, English Graduate Student Association Conference "The Imaginary", Northeastern University, _Spring 2016_
 
@@ -294,7 +296,7 @@ The Northern Shores Writers Retreat, Eastern Nazarene College, _January 2013_
 
 HTML, CSS, XML/TEI, R, Shiny, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Network Analysis
 
-## Memberships
+<!-- ## Memberships
 
 **Alliance of Digital Humanities Organizations**   
 **American Journalism Historians Association**  
@@ -302,3 +304,4 @@ HTML, CSS, XML/TEI, R, Shiny, Jekyll, WordPress, Omeka, Neatline, GIS, Gephi/Net
 **Association for Computers and Humanities**  
 **International Association for Literary Journalism Studies**  
 **Modern Language Association**  
+-->
