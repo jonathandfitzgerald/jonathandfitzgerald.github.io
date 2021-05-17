@@ -230,6 +230,7 @@ Link: [The InstaEssay Archive](http://instaessayarchive.org)
 Stevens Institute of Technology, _Spring 2011_
 
 ## Selected Presentations
+**Paper: "Interdisciplinary Pedagogy During, and About, a Pandemic"** (with Leslie Mandel), The 52nd Annual Convention of the Northeast Modern Language Association, _March 2021_
 
 **Paper: "Forming the Whole Person and Teaching Against Oppression: The Centrality of the Humanities to the Catholic Intellectual Tradition"** (with Joseph Draper and Heather Josselyn-Cranson), The Catholic Intellectual Tradition Conference, Sacred Heart University, Fairfield, CT, _October 2020_  
 
